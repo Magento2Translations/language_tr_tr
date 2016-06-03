@@ -9,41 +9,607 @@ Remove,Kaldır,module,Magento_AdminNotification
 close,kapat,module,Magento_AdminNotification
 Notifications,Bildirimler,module,Magento_AdminNotification
 "The message has been marked as Read.","Bu mesaj Okundu olarak işaretlendi.",module,Magento_AdminNotification
-"We couldn't mark the notification as Read because of an error.","Bir hata sebebiyle bildirimi Okundu olarak işaretleyemiyoruz.",module,Magento_AdminNotification
 "Please select messages.","Lütfen mesajları seçin.",module,Magento_AdminNotification
 "A total of %1 record(s) have been marked as Read.","Toplam %1 kayıt Okundu olarak işaretlendi.",module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Toplam %1 kayıt kaldırıldı.",module,Magento_AdminNotification
+Close,Kapat,module,Magento_AdminNotification
+"Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_AdvancedPricingImportExport
+"Entity type model '%1' is not found","'%1' isimli model bulunamadı",module,Magento_AdvancedPricingImportExport
+"We can't find the role for the user you wanted.","İstediğin kullanıcı için rol bulamıyoruz.",module,Magento_Authorization
+"You created the order.","Sipariş oluşturuldu.",module,Magento_Authorizenet
+"Please choose a payment method.","Lütfen bir ödeme yöntemi seçin.",module,Magento_Authorizenet
+"We can't process your order right now. Please try again later.","Şu anda siparişi işleme koyamıyoruz. Lütfen daha sonra yeniden deneyin.",module,Magento_Authorizenet
+"This payment didn't work out because we can't find this order.","Bu ödeme türünü bulamadığı için ödeme yapılamadı.",module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Bir şeyler ters gitti: ödenen tutarı sipariş miktarı eşleşmiyor. Lütfen bunu düzeltin ve yeniden deneyin.",module,Magento_Authorizenet
+"Expiration Date","Son Kullanma Tarihi",module,Magento_Authorizenet
+Orders,Siparişler,module,Magento_Backend
+Customers,Müşteriler,module,Magento_Backend
+Product,Ürün,module,Magento_Backend
+Shipping,Kargo,module,Magento_Backend
+"All Files","Tüm dosyalar",module,Magento_Backend
+"First Name",Adı,module,Magento_Backend
+Email,E-posta,module,Magento_Backend
+Back,Geri,module,Magento_Backend
+Delete,Sil,module,Magento_Backend
 "Are you sure?","Emin misiniz?",module,Magento_Backend
+Save,Kaydet,module,Magento_Backend
+Store,Mağaza,module,Magento_Backend
+"Custom Design","Özel tasarım",module,Magento_Backend
+Cancel,İptal,module,Magento_Backend
+"Block Information","Blok bilgi",module,Magento_Backend
+Yes,Evet,module,Magento_Backend
+No,Hayır,module,Magento_Backend
+Name,Adı,module,Magento_Backend
+Code,Kod,module,Magento_Backend
+Status,Durum,module,Magento_Backend
+Home,"Ana Sayfa",module,Magento_Backend
+Reset,Sıfırla,module,Magento_Backend
+Search,Arama,module,Magento_Backend
+"We couldn't find any records.","Kayıt bulunamadı.",module,Magento_Backend
+Export,Ver,module,Magento_Backend
+Submit,Gönder,module,Magento_Backend
+Error,Hata,module,Magento_Backend
+"All Websites","Tüm Web siteleri",module,Magento_Backend
+"Sign Out",Çıkış,module,Magento_Backend
+Close,Kapat,module,Magento_Backend
+Previous,Önceki,module,Magento_Backend
+Next,Sonraki,module,Magento_Backend
+"No records found.","Kayıt bulunamadı.",module,Magento_Backend
+Loading...,Yükleniyor...,module,Magento_Backend
+"System Backup","Sistemi yedekleme",module,Magento_Backup
+"Database Backup","Veritabanı yedekleme",module,Magento_Backup
+Country,Ülke,module,Magento_Braintree
+Month,Ay,module,Magento_Braintree
+"Stored Card","Mağaza sepeti",module,Magento_Braintree
+"Incorrect payment method.","Yanlış ödeme yöntemi.",module,Magento_Braintree
+"We can't update shipping method.","Sevkiyat yöntemi güncelleştiremiyor.",module,Magento_Braintree
+"--Please Select--","--Lütfen Seçiniz--",module,Magento_Braintree
+"Expiration Date","Son Kullanma Tarihi",module,Magento_Braintree
+"Percent Discount","İndirim oranı",module,Magento_Bundle
+Dynamic,Dinamik,module,Magento_Bundle
+Fixed,Sabit,module,Magento_Bundle
+Close,Kapat,module,Magento_Bundle
+Product,Ürün,module,Magento_Bundle
+Delete,Sil,module,Magento_Bundle
+"Use Default Value","Varsayılan Değeri Kullan",module,Magento_Bundle
+"We can't add this item to your shopping cart right now.","Şu anda alışveriş sepetinize bu öğe ekleyemezsiniz.",module,Magento_Bundle
 None,Hiçbiri,module,Magento_Bundle
+Position,Konum,module,Magento_Bundle
+Default,Varsayılan,module,Magento_Bundle
+Name,Adı,module,Magento_Bundle
+"* Required Fields","* Zorunlu Alan",module,Magento_Bundle
+Summary,Özet,module,Magento_Bundle
+Always,"Her zaman",module,Magento_Captcha
+"Incorrect CAPTCHA","Yanlış CAPTCHA",module,Magento_Captcha
+"ALL GROUPS","TÜM GRUPLAR",module,Magento_CatalogInventory
+"Customer Group","Müşteri Grupları",module,Magento_CatalogInventory
+"Save and Apply","Kaydetme ve uygula",module,Magento_CatalogRule
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_CatalogRule
+No,Hayır,module,Magento_CatalogRule
+Yes,Evet,module,Magento_CatalogRule
+Status,Durum,module,Magento_CatalogRule
+Product,Ürün,module,Magento_CatalogRule
+Home,"Ana Sayfa",module,Magento_CatalogSearch
+"Go to Home Page","Ana Sayfasına Gidin",module,Magento_CatalogSearch
 All,Tümü,module,Magento_CatalogSearch
+Yes,Evet,module,Magento_CatalogSearch
+No,Hayır,module,Magento_CatalogSearch
+Results,Sonuçlar,module,Magento_CatalogSearch
+List,Liste,module,Magento_CatalogSearch
+Category,Kategori,module,Magento_CatalogSearch
+Product,Ürün,module,Magento_CatalogSearch
+"Search Settings","Arama Ayarları",module,Magento_CatalogSearch
+Search,Arama,module,Magento_CatalogSearch
+"Advanced Search","Detaylı Arama",module,Magento_CatalogSearch
+"Modify your search","Aramanızı düzenleyin",module,Magento_CatalogSearch
+Root,"Kök dizin",module,Magento_Catalog
+"Save Category","Kategoriyi kaydet",module,Magento_Catalog
+"Delete Category","Kategoriyi Sil",module,Magento_Catalog
+Reset,Sıfırla,module,Magento_Catalog
+"New Subcategory","Yeni altkategori",module,Magento_Catalog
+"New Root Category","Yeni kök kategori",module,Magento_Catalog
+"Set Root Category for Store","Mağaza için ana kök kategorisi",module,Magento_Catalog
+"Custom Design","Özel tasarım",module,Magento_Catalog
+Name,Adı,module,Magento_Catalog
+Position,Konum,module,Magento_Catalog
+"Category Data","Kategori verileri",module,Magento_Catalog
+Month,Ay,module,Magento_Catalog
+Year,Yıl,module,Magento_Catalog
+label,etiket,module,Magento_Catalog
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Catalog
+"Delete Attribute","Özelliği Sil",module,Magento_Catalog
+Website,"Web sitesi",module,Magento_Catalog
+No,Hayır,module,Magento_Catalog
+Yes,Evet,module,Magento_Catalog
+Back,Geri,module,Magento_Catalog
+Delete,Sil,module,Magento_Catalog
+Save,Kaydet,module,Magento_Catalog
+"Add Attribute","Özellik Ekle",module,Magento_Catalog
+"First Name",Adı,module,Magento_Catalog
+Email,E-posta,module,Magento_Catalog
+Status,Durum,module,Magento_Catalog
+"Add New Option","Yeni Seçenek Ekleyin",module,Magento_Catalog
+Import,"Veri Al",module,Magento_Catalog
+"All Websites","Tüm Web siteleri",module,Magento_Catalog
+"ALL GROUPS","TÜM GRUPLAR",module,Magento_Catalog
 "Are you sure?","Emin misiniz?",module,Magento_Catalog
+Product,Ürün,module,Magento_Catalog
+Home,"Ana Sayfa",module,Magento_Catalog
+"Go to Home Page","Ana Sayfasına Gidin",module,Magento_Catalog
 None,Hiçbiri,module,Magento_Catalog
+List,Liste,module,Magento_Catalog
 All,Tümü,module,Magento_Catalog
+Fixed,Sabit,module,Magento_Catalog
+Category,Kategori,module,Magento_Catalog
+Search,Arama,module,Magento_Catalog
+"Use Default Value","Varsayılan Değeri Kullan",module,Magento_Catalog
+Title,Başlık,module,Magento_Catalog
+"Customer Group","Müşteri Grupları",module,Magento_Catalog
+Action,Eylem,module,Magento_Catalog
+Next,Sonraki,module,Magento_Catalog
+Loading...,Yükleniyor...,module,Magento_Catalog
+"* Required Fields","* Zorunlu Alan",module,Magento_Catalog
+"Terms and Conditions","Şartlar ve Koşullar",module,Magento_CheckoutAgreements
+Status,Durum,module,Magento_CheckoutAgreements
+"Shopping Cart","Alışveriş Sepeti",module,Magento_Checkout
+City,Şehir,module,Magento_Checkout
+Country,Ülke,module,Magento_Checkout
+"Page not found.","Sayfa bulunamadı.",module,Magento_Checkout
+"Error message!","Hata mesajı!",module,Magento_Checkout
+Error!,Hata!,module,Magento_Checkout
+Message,Mesaj,module,Magento_Checkout
+Loading...,Yükleniyor...,module,Magento_Checkout
+"Order #","Sipariş #",module,Magento_Checkout
+"Static Blocks","Statik blok",module,Magento_Cms
+"Add New Block","Yeni Blok Ekle",module,Magento_Cms
+"Delete Block","Bloğu Sil",module,Magento_Cms
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Cms
+"Edit Block '%1'","Blok Düzenle",module,Magento_Cms
+"Block Information","Blok bilgi",module,Magento_Cms
+Status,Durum,module,Magento_Cms
+Title,Başlık,module,Magento_Cms
+"Edit Page '%1'","'%1' Sayfa Düzenle",module,Magento_Cms
+"Page Layout","Sayfa düzeni",module,Magento_Cms
+"Custom Design","Özel tasarım",module,Magento_Cms
+Created,Oluşturuldu,module,Magento_Cms
+Action,Eylem,module,Magento_Cms
+Preview,"Ön İzleme",module,Magento_Cms
+Home,"Ana Sayfa",module,Magento_Cms
+"Go to Home Page","Ana Sayfasına Gidin",module,Magento_Cms
+"Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_Cms
+Delete,Sil,module,Magento_Cms
+"Default Config","Varsayılan yapılandırma",module,Magento_Config
+"Page not found.","Sayfa bulunamadı.",module,Magento_Config
+No,Hayır,module,Magento_Config
+Website,"Web sitesi",module,Magento_Config
+Store,Mağaza,module,Magento_Config
+Yes,Evet,module,Magento_Config
+Delete,Sil,module,Magento_Config
+Summary,Özet,module,Magento_ConfigurableProduct
+Name,Adı,module,Magento_ConfigurableProduct
+Cancel,İptal,module,Magento_ConfigurableProduct
+"Page not found.","Sayfa bulunamadı.",module,Magento_Contact
+"* Required Fields","* Zorunlu Alan",module,Magento_Contact
+"Write Us","Bize yazın",module,Magento_Contact
+Name,Adı,module,Magento_Contact
+Email,E-posta,module,Magento_Contact
+"Phone Number","Telefon Numarası",module,Magento_Contact
+"What’s on your mind?","Aklında ne var?",module,Magento_Contact
+Submit,Gönder,module,Magento_Contact
+Daily,Günlük,module,Magento_Cron
+Weekly,Haftalık,module,Magento_Cron
+Monthly,Aylık,module,Magento_Cron
+"Save Currency Rates","Döviz kurlarını kaydet",module,Magento_CurrencySymbol
+Reset,Sıfırla,module,Magento_CurrencySymbol
+Import,"Veri Al",module,Magento_CurrencySymbol
+"Please enter a valid email.","Lütfen geçerli bir e-posta adresi girin.",module,Magento_CustomerImportExport
+"Sign Out",Çıkış,module,Magento_Customer
+"Sign In","Giriş Yap",module,Magento_Customer
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Customer
+Back,Geri,module,Magento_Customer
+Reset,Sıfırla,module,Magento_Customer
+Product,Ürün,module,Magento_Customer
+Action,Eylem,module,Magento_Customer
+Delete,Sil,module,Magento_Customer
+Subject,Konu,module,Magento_Customer
+Status,Durum,module,Magento_Customer
+Cancel,İptal,module,Magento_Customer
+No,Hayır,module,Magento_Customer
+Yes,Evet,module,Magento_Customer
+Download,İndir,module,Magento_Customer
+Customers,Müşteriler,module,Magento_Customer
+"Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_Customer
+"Page not found.","Sayfa bulunamadı.",module,Magento_Customer
+label,etiket,module,Magento_Customer
+"Customer Group","Müşteri Grupları",module,Magento_Customer
+Store,Mağaza,module,Magento_Customer
+"Change Billing Address","Fatura adresi değiştir",module,Magento_Customer
+"* Required Fields","* Zorunlu Alan",module,Magento_Customer
+"Phone Number","Telefon Numarası",module,Magento_Customer
+City,Şehir,module,Magento_Customer
+Country,Ülke,module,Magento_Customer
+Email,E-posta,module,Magento_Customer
+Save,Kaydet,module,Magento_Customer
+Name,Adı,module,Magento_Customer
+Pounds,Pound,module,Magento_Dhl
+Kilograms,Kilogram,module,Magento_Dhl
 None,Hiçbiri,module,Magento_Dhl
+"--Please Select--","--Lütfen Seçiniz--",module,Magento_Directory
+label,etiket,module,Magento_Directory
+Error,Hata,module,Magento_DownloadableImportExport
+"Upload Files","Dosya Yükle",module,Magento_Downloadable
+"All Files","Tüm dosyalar",module,Magento_Downloadable
+Unlimited,Sınırsız,module,Magento_Downloadable
+Title,Başlık,module,Magento_Downloadable
+"Use Default Value","Varsayılan Değeri Kullan",module,Magento_Downloadable
+Yes,Evet,module,Magento_Downloadable
+No,Hayır,module,Magento_Downloadable
+Delete,Sil,module,Magento_Downloadable
+"Order #","Sipariş #",module,Magento_Downloadable
+Status,Durum,module,Magento_Downloadable
+Back,Geri,module,Magento_Downloadable
+"Default label","Varsayılan etiket",module,Magento_Eav
+Yes,Evet,module,Magento_Eav
+No,Hayır,module,Magento_Eav
 None,Hiçbiri,module,Magento_Eav
+Email,E-posta,module,Magento_Eav
+label,etiket,module,Magento_Eav
+"Add New Template","Yeni Şablon Ekle",module,Magento_Email
+Back,Geri,module,Magento_Email
+Reset,Sıfırla,module,Magento_Email
+"Default Config","Varsayılan yapılandırma",module,Magento_Email
+Preview,"Ön İzleme",module,Magento_Email
+Country,Ülke,module,Magento_Email
+City,Şehir,module,Magento_Email
+Title,Başlık,module,Magento_Email
+"Change Encryption Key","Şifreleme anahtarını değiştir",module,Magento_EncryptionKey
+No,Hayır,module,Magento_EncryptionKey
+Yes,Evet,module,Magento_EncryptionKey
+Pounds,Pound,module,Magento_Fedex
+Kilograms,Kilogram,module,Magento_Fedex
 None,Hiçbiri,module,Magento_Fedex
+Message,Mesaj,module,Magento_GiftMessage
+Cancel,İptal,module,Magento_GiftMessage
+Dynamic,Dinamik,module,Magento_GoogleAdwords
+Name,Adı,module,Magento_GroupedProduct
+Export,Ver,module,Magento_ImportExport
+"Export Settings","Ayarları Dışa Aktar",module,Magento_ImportExport
+Filter,Filtre,module,Magento_ImportExport
+Download,İndir,module,Magento_ImportExport
+Import,"Veri Al",module,Magento_ImportExport
+Status,Durum,module,Magento_ImportExport
+label,etiket,module,Magento_ImportExport
+Delete,Sil,module,Magento_ImportExport
+Integrations,Entegrasyonlar,module,Magento_Integration
+Save,Kaydet,module,Magento_Integration
+Name,Adı,module,Magento_Integration
+Email,E-posta,module,Magento_Integration
 Remove,Kaldır,module,Magento_Integration
 Custom,Özel,module,Magento_Integration
 All,Tümü,module,Magento_Integration
+No,Hayır,module,Magento_LayeredNavigation
+Position,Konum,module,Magento_LayeredNavigation
+Previous,Önceki,module,Magento_LayeredNavigation
 Remove,Kaldır,module,Magento_LayeredNavigation
+Partners,Ortaklar,module,Magento_Marketplace
+"Magento Marketplace","Magento pazarı",module,Magento_Marketplace
+Synchronize,Eşitleme,module,Magento_MediaStorage
+Synchronizing...,Eşitleniyor...,module,Magento_MediaStorage
+"Change Billing Address","Fatura adresi değiştir",module,Magento_Multishipping
+Product,Ürün,module,Magento_Multishipping
+"Remove Item","Ürünü Sil",module,Magento_Multishipping
+Back,Geri,module,Magento_Newsletter
+Reset,Sıfırla,module,Magento_Newsletter
+Subject,Konu,module,Magento_Newsletter
+Message,Mesaj,module,Magento_Newsletter
+Cancel,İptal,module,Magento_Newsletter
+Preview,"Ön İzleme",module,Magento_Newsletter
+"Add New Template","Yeni Şablon Ekle",module,Magento_Newsletter
+Action,Eylem,module,Magento_Newsletter
+Country,Ülke,module,Magento_OfflineShipping
 None,Hiçbiri,module,Magento_OfflineShipping
+No,Hayır,module,Magento_OfflineShipping
+Month,Ay,module,Magento_Payment
+Year,Yıl,module,Magento_Payment
+Discount,İndirim,module,Magento_Payment
+Shipping,Kargo,module,Magento_Payment
+Yes,Evet,module,Magento_Payment
+No,Hayır,module,Magento_Payment
+"Expiration Date","Son Kullanma Tarihi",module,Magento_Payment
+"Please Select","Lütfen seçiniz",module,Magento_Payment
+"--Please Select--","--Lütfen Seçiniz--",module,Magento_Payment
+"Billing Agreements","Ödeme anlaşmaları",module,Magento_Paypal
+Email,E-posta,module,Magento_Paypal
+"First Name",Adı,module,Magento_Paypal
+Status,Durum,module,Magento_Paypal
+Created,Oluşturuldu,module,Magento_Paypal
+Back,Geri,module,Magento_Paypal
+Cancel,İptal,module,Magento_Paypal
+Close,Kapat,module,Magento_Paypal
+Dynamic,Dinamik,module,Magento_Paypal
+Yes,Evet,module,Magento_Paypal
+No,Hayır,module,Magento_Paypal
+Event,Olay,module,Magento_Paypal
 Custom,Özel,module,Magento_Paypal
+"--Please Select--","--Lütfen Seçiniz--",module,Magento_Paypal
+Daily,Günlük,module,Magento_Paypal
+Error,Hata,module,Magento_Paypal
+"Please Select","Lütfen seçiniz",module,Magento_Paypal
+"Order #","Sipariş #",module,Magento_Paypal
+"Welcome, %1!","Hoş Geldin, %1!",module,Magento_Persistent
+Url,Link,module,Magento_ProductVideo
+Title,Başlık,module,Magento_ProductVideo
+"Preview Image","Resim Önizleme",module,Magento_ProductVideo
+"Coupon code is not valid","Kupon kodu geçerli değil",module,Magento_Quote
+Shipping,Kargo,module,Magento_Quote
+"Store Credit","Mağaza kredisi",module,Magento_Quote
+Discount,İndirim,module,Magento_Quote
+"New Accounts","Yeni Hesaplar",module,Magento_Reports
+Filter,Filtre,module,Magento_Reports
+Month,Ay,module,Magento_Reports
+Year,Yıl,module,Magento_Reports
+Yes,Evet,module,Magento_Reports
+No,Hayır,module,Magento_Reports
+Product,Ürün,module,Magento_Reports
+Unlimited,Sınırsız,module,Magento_Reports
+Title,Başlık,module,Magento_Reports
+Created,Oluşturuldu,module,Magento_Reports
+Uses,Kullanım,module,Magento_Reports
+Discount,İndirim,module,Magento_Reports
+Orders,Siparişler,module,Magento_Reports
+Shipping,Kargo,module,Magento_Reports
+Email,E-posta,module,Magento_Reports
+Customers,Müşteriler,module,Magento_Reports
+"First Name",Adı,module,Magento_Reports
+Name,Adı,module,Magento_Reports
+"Shopping Cart","Alışveriş Sepeti",module,Magento_Reports
+Error,Hata,module,Magento_Reports
+"All Websites","Tüm Web siteleri",module,Magento_Reports
+"New Review","Yorum Ekle",module,Magento_Review
+Product,Ürün,module,Magento_Review
+Status,Durum,module,Magento_Review
+Previous,Önceki,module,Magento_Review
+Next,Sonraki,module,Magento_Review
+Created,Oluşturuldu,module,Magento_Review
+Title,Başlık,module,Magento_Review
+Action,Eylem,module,Magento_Review
+Delete,Sil,module,Magento_Review
 "Are you sure?","Emin misiniz?",module,Magento_Review
+Name,Adı,module,Magento_Review
+Back,Geri,module,Magento_Review
+"* Required Fields","* Zorunlu Alan",module,Magento_Review
+Summary,Özet,module,Magento_Review
+"Page not found.","Sayfa bulunamadı.",module,Magento_Rss
+Feed,Akış,module,Magento_Rss
+Apply,Onayla,module,Magento_Rule
 Remove,Kaldır,module,Magento_Rule
+Category,Kategori,module,Magento_Rule
+"Cart Price Rules","Sepet fiyat kuralları",module,Magento_SalesRule
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_SalesRule
+Apply,Onayla,module,Magento_SalesRule
+Yes,Evet,module,Magento_SalesRule
+No,Hayır,module,Magento_SalesRule
+Created,Oluşturuldu,module,Magento_SalesRule
+Uses,Kullanım,module,Magento_SalesRule
+Delete,Sil,module,Magento_SalesRule
+Status,Durum,module,Magento_SalesRule
+Discount,İndirim,module,Magento_SalesRule
+Orders,Siparişler,module,Magento_Sales
+Shipping,Kargo,module,Magento_Sales
+Cancel,İptal,module,Magento_Sales
+Message,Mesaj,module,Magento_Sales
+Product,Ürün,module,Magento_Sales
+"Shopping Cart","Alışveriş Sepeti",module,Magento_Sales
+"New Order Status","Yeni sipariş durumu",module,Magento_Sales
+Yes,Evet,module,Magento_Sales
+No,Hayır,module,Magento_Sales
+Discount,İndirim,module,Magento_Sales
+Back,Geri,module,Magento_Sales
+"You created the order.","Sipariş oluşturuldu.",module,Magento_Sales
+Home,"Ana Sayfa",module,Magento_Sales
+"Go to Home Page","Ana Sayfasına Gidin",module,Magento_Sales
+Title,Başlık,module,Magento_Sales
+City,Şehir,module,Magento_Sales
+Country,Ülke,module,Magento_Sales
+Email,E-posta,module,Magento_Sales
+"First Name",Adı,module,Magento_Sales
+"Phone Number","Telefon Numarası",module,Magento_Sales
+Apply,Onayla,module,Magento_Sales
 Remove,Kaldır,module,Magento_Sales
+Action,Eylem,module,Magento_Sales
+Status,Durum,module,Magento_Sales
+"Customer Group","Müşteri Grupları",module,Magento_Sales
+"Order #","Sipariş #",module,Magento_Sales
+Close,Kapat,module,Magento_Sales
+Search,Arama,module,Magento_Sales
+"Search Term","Arama terimi",module,Magento_Search
+Results,Sonuçlar,module,Magento_Search
+Uses,Kullanım,module,Magento_Search
+"Search Terms","Arama terimleri",module,Magento_Search
+Search,Arama,module,Magento_Search
+"New Search","Yeni Arama",module,Magento_Search
+No,Hayır,module,Magento_Search
+Yes,Evet,module,Magento_Search
+Store,Mağaza,module,Magento_Search
+"Synonym For",Eşanlamlısı,module,Magento_Search
+"Page not found.","Sayfa bulunamadı.",module,Magento_SendFriend
 Remove,Kaldır,module,Magento_SendFriend
+Name,Adı,module,Magento_SendFriend
+Email,E-posta,module,Magento_SendFriend
+"* Required Fields","* Zorunlu Alan",module,Magento_SendFriend
+Message,Mesaj,module,Magento_SendFriend
+Back,Geri,module,Magento_SendFriend
+"Page not found.","Sayfa bulunamadı.",module,Magento_Shipping
+Product,Ürün,module,Magento_Shipping
+Fixed,Sabit,module,Magento_Shipping
+Delete,Sil,module,Magento_Shipping
+Cancel,İptal,module,Magento_Shipping
+Save,Kaydet,module,Magento_Shipping
+Title,Başlık,module,Magento_Shipping
+Action,Eylem,module,Magento_Shipping
 "Are you sure?","Emin misiniz?",module,Magento_Shipping
+"Edit Sitemap","Site Haritası Düzenle",module,Magento_Sitemap
+"New Sitemap","Yeni site haritası",module,Magento_Sitemap
+Always,"Her zaman",module,Magento_Sitemap
+Daily,Günlük,module,Magento_Sitemap
+Weekly,Haftalık,module,Magento_Sitemap
+Monthly,Aylık,module,Magento_Sitemap
 None,Hiçbiri,module,Magento_Sitemap
 All,Tümü,module,Magento_Sitemap
+Delete,Sil,module,Magento_Swatches
+Code,Kod,module,Magento_TaxImportExport
+Country,Ülke,module,Magento_TaxImportExport
+"Zip/Post Code","Posta Kodu",module,Magento_TaxImportExport
+"Zip/Post Code","Posta Kodu",module,Magento_Tax
+Country,Ülke,module,Magento_Tax
+Back,Geri,module,Magento_Tax
+Reset,Sıfırla,module,Magento_Tax
+"Delete Rule","Kural sil",module,Magento_Tax
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Tax
+Name,Adı,module,Magento_Tax
+Code,Kod,module,Magento_Tax
 None,Hiçbiri,module,Magento_Tax
+Save,Kaydet,module,Magento_Tax
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Theme
+label,etiket,module,Magento_Theme
+Message,Mesaj,module,Magento_Theme
 Remove,Kaldır,module,Magento_Theme
+Previous,Önceki,module,Magento_Theme
+Next,Sonraki,module,Magento_Theme
+Close,Kapat,module,Magento_Theme
+Next,Sonraki,module,Magento_Ui
+Back,Geri,module,Magento_Ui
+Cancel,İptal,module,Magento_Ui
+Pounds,Pound,module,Magento_Ups
+Kilograms,Kilogram,module,Magento_Ups
 None,Hiçbiri,module,Magento_Ups
+label,etiket,module,Magento_Ups
+Category:,Kategori:,module,Magento_UrlRewrite
+Name,Adı,module,Magento_UrlRewrite
+Status,Durum,module,Magento_UrlRewrite
+Title,Başlık,module,Magento_UrlRewrite
+Reset,Sıfırla,module,Magento_UrlRewrite
+Back,Geri,module,Magento_UrlRewrite
+Delete,Sil,module,Magento_UrlRewrite
+Save,Kaydet,module,Magento_UrlRewrite
+"Block Information","Blok bilgi",module,Magento_UrlRewrite
+Store,Mağaza,module,Magento_UrlRewrite
 Custom,Özel,module,Magento_UrlRewrite
+No,Hayır,module,Magento_UrlRewrite
+Back,Geri,module,Magento_User
+Reset,Sıfırla,module,Magento_User
+"Delete Role","Kural sil",module,Magento_User
+"First Name",Adı,module,Magento_User
+Email,E-posta,module,Magento_User
+Status,Durum,module,Magento_User
+"Please enter a valid email.","Lütfen geçerli bir e-posta adresi girin.",module,Magento_User
 Custom,Özel,module,Magento_User
 All,Tümü,module,Magento_User
+Yes,Evet,module,Magento_Usps
+No,Hayır,module,Magento_Usps
+Return,İade,module,Magento_Usps
 None,Hiçbiri,module,Magento_Usps
+"Custom Variables","Özel değişkenler",module,Magento_Variable
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Variable
+No,Hayır,module,Magento_Variable
+Yes,Evet,module,Magento_Variable
+Message,Mesaj,module,Magento_Webapi
+"Add Tax","Vergi ekle",module,Magento_Weee
+"All Websites","Tüm Web siteleri",module,Magento_Weee
+Website,"Web sitesi",module,Magento_Weee
+Action,Eylem,module,Magento_Weee
+label,etiket,module,Magento_Widget
+Close,Kapat,module,Magento_Widget
+"Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Widget
 None,Hiçbiri,module,Magento_Widget
 All,Tümü,module,Magento_Widget
+Apply,Onayla,module,Magento_Widget
+"Page not found.","Sayfa bulunamadı.",module,Magento_Wishlist
+Message,Mesaj,module,Magento_Wishlist
+"Remove Item","Ürünü Sil",module,Magento_Wishlist
+Product,Ürün,module,Magento_Wishlist
+Back,Geri,module,Magento_Wishlist
+"* Required Fields","* Zorunlu Alan",module,Magento_Wishlist
+"Sharing Information","Paylaşım Bilgisi",module,Magento_Wishlist
+Previous,Önceki,theme,frontend/Magento/luma
 Remove,Kaldır,theme,frontend/Magento/luma
-"Show all...","Tümünü göster...",lib,lib/web/mage/backend/suggest.js
+"Name: %name","Adı: %name",module,Magento_Contact
+"Email: %email","E-posta: %email",module,Magento_Contact
+"Phone Number: %telephone","Telefon Numarası: %telephone",module,Magento_Contact
+Cancel,İptal,module,Magento_Catalog
+Submit,Gönder,module,Magento_Catalog
+Done,Yapıldı,module,Magento_ConfigurableProduct
+Done,Yapıldı,module,Magento_Integration
+"Please choose a payment method.","Lütfen bir ödeme yöntemi seçin.",module,Magento_Multishipping
+Save,Kaydet,module,Magento_ProductVideo
+Cancel,İptal,module,Magento_ProductVideo
+Delete,Sil,module,Magento_ProductVideo
+"Add Products","Ürün Ekle",module,Magento_Sales
+Ok,Tamam,module,Magento_Sales
+"Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Lütfen en az 6 karakter giriniz. Baştaki ve sondaki boşluklar görmezden gelinecektir.",module,Magento_Ui
+"This is a required field.","Bu gerekli bir alandır.",module,Magento_Ui
+Close,Kapat,module,Magento_Ui
+Ok,Tamam,module,Magento_Ui
+Message,Mesaj,module,Magento_AdminNotification
+Title,Başlık,module,Magento_Authorizenet
+"New Order Status","Yeni sipariş durumu",module,Magento_Authorizenet
+Country,Ülke,module,Magento_Backend
+City,Şehir,module,Magento_Backend
+"Start Time","Başlangıç Zamanı",module,Magento_Backup
+Delete,Sil,module,Magento_Backup
+Name,Adı,module,Magento_Backup
+Download,İndir,module,Magento_Backup
+Action,Eylem,module,Magento_Backup
+Title,Başlık,module,Magento_Braintree
+"New Order Status","Yeni sipariş durumu",module,Magento_Braintree
+"Use Cache","Önbellek kullanımı",module,Magento_Braintree
+"Popular Search Terms","Popüler Arama Terimleri",module,Magento_CatalogSearch
+Title,Başlık,module,Magento_CatalogWidget
+Shipping,Kargo,module,Magento_Checkout
+Cancel,İptal,module,Magento_Checkout
+Status,Durum,module,Magento_ConfigurableProduct
+"Cookie Path","Çerez yolu",module,Magento_Cookie
+"First Name",Adı,module,Magento_Customer
+"Account Dashboard","Hesap Paneli",module,Magento_Customer
+Title,Başlık,module,Magento_Dhl
+"Start Time","Başlangıç Zamanı",module,Magento_Directory
+Subject,Konu,module,Magento_Email
+Action,Eylem,module,Magento_Email
+Title,Başlık,module,Magento_Fedex
+Summary,Özet,module,Magento_ImportExport
+Status,Durum,module,Magento_Indexer
+Status,Durum,module,Magento_Integration
+Status,Durum,module,Magento_Newsletter
+Delete,Sil,module,Magento_Newsletter
+Email,E-posta,module,Magento_Newsletter
+Store,Mağaza,module,Magento_Newsletter
+"New Order Status","Yeni sipariş durumu",module,Magento_OfflinePayments
+Title,Başlık,module,Magento_OfflinePayments
+Title,Başlık,module,Magento_OfflineShipping
+Export,Ver,module,Magento_OfflineShipping
+Import,"Veri Al",module,Magento_OfflineShipping
+Position,Konum,module,Magento_Paypal
+Title,Başlık,module,Magento_Paypal
+"Start Time","Başlangıç Zamanı",module,Magento_ProductAlert
+Action,Eylem,module,Magento_Reports
+Name,Adı,module,Magento_Sales
+Website,"Web sitesi",module,Magento_Sales
+Created,Oluşturuldu,module,Magento_Sales
+Delete,Sil,module,Magento_Search
 "Are you sure?","Emin misiniz?",module,Magento_Search
+Action,Eylem,module,Magento_Search
+Country,Ülke,module,Magento_Shipping
+City,Şehir,module,Magento_Shipping
+"Start Time","Başlangıç Zamanı",module,Magento_Sitemap
+Action,Eylem,module,Magento_Sitemap
+Translations,Çeviriler,module,Magento_Translation
+Action,Eylem,module,Magento_Ui
+Title,Başlık,module,Magento_Ups
+Action,Eylem,module,Magento_UrlRewrite
+Title,Başlık,module,Magento_Usps
+Name,Adı,module,Magento_Variable
+Product,Ürün,module,Magento_Widget
+Action,Eylem,module,Magento_Wishlist
+Delete,Sil,module,Magento_Wishlist
+Summary,Özet,theme,frontend/Magento/blank
+"Account Dashboard","Hesap Paneli",theme,frontend/Magento/blank
