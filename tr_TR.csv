@@ -38,6 +38,7 @@ refund,İade,module,Magento_Authorizenet
 void,"İptal edildi",module,Magento_Authorizenet
 "Invalid amount for capture.","Çekilecek toplam değeri hatalı.",module,Magento_Authorizenet
 "Payment capturing error.","Tahsilat yapılırken bir hata meydana geldi.",module,Magento_Authorizenet
+"Invalid transaction ID.","Hatalı işlem numarası.",module,Magento_Authorizenet
 "Payment voiding error.","Ödeme iptal hatası.",module,Magento_Authorizenet
 "Invalid amount for refund.","İade için hatalı tutar.",module,Magento_Authorizenet
 "Payment refunding error.","Ödeme iade hatası.",module,Magento_Authorizenet
@@ -373,6 +374,7 @@ Always,"Her zaman",module,Magento_Captcha
 "Add Minimum Qty","En az Miktarda Ekle",module,Magento_CatalogInventory
 "The stock item for Product is not valid.","Bu ürün için stok bilgisi hatalı.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","Seçenekteki ürün için stok geçerli değildir.",module,Magento_CatalogInventory
+"Undefined product type","Ürün tipi belirlenmemiş",module,Magento_CatalogInventory
 "No Backorders","Ön sipariş kabul edilmez",module,Magento_CatalogInventory
 "Allow Qty Below 0","Sıfırın altındaki miktara izin ver",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","Sıfırın altındaki miktara izin ver ve müşteriye bildir",module,Magento_CatalogInventory
@@ -1160,10 +1162,12 @@ Secureline,"Güvenli hat",module,Magento_Dhl
 "Break bulk economy","Toplu ekonomi paketini parçala",module,Magento_Dhl
 "Domestic express","Yurtiçi ekspres",module,Magento_Dhl
 Others,Diğerleri,module,Magento_Dhl
+"Globalmail business","Globalmail iş",module,Magento_Dhl
 "Same day","Aynı gün",module,Magento_Dhl
 "Express 12:00","Ekspres 12:00",module,Magento_Dhl
 "Express envelope","Ekspres zarf",module,Magento_Dhl
 "Customer services","Müşteri hizmetleri",module,Magento_Dhl
+Jetline,"Jet hattı",module,Magento_Dhl
 "Freight worldwide","Uluslararası Taşıma",module,Magento_Dhl
 "Jumbo box","Jumbo kutu",module,Magento_Dhl
 "DHL service is not available at %s date","DHL servisi is % tarihinde kullanılamaz.",module,Magento_Dhl
@@ -1294,6 +1298,7 @@ label,etiket,module,Magento_Eav
 "Invalid joint fields","Hatalı birleştirilmiş alanlar",module,Magento_Eav
 "Data integrity: No header row found for attribute","Veri bütünlüğü: Bu özellik için başlık satırı bulunamadı",module,Magento_Eav
 "Invalid form type.","Hatalı form tipi.",module,Magento_Eav
+"Invalid EAV attribute","Hatalı EAV özelliği",module,Magento_Eav
 "Attribute with the same code","Aynı koda sahip bir özellik zaten var",module,Magento_Eav
 "Default option value is not defined","Varsayılan seçenek değeri belirlenmedi",module,Magento_Eav
 "Form Element with the same attribute","Aynı özellikle Form Elemanı",module,Magento_Eav
@@ -2184,6 +2189,7 @@ Reviews,Yorumlar,module,Magento_Review
 "Edit Review","Yorumu Düzenle",module,Magento_Review
 "Please select review(s).","Lütfen yorumları seçiniz.",module,Magento_Review
 "The review was removed by another user or does not exist.","Yorum başka bir kullanıcı tarafından silindi veya bulunamadı.",module,Magento_Review
+Ratings,Puanlamalar,module,Magento_Review
 "My Product Reviews","Ürün Yorumlarım",module,Magento_Review
 Approved,Onaylandı,module,Magento_Review
 Pending,Bekliyor,module,Magento_Review
@@ -2827,6 +2833,7 @@ Ship,Kargo,module,Magento_Shipping
 "Create Shipping Label","Kargo Etiketi Oluştur",module,Magento_Shipping
 "Append Comments","Elenen Açıklamalar",module,Magento_Shipping
 "Email Copy of Shipment","Kargonun E-posta Kopyası",module,Magento_Shipping
+"Invalid value(s) for Qty to Ship","Kargolanacak adet alanına hatalı veri girildi",module,Magento_Shipping
 "Select All","Hepsini Seç",module,Magento_Shipping
 "Product Name","Ürün Adı",module,Magento_Shipping
 Delete,Sil,module,Magento_Shipping
@@ -3336,6 +3343,7 @@ label,etiket,module,Magento_Widget
 Choose...,Seçiniz...,module,Magento_Widget
 Close,Kapat,module,Magento_Widget
 "Not Selected",Seçilmedi,module,Magento_Widget
+Widget,Kutucuk,module,Magento_Widget
 "Widget Type","Widget Tipi",module,Magento_Widget
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Widget
 "Manage Widget Instances","Widget Örneklerini Yönet",module,Magento_Widget
@@ -3988,6 +3996,7 @@ Status,Durum,module,Magento_Integration
 "Storage Configuration for Media","Medya için Depolama Yapılandırma",module,Magento_MediaStorage
 "Media Storage","Medya Deposu",module,Magento_MediaStorage
 "Select Media Database","Medya Veritabanı Seçiniz",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Yeni bir medya depolama alanı seçtikten sonra, Senkronizasyon butonuna basınız. Senkronizasyon işlemi yapılmadan medya dosyaları yeni depolama alanında bulunmaz.",module,Magento_MediaStorage
 "Environment Update Time","Çevresel verilerin güncellenme zamanı",module,Magento_MediaStorage
 "Minimum Advertised Price","Minimum Reklam Ücreti",module,Magento_Msrp
 "Enable MAP","MAP Aktif et",module,Magento_Msrp
@@ -4078,6 +4087,7 @@ Import,"Veri Al",module,Magento_OfflineShipping
 "Add another payment method to your existing solution or as a stand-alone option.","Mevcut çözüme veya tekil seçeneğe alternatif ödeme metodu ekle",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Ödemeleri tamamıyla özelleştirilmiş alışverişi sonlandır sayfasıyla abul et.",module,Magento_Paypal
 "PayPal Payment Solutions","PayPal Tahsilat Çözümleri",module,Magento_Paypal
+"Express Checkout","Ekspres Ödeme",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Alışverişi sonlandır sayfanıza alternatif ödeme yöntemi olarak Paypal 'ı ekle",module,Magento_Paypal
 "Required PayPal Settings","Paypal Ayarları Zorunludur",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account","E-posta Adresi PayPal Ticari Hesapla Bağlantılı",module,Magento_Paypal
@@ -4099,6 +4109,7 @@ Size,Boyut,module,Magento_Paypal
 Title,Başlık,module,Magento_Paypal
 "Sort Order",Sıralama,module,Magento_Paypal
 "Payment Action","Ödeme İşlemi",module,Magento_Paypal
+"Authorization Honor Period (days)","Doğrulama güven süresi (gün)",module,Magento_Paypal
 "Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Satıcının Paypal hesabındaki Yetkilendirme Onur Periyodu ne olduğunu belirtir. Paypal hesabındaki ayarla aynı olmalıdır.",module,Magento_Paypal
 "Order Valid Period (days)","Sipariş Geçerlilik Süresi (gün)",module,Magento_Paypal
 "Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Siparişin Geçerlilik Süresinin ne olduğunu belirtir. Paypal hesabındaki ayarla aynı olmalıdır.",module,Magento_Paypal
@@ -4502,6 +4513,7 @@ Name,Adı,module,Magento_Variable
 Product,Ürün,module,Magento_Widget
 "Select Product...","Ürün Seçiniz...",module,Magento_Widget
 Conditions,Koşullar,module,Magento_Widget
+"Widget ID","Kutucuk ID",module,Magento_Widget
 "Share Options","Paylaşım Seçenekleri",module,Magento_Wishlist
 "Email Sender","E-posta Göndericisi",module,Magento_Wishlist
 "Email Template","E-posta Şablonu",module,Magento_Wishlist
