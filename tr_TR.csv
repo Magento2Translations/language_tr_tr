@@ -688,24 +688,39 @@ Sales,Satışlar,module,Magento_CheckoutAgreements
 "New Condition","Yeni Koşul",module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_CheckoutAgreements
 "Shopping Cart","Alışveriş Sepeti",module,Magento_Checkout
+"Invalid method: %1","Geçersiz yöntem: %1",module,Magento_Checkout
 City,Şehir,module,Magento_Checkout
 Country,Ülke,module,Magento_Checkout
 State/Province,Eyalet/Şehir,module,Magento_Checkout
 "Zip/Postal Code","Zip/Posta Kodu",module,Magento_Checkout
 "My Cart",Sepetim,module,Magento_Checkout
+"Customer is already registered","Kayıtlı Müşteri",module,Magento_Checkout
+"You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Checkout
 "Out of stock","Stok mevcut değil",module,Magento_Checkout
+"You used coupon code ""%1"".","Kupon kodu ""%1"" kullanılır.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
+"Guest checkout is disabled.","Misafir olarak ödeme yapma devre dışı bırakılır.",module,Magento_Checkout
 Checkout,Alışveriş,module,Magento_Checkout
 "Page not found.","Sayfa bulunamadı.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Checkout
+"Something went wrong while processing your order. Please try again later.","Siparişiniz işleme sırasında bir şeyler ters gitti. Lütfen daha sonra yeniden deneyin.",module,Magento_Checkout
 "The product does not exist.","Ürüne kaydına ulaşılamıyor.",module,Magento_Checkout
+"We don't have some of the products you want.","İstediğiniz ürünlerden bazıları yok.",module,Magento_Checkout
+"We don't have as many of some products as you want.","İstediğiniz kadar birçok bazı ürünler yok.",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","Ürün miktarları gerekli artışlarla sığacak şekilde ayarlanır.",module,Magento_Checkout
 "Display number of items in cart","Sepetteki ürün sayısını göster",module,Magento_Checkout
 "Display item quantities","Ürün miktarlarını göster",module,Magento_Checkout
 "Invalid data","Hatalı veri",module,Magento_Checkout
+"The customer address is not valid.","Müşteri adresi geçerli değil.",module,Magento_Checkout
+"Invalid shipping method","Geçersiz Kargo yöntemi",module,Magento_Checkout
 "Load customer quote error","Müşteri sepeti yükleme hatası",module,Magento_Checkout
 "Error message!","Hata mesajı!",module,Magento_Checkout
 Error!,Hata!,module,Magento_Checkout
+"Wrong minimum amount.","Yanlış minimum tutar.",module,Magento_Checkout
 Message,Mesaj,module,Magento_Checkout
+"Apply Discount","İndirim Uygula",module,Magento_Checkout
 "Cancel Coupon","Kuponu İptal Et",module,Magento_Checkout
+"Shopping Cart Items","Alışveriş sepeti Ürünleri",module,Magento_Checkout
 Item,Ürün,module,Magento_Checkout
 Price,Fiyat,module,Magento_Checkout
 Qty,Miktar,module,Magento_Checkout
@@ -727,6 +742,7 @@ Loading...,Yükleniyor...,module,Magento_Checkout
 "Proceed to Checkout","Alışverişe Devam et",module,Magento_Checkout
 "Product Name","Ürün Adı",module,Magento_Checkout
 "Incl. Tax","Vergi Dahil",module,Magento_Checkout
+"Your order number is: %1.","Sipariş numaranız: %1.",module,Magento_Checkout
 "Static Blocks","Statik blok",module,Magento_Cms
 "Add New Block","Yeni Blok Ekle",module,Magento_Cms
 "Save Block","Bloğu Kaydet",module,Magento_Cms
@@ -877,6 +893,7 @@ Import,"Veri Al",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Bütün geçerli oranlar kaydedildi.",module,Magento_CurrencySymbol
 System,Sistem,module,Magento_CurrencySymbol
 "Old rate:","Eski oran:",module,Magento_CurrencySymbol
+"Please specify a website.","Lütfen bir Web sitesi belirtin.",module,Magento_CustomerImportExport
 "Please enter a valid email.","Lütfen geçerli bir e-posta adresi girin.",module,Magento_CustomerImportExport
 "Sign Out",Çıkış,module,Magento_Customer
 "Sign In","Giriş Yap",module,Magento_Customer
@@ -1331,6 +1348,7 @@ Dynamic,Dinamik,module,Magento_GoogleAdwords
 "Product View Optimization","Ürün Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
 "Page View Optimization","Sayfa Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategori Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
+"Grouped Products","Gruplandırılmış ürünleri",module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","Lütfen ürün adedini belirleyiniz.",module,Magento_GroupedProduct
 "Cannot process the item.","İşlem yapılamıyor.",module,Magento_GroupedProduct
 "Associated Products","Bağlanmış Ürünler",module,Magento_GroupedProduct
@@ -4376,6 +4394,8 @@ Debug,"Hata Ayıklama",module,Magento_Usps
 "Sort Order",Sıralama,module,Magento_Usps
 "Variable ID","Değişken No",module,Magento_Variable
 Name,Adı,module,Magento_Variable
+"Web API Security","Web API güvenlik",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access","Misafir konuk erişimine izin ver",module,Magento_WebapiSecurity
 "Default Response Charset","Cevap için Varsayılan Karakter Seti",module,Magento_Webapi
 "Web Services Configuration","Web Hizmetleri Ayarları",module,Magento_Webapi
 "Fixed Product Taxes","Sabit Ürün Vergileri",module,Magento_Weee
