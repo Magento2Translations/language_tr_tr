@@ -24,6 +24,7 @@ major,büyük,module,Magento_AdminNotification
 minor,küçük,module,Magento_AdminNotification
 notice,bilgi,module,Magento_AdminNotification
 "Wrong message type","Hatalı mesaj tipi",module,Magento_AdminNotification
+"Close popup","Yakın açılır menüsü",module,Magento_AdminNotification
 Close,Kapat,module,Magento_AdminNotification
 "You created the order.","Sipariş oluşturuldu.",module,Magento_Authorizenet
 "Please choose a payment method.","Lütfen bir ödeme yöntemi seçin.",module,Magento_Authorizenet
@@ -251,17 +252,32 @@ Country,Ülke,module,Magento_Braintree
 "Stored Card","Mağaza sepeti",module,Magento_Braintree
 "Credit Card Type","Kredi Kartı Tipi",module,Magento_Braintree
 "Credit Card Number","Kredi Kartı Numarası",module,Magento_Braintree
+"Credit card successfully added","Kredi kartı başarıyla eklendi",module,Magento_Braintree
+"Delete Credit Card","Kredi kartı silme",module,Magento_Braintree
+"Credit card successfully deleted","Kredi kartı başarıyla silindi",module,Magento_Braintree
+"Edit Credit Card","Kredi Kartlarını Düzenle",module,Magento_Braintree
+"My Credit Cards","Kredi kartları",module,Magento_Braintree
+"There was error during saving card data","Kart verilerini kaydetme sırasında hata oluştu",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","Hareket Ağ Geçidi tarafından reddedildi: kart bilgilerini denetleyin veya başka bir kart deneyin",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Kredi kartı türü ülkeniz için izin verilmez.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Kredi kartı tipi bu ödeme yöntemi için izin verilmiyor.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Seçilen ödeme tipi fatura ülkesi için izin verilmemiş.",module,Magento_Braintree
 "Please try again later","Lütfen daha sonra tekrar deneyiniz",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","Zaten bazı hareketler veya hükümsüz ve geçersiz olamaz yerleşti.",module,Magento_Braintree
+"Invalid Customer ID provided","Sağlanan müşteri kimliği geçersiz",module,Magento_Braintree
 "Payment Information","Ödeme Bilgisi",module,Magento_Braintree
+"Add new card","Yeni kart ekle",module,Magento_Braintree
 "Please Select","Lütfen seçiniz",module,Magento_Braintree
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Braintree
 "Card Verification Number","Kart Güvenlik Numarası",module,Magento_Braintree
+"Save this card for future use","Bu kart ileride kullanmak için kaydetmek",module,Magento_Braintree
+"Please confirm that you want to delete this credit card","Lütfen bu kredi kartı silmek istediğinizi onaylamak",module,Magento_Braintree
+"Cardholder Name","Kart sahibi adı",module,Magento_Braintree
 Delete,Sil,module,Magento_Braintree
 Back,Geri,module,Magento_Braintree
 "* Required Fields","* Zorunlu Alan",module,Magento_Braintree
 "What is this?","Bu nedir?",module,Magento_Braintree
+"Make Default","Varsayılan yap",module,Magento_Braintree
 "Billing Address","Fatura Adresi",module,Magento_Braintree
 "First Name",Adı,module,Magento_Braintree
 "Last Name",Soyadı,module,Magento_Braintree
@@ -270,6 +286,7 @@ City,Şehir,module,Magento_Braintree
 State/Province,Eyalet/Şehir,module,Magento_Braintree
 "Please select region, state or province","Lütfen bölge, eyalet veya şehir seçiniz",module,Magento_Braintree
 Submit,Gönder,module,Magento_Braintree
+"Add Credit Card","Kredi kartı ekleme",module,Magento_Braintree
 Type,Tip,module,Magento_Braintree
 "Is Default",Varsayılan,module,Magento_Braintree
 Actions,İşlemler,module,Magento_Braintree
@@ -703,19 +720,27 @@ Sales,Satışlar,module,Magento_CheckoutAgreements
 "Edit Condition","Koşulu Düzenle",module,Magento_CheckoutAgreements
 "New Condition","Yeni Koşul",module,Magento_CheckoutAgreements
 "Shopping Cart","Alışveriş Sepeti",module,Magento_Checkout
+"Invalid method: %1","Geçersiz yöntem: %1",module,Magento_Checkout
 City,Şehir,module,Magento_Checkout
 Country,Ülke,module,Magento_Checkout
 State/Province,Eyalet/Şehir,module,Magento_Checkout
 "Zip/Postal Code","Zip/Posta Kodu",module,Magento_Checkout
 "My Cart",Sepetim,module,Magento_Checkout
+"You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
 Checkout,Alışveriş,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Checkout
 "The product does not exist.","Ürüne kaydına ulaşılamıyor.",module,Magento_Checkout
+"We don't have some of the products you want.","İstediğiniz ürünlerden bazıları yok.",module,Magento_Checkout
+"We don't have as many of some products as you want.","İstediğiniz kadar birçok bazı ürünler yok.",module,Magento_Checkout
 "Display number of items in cart","Sepetteki ürün sayısını göster",module,Magento_Checkout
 "Display item quantities","Ürün miktarlarını göster",module,Magento_Checkout
 "Invalid data","Hatalı veri",module,Magento_Checkout
+"The customer address is not valid.","Müşteri adresi geçerli değil.",module,Magento_Checkout
+"Invalid shipping method","Geçersiz Kargo yöntemi",module,Magento_Checkout
 "Load customer quote error","Müşteri sepeti yükleme hatası",module,Magento_Checkout
 "Cancel Coupon","Kuponu İptal Et",module,Magento_Checkout
+"Shopping Cart Items","Alışveriş sepeti Ürünleri",module,Magento_Checkout
 Item,Ürün,module,Magento_Checkout
 Price,Fiyat,module,Magento_Checkout
 Qty,Miktar,module,Magento_Checkout
@@ -1268,6 +1293,7 @@ Dynamic,Dinamik,module,Magento_GoogleAdwords
 "Product View Optimization","Ürün Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
 "Page View Optimization","Sayfa Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategori Görünümü Optimizasyonu",module,Magento_GoogleOptimizer
+"Grouped Products","Gruplandırılmış ürünleri",module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","Lütfen ürün adedini belirleyiniz.",module,Magento_GroupedProduct
 "Associated Products","Bağlanmış Ürünler",module,Magento_GroupedProduct
 Availability:,Durumu:,module,Magento_GroupedProduct
@@ -3148,6 +3174,8 @@ Advanced,Gelişmiş,module,Magento_Backend
 "Sales Representative","Satış Sorumlusu",module,Magento_Backend
 "Customer Support","Müşteri Desteği",module,Magento_Backend
 Design,Tasarım,module,Magento_Backend
+"User-Agent Exceptions","User-Agent özel durumlar",module,Magento_Backend
+"Find a string in client user-agent header and switch to specific design theme for that browser.","Bir dize istemci kullanıcı aracı üstbilgisi içinde bulmak ve bu tarayıcı için özel tasarım tema geçin.",module,Magento_Backend
 Pagination,Sayfalama,module,Magento_Backend
 "Pagination Frame","Sayfalama çerçevesi",module,Magento_Backend
 "How many links to display at once.","Bir defada gösterilecek bağlantı sayısı.",module,Magento_Backend
@@ -3167,6 +3195,7 @@ Debug,"Hata Ayıklama",module,Magento_Backend
 "Enabled for Admin","Yönetici için Aktif Edildi",module,Magento_Backend
 "JavaScript Settings","JavaScript Ayarları",module,Magento_Backend
 "Merge JavaScript Files","Javascript Dosyalarını Birleştir",module,Magento_Backend
+"Enable Javascript Bundling","JavaScript donatılacak etkinleştirmek",module,Magento_Backend
 "CSS Settings","CSS Ayarları",module,Magento_Backend
 "Merge CSS Files","CSS dosyalarını Birleştir",module,Magento_Backend
 "Allow Countries","Ülkelere İzin Var",module,Magento_Backend
@@ -3248,6 +3277,7 @@ Rollback,"Geri Yükleme",module,Magento_Backup
 Title,Başlık,module,Magento_Braintree
 "Merchant ID","Satıcı No",module,Magento_Braintree
 Debug,"Hata Ayıklama",module,Magento_Braintree
+"Allow Duplicate Cards","Yinelenen kartları izin",module,Magento_Braintree
 "Credit Card Types","Kredi Kartı Tipleri",module,Magento_Braintree
 "Use Cache","Önbellek kullanımı",module,Magento_Braintree
 "Payment from Applicable Countries","Mümkün olan Ülkelerden Tahsilat",module,Magento_Braintree
