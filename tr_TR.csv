@@ -162,12 +162,12 @@ To,Bit,module,Magento_Backend
 "Date selector","Tarih Seçici",module,Magento_Backend
 "[ deleted ]","[ silindi ]",module,Magento_Backend
 "Select All","Hepsini Seç",module,Magento_Backend
-"We couldn't find any records.","Biz herhangi bir kayıt bulamadım.",module,Magento_Backend
+"We couldn't find any records.","Biz herhangi bir kayıt bulamadık.",module,Magento_Backend
 "Add New","Yeni Ekle",module,Magento_Backend
 Export,Ver,module,Magento_Backend
 "Please select items.","Lütfen kayıtları seçiniz.",module,Magento_Backend
 Submit,Gönder,module,Magento_Backend
-"Please correct the tab configuration and try again. Tab Id should be not empry","Lütfen sekmesini yapılandırma düzeltin ve yeniden deneyin. Sekme kimliği-meli değil var olmak empry",module,Magento_Backend
+"Please correct the tab configuration and try again. Tab Id should be not empry","Lütfen sekme yapılandırmasını düzeltin ve tekrar deneyin. Sekme kimliği boş olmamalı",module,Magento_Backend
 "You have logged out.","Oturumunuz kapatıldı.",module,Magento_Backend
 "The image cache was cleaned.","Resim ön belleği temizlendi.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Resim ön belleği temizlenirken bir hata meydana geldi.",module,Magento_Backend
@@ -176,7 +176,7 @@ Submit,Gönder,module,Magento_Backend
 "The Magento cache storage has been flushed.","Magento Ön Belleği Depolama Alanını boşalt.",module,Magento_Backend
 "Cache Management","Ön Bellek Yönetimi",module,Magento_Backend
 Dashboard,Panel,module,Magento_Backend
-"We can't refresh lifetime statistics.","Ömür boyu istatistikleri yenileyemiyor.",module,Magento_Backend
+"We can't refresh lifetime statistics.","Ömür boyu istatistiklerini yenileyemedik.",module,Magento_Backend
 Error,Hata,module,Magento_Backend
 "Access Denied.","Erişim Engellendi.",module,Magento_Backend
 "No search modules were registered","Hiç arama modülü kaydedilmedi",module,Magento_Backend
@@ -184,7 +184,7 @@ Error,Hata,module,Magento_Backend
 "An error occurred while saving account.","Hesap kaydedilirken bir hata meydana geldi.",module,Magento_Backend
 System,Sistem,module,Magento_Backend
 "Manage Stores","Mağazaları Yönet",module,Magento_Backend
-"We can't create a backup right now. Please try again later.","Şu anda bir yedekleme oluşturamazsınız. Lütfen daha sonra yeniden deneyin.",module,Magento_Backend
+"We can't create a backup right now. Please try again later.","Şu anda bir yedekleme oluşturamadık. Lütfen sonra tekrar deneyiniz.",module,Magento_Backend
 "This store cannot be deleted.","Bu mağaza silinemiyor.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","Mağaza silinemiyor. Lütfen daha sonra tekrar deneyiniz.",module,Magento_Backend
 "This store view cannot be deleted.","Bu mağaza görünümü silinemiyor.",module,Magento_Backend
