@@ -1618,9 +1618,6 @@ Yes,Evet,module,Magento_Payment
 No,Hayır,module,Magento_Payment
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Payment
 "Card Verification Number","Kart Güvenlik Numarası",module,Magento_Payment
-"Switch/Solo/Maestro Only","Sadece Switch/Solo/Maestro",module,Magento_Payment
-"Issue Number","İşlem Numarası",module,Magento_Payment
-"Start Date","Başlangıç Tarihi",module,Magento_Payment
 "Please Select","Lütfen seçiniz",module,Magento_Payment
 "--Please Select--","--Lütfen Seçiniz--",module,Magento_Payment
 "Card Verification Number Visual Reference","Kart Güvenlik Numarası Görsel Referansı",module,Magento_Payment
