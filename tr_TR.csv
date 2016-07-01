@@ -452,10 +452,14 @@ Year,Yıl,module,Magento_Catalog
 label,etiket,module,Magento_Catalog
 "Product Attributes","Ürün Özellikleri",module,Magento_Catalog
 "Add New Attribute","Yeni Özellik Ekle",module,Magento_Catalog
+"Save in New Attribute Set","Yeni bir Özellik Setine Kaydet",module,Magento_Catalog
+"Enter Name for New Attribute Set","Yeni Özellik Seti için isim giriniz",module,Magento_Catalog
 "Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Catalog
 "Save Attribute","Özelliği Kaydet",module,Magento_Catalog
 "Delete Attribute","Özelliği Sil",module,Magento_Catalog
+"Edit Product Attribute ""%1""","Ürün özelliğini düzenle ""%1""",module,Magento_Catalog
 "New Product Attribute","Yeni Ürün Özelliği",module,Magento_Catalog
+"Advanced Attribute Properties","Gelişmiş Özellik Seçenekleri",module,Magento_Catalog
 "Attribute Code","Özellik Kodu",module,Magento_Catalog
 "Default Value","Varsayılan Değer",module,Magento_Catalog
 "Unique Value","Eşsiz Değer",module,Magento_Catalog
@@ -505,15 +509,22 @@ Empty,Boş,module,Magento_Catalog
 "Attribute Sets","Özellik Setleri",module,Magento_Catalog
 "Close Window","Pencereyi Kapat",module,Magento_Catalog
 "New Product","Yeni Ürün",module,Magento_Catalog
+"Save & Edit","Kaydet ve Düzenlemeye Devam Et",module,Magento_Catalog
+"Save & New","Kaydet ve Yeni Ekle",module,Magento_Catalog
+"Save & Duplicate","Kaydet ve Çoğalt",module,Magento_Catalog
+"Save & Close","Kaydet ve Kapat",module,Magento_Catalog
 Attributes,Özellikler,module,Magento_Catalog
 Change,Değiştir,module,Magento_Catalog
+"Advanced Inventory","Gelişmiş Envanter",module,Magento_Catalog
 Websites,Websiteleri,module,Magento_Catalog
 "Products Information","Ürün Bilgisi",module,Magento_Catalog
+"Category Name","Kategori Adı",module,Magento_Catalog
 "Parent Category","Üst Kategori",module,Magento_Catalog
 "There are no customers for this alert.","Bu alarma bağlı müşteri yok.",module,Magento_Catalog
 "First Name",Adı,module,Magento_Catalog
 "Last Name",Soyadı,module,Magento_Catalog
 Email,E-posta,module,Magento_Catalog
+"Last Notified","Son Bilgilendirme",module,Magento_Catalog
 "Send Count","Sayımı Gönder",module,Magento_Catalog
 "New Attribute","Yeni Özellik",module,Magento_Catalog
 Type,Tip,module,Magento_Catalog
@@ -521,6 +532,7 @@ Type,Tip,module,Magento_Catalog
 Status,Durum,module,Magento_Catalog
 Visibility,Görünürlük,module,Magento_Catalog
 "Add New Option","Yeni Seçenek Ekleyin",module,Magento_Catalog
+"Import Options","Veri Alma Seçenekleri",module,Magento_Catalog
 "Use Default","Varsayılanı Kullan",module,Magento_Catalog
 Import,"Veri Al",module,Magento_Catalog
 "Add New Row","Yeni Satır Ekle",module,Magento_Catalog
@@ -529,18 +541,25 @@ Import,"Veri Al",module,Magento_Catalog
 "Default Price","Varsayılan fiyat",module,Magento_Catalog
 "All Websites","Tüm Web siteleri",module,Magento_Catalog
 "ALL GROUPS","TÜM GRUPLAR",module,Magento_Catalog
+"Add Price","Fiyat Ekle",module,Magento_Catalog
 "Default Values","Varsayılan Değerler",module,Magento_Catalog
 "Related Products","İlişkili Ürünler",module,Magento_Catalog
 Up-sells,"Üst Satışlar",module,Magento_Catalog
 Cross-sells,"Çapraz Satış",module,Magento_Catalog
+"Size for %1","%1 için Boyut",module,Magento_Catalog
+"Watermark File for %1","%1 için Filigran Resim Dosyası",module,Magento_Catalog
+"Position of Watermark for %1","%1 için Filigran Pozisyonu",module,Magento_Catalog
+"Name in %1","Ad %1",module,Magento_Catalog
 Quantity,Miktar,module,Magento_Catalog
 Edit,Düzenle,module,Magento_Catalog
 "Are you sure?","Emin misiniz?",module,Magento_Catalog
 "Update Attributes","Özellikleri Güncelle",module,Magento_Catalog
+"start typing to search category","kategori aramak için yazmaya başlayın",module,Magento_Catalog
 "New Category","Yeni Kategori",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Resimler (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Yeni Resimler Ekle",module,Magento_Catalog
 "Inc. Tax","Vergi Dahil",module,Magento_Catalog
+"Does this have a weight?","Bir ağırlığı var mı?",module,Magento_Catalog
 Product,Ürün,module,Magento_Catalog
 "Notify Low Stock RSS","Düşük Stok RSS Akışı",module,Magento_Catalog
 Home,"Ana Sayfa",module,Magento_Catalog
@@ -560,18 +579,32 @@ Catalog,Katalog,module,Magento_Catalog
 "Manage Product Attributes","Ürün Özelliklerini Yönet",module,Magento_Catalog
 "This attribute cannot be edited.","Bu özellik düzenlemedi.",module,Magento_Catalog
 "Edit Product Attribute","Ürün Özelliğini Düzenle",module,Magento_Catalog
+"You duplicated the product.","Ürün çoğaltıldı.",module,Magento_Catalog
 "This product no longer exists.","Bu ürün kaydına ulaşılamıyor.",module,Magento_Catalog
 Products,Ürünler,module,Magento_Catalog
 "A group with the same name already exists.","Aynı isme sahip bir grup zaten var.",module,Magento_Catalog
+"Unable to save product","Ürün kaydedilirken bir sorun oluştu",module,Magento_Catalog
+"You saved the product.","Ürün kaydedildi.",module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","%1 adlı ürün için ürün kodu %2 olarak değiştirildi.",module,Magento_Catalog
+"New Attribute Set","Yeni Özellik Seti",module,Magento_Catalog
 "The attribute set has been removed.","Özellik seti silindi.",module,Magento_Catalog
 "New Set","Yeni Set",module,Magento_Catalog
 "Manage Product Sets","Ürün Setlerini Yönet",module,Magento_Catalog
 "Manage Attribute Sets","Özellik Setlerini Yönet",module,Magento_Catalog
 "This attribute set no longer exists.","Bu özellik seti kaydına ulaşılamıyor.",module,Magento_Catalog
+"You saved the attribute set.","Ürün özellik seti kaydedildi.",module,Magento_Catalog
+"You added product %1 to the comparison list.","%1 karşılaştırma listesine eklendi.",module,Magento_Catalog
+"You cleared the comparison list.","Karşılaştırma listesini temizlediniz.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","Karşılaştırma listesi silinirken bir sorun oluştu.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","%1 karşılaştırma listesinden silindi.",module,Magento_Catalog
+"1 item","1 kayıt",module,Magento_Catalog
+"%1 items","%1 kayıt",module,Magento_Catalog
+"Invalid attribute %1","Hatalı özellik %1",module,Magento_Catalog
 Grid,Izgara,module,Magento_Catalog
 List,Liste,module,Magento_Catalog
 All,Tümü,module,Magento_Catalog
 "Product is not loaded","Ürün yüklenemedi",module,Magento_Catalog
+"Bad controller interface for showing product","Ürün göstermek için yanlış kontrolcü arayüzü",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Varsayılan Ürün Liste Sıralaması, Kullanılabilir Ürün Liste Sıralamasında bulunmamaktadır.",module,Magento_Catalog
 "No layout updates","Şablon güncelleme yok",module,Magento_Catalog
 "Products only","Sadece ürünler",module,Magento_Catalog
@@ -601,7 +634,9 @@ Bottom/Right,Alt/Sağ,module,Magento_Catalog
 Center,Merkez,module,Magento_Catalog
 Category,Kategori,module,Magento_Catalog
 "Clear Price","Net Fiyat",module,Magento_Catalog
+"%1 and above","%1 ve yukarısı",module,Magento_Catalog
 "The filters must be an array.","Filtreler dizi değişken olmalıdır.",module,Magento_Catalog
+"Group price must be a number greater than 0.","Grup fiyatı sıfırdan büyük olmalıdır.",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","Lütfen bu alana 0 veya daha büyük bir sayı giriniz.",module,Magento_Catalog
 "Please enter a valid number in this field.","Lütfen geçerli bir sayı giriniz.",module,Magento_Catalog
 "Use config","Yapılandırmayı kullan",module,Magento_Catalog
