@@ -492,6 +492,7 @@ Integer,Tamsayı,module,Magento_Catalog
 "Attribute Information","Özellik Bilgisi",module,Magento_Catalog
 Properties,Özellikler,module,Magento_Catalog
 Visible,Görünür,module,Magento_Catalog
+"Web Site","Web sitesi",module,Magento_Catalog
 Searchable,Aranabilir,module,Magento_Catalog
 Comparable,Karşılaştırılabilir,module,Magento_Catalog
 "Delete Selected Group","Seçilen Grubu Sil",module,Magento_Catalog
@@ -520,6 +521,8 @@ Websites,Websiteleri,module,Magento_Catalog
 "Products Information","Ürün Bilgisi",module,Magento_Catalog
 "Category Name","Kategori Adı",module,Magento_Catalog
 "Parent Category","Üst Kategori",module,Magento_Catalog
+"We saved the price alert subscription.","Fiyat ayarı aboneliği kaydedildi.",module,Magento_Catalog
+"We saved the stock notification.","Stok bildirimi kaydedildi.",module,Magento_Catalog
 "There are no customers for this alert.","Bu alarma bağlı müşteri yok.",module,Magento_Catalog
 "First Name",Adı,module,Magento_Catalog
 "Last Name",Soyadı,module,Magento_Catalog
@@ -554,6 +557,8 @@ Quantity,Miktar,module,Magento_Catalog
 Edit,Düzenle,module,Magento_Catalog
 "Are you sure?","Emin misiniz?",module,Magento_Catalog
 "Update Attributes","Özellikleri Güncelle",module,Magento_Catalog
+"Click here or drag and drop to add images.","Buraya tıklayın ya da görüntü eklemek için sürükleyin ve bırakın.",module,Magento_Catalog
+"Make Base","Temel Oluştur",module,Magento_Catalog
 "start typing to search category","kategori aramak için yazmaya başlayın",module,Magento_Catalog
 "New Category","Yeni Kategori",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Resimler (.gif, .jpg, .png)",module,Magento_Catalog
@@ -761,6 +766,7 @@ Country,Ülke,module,Magento_Checkout
 State/Province,Eyalet/Şehir,module,Magento_Checkout
 "Zip/Postal Code","Zip/Posta Kodu",module,Magento_Checkout
 "My Cart",Sepetim,module,Magento_Checkout
+"Minimum order amount is %1","Minimum sipariş miktarı: %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
 Checkout,Alışveriş,module,Magento_Checkout
@@ -973,6 +979,7 @@ Download,İndir,module,Magento_Customer
 "Wrong email.","Hatalı e-posta.",module,Magento_Customer
 "Your password reset link has expired.","Şifre sıfırlama bağlantısının kullanım süresi doldu.",module,Magento_Customer
 "Account Information","Hesap Bilgisi",module,Magento_Customer
+"Invalid input","Geçersiz giriş",module,Magento_Customer
 "Please enter your email.","Lütfen e-posta adresinizi giriniz.",module,Magento_Customer
 "My Account",Hesabım,module,Magento_Customer
 "Invalid login or password.","Geçersiz giriş veya şifre.",module,Magento_Customer
@@ -996,6 +1003,7 @@ Global,Genel,module,Magento_Customer
 "Billing Address","Fatura Adresi",module,Magento_Customer
 "Shipping Address","Teslimat Adresi",module,Magento_Customer
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Customer
+"Please correct this email address: ""%1"".","Lütfen bu e-posta adresini düzeltin: ""%1"".",module,Magento_Customer
 Admin,Yönetim,module,Magento_Customer
 "Attribute object is undefined","Özellik nesnesi tanımlanmadı",module,Magento_Customer
 label,etiket,module,Magento_Customer
