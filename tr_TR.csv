@@ -455,6 +455,7 @@ Integer,Tamsayı,module,Magento_Catalog
 "Attribute Information","Özellik Bilgisi",module,Magento_Catalog
 Properties,Özellikler,module,Magento_Catalog
 Visible,Görünür,module,Magento_Catalog
+"Web Site","Web sitesi",module,Magento_Catalog
 Searchable,Aranabilir,module,Magento_Catalog
 Comparable,Karşılaştırılabilir,module,Magento_Catalog
 "Delete Selected Group","Seçilen Grubu Sil",module,Magento_Catalog
