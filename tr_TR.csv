@@ -64,6 +64,7 @@ Guest,Misafir,module,Magento_Backend
 Items,Ürünler,module,Magento_Backend
 Total,Toplam,module,Magento_Backend
 "Lifetime Sales","Ömürboyu Satışlar",module,Magento_Backend
+"Average Order","Ortalama sipariş",module,Magento_Backend
 Product,Ürün,module,Magento_Backend
 Price,Fiyat,module,Magento_Backend
 Quantity,Miktar,module,Magento_Backend
@@ -420,7 +421,9 @@ Results,Sonuçlar,module,Magento_CatalogSearch
 Grid,Izgara,module,Magento_CatalogSearch
 List,Liste,module,Magento_CatalogSearch
 Relevance,Uygunluk,module,Magento_CatalogSearch
+"Search results for: '%1'","'%1' için arama sonuçları:",module,Magento_CatalogSearch
 "Please specify at least one search term.","Lütfen en az bir kelime giriniz.",module,Magento_CatalogSearch
+"up to %1","%1 kadar",module,Magento_CatalogSearch
 "Search Settings","Arama Ayarları",module,Magento_CatalogSearch
 Search,Arama,module,Magento_CatalogSearch
 "Advanced Search","Detaylı Arama",module,Magento_CatalogSearch
@@ -774,6 +777,7 @@ State/Province,Eyalet/Şehir,module,Magento_Checkout
 "My Cart",Sepetim,module,Magento_Checkout
 "Minimum order amount is %1","Minimum sipariş miktarı: %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Checkout
+"We cannot configure the product.","Ürün yapılandırılamıyor.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
 Checkout,Alışveriş,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Checkout
@@ -912,6 +916,7 @@ Import,"Veri Al",module,Magento_CurrencySymbol
 "Save Currency Symbols","Para Birimi Sembollerini Kaydet",module,Magento_CurrencySymbol
 "Currency Symbols","Para birimi simgeleri",module,Magento_CurrencySymbol
 "Use Standard","Standardı Kullan",module,Magento_CurrencySymbol
+"Currency Rates","Döviz kurları",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Lütfen %1 => %2 oranı için giriş verilerini düzeltin",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Bütün geçerli oranlar kaydedildi.",module,Magento_CurrencySymbol
 System,Sistem,module,Magento_CurrencySymbol
@@ -1127,6 +1132,7 @@ State/Province,Eyalet/Şehir,module,Magento_Directory
 label,etiket,module,Magento_Directory
 "FATAL ERROR:","KURTARILAMAZ HATA:",module,Magento_Directory
 WARNING:,UYARI:,module,Magento_Directory
+"Please correct the country code: %1.","Lütfen ülke kodunu düzeltin: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","Ülke ve format bilgileri eşsiz olmalıdır",module,Magento_Directory
 Currency,"Para Birimi",module,Magento_Directory
 Continue,"Devam et",module,Magento_Directory
@@ -1392,6 +1398,7 @@ General,Genel,module,Magento_Integration
 Name,Adı,module,Magento_Integration
 Email,E-posta,module,Magento_Integration
 "Callback URL","Geri Dönüş URL",module,Magento_Integration
+"Basic Settings","Temel Ayarlar",module,Magento_Integration
 Remove,Kaldır,module,Magento_Integration
 View,Göster,module,Magento_Integration
 Edit,Düzenle,module,Magento_Integration
@@ -1415,6 +1422,7 @@ Previous,Önceki,module,Magento_LayeredNavigation
 "Shopping Options","Alışveriş Seçenekleri",module,Magento_LayeredNavigation
 "Magento Marketplace","Magento pazarı",module,Magento_Marketplace
 "Platinum Partners","Platin Ortaklar",module,Magento_Marketplace
+"Read More","Devamını oku",module,Magento_Marketplace
 "File system","Dosya Sistemi",module,Magento_MediaStorage
 "Wrong file info format","Hatalı dosya bilgisi biçimi",module,Magento_MediaStorage
 "Please set available and/or protected paths list(s) before validation.","Lütfen doğrulamadan önce mümkün olan korunan dizin listesini ayarlayınız.",module,Magento_MediaStorage
@@ -1601,6 +1609,7 @@ Email,E-posta,module,Magento_Paypal
 Status,Durum,module,Magento_Paypal
 Created,Oluşturuldu,module,Magento_Paypal
 N/A,"Mevcut Değil",module,Magento_Paypal
+Updated,Güncellendi,module,Magento_Paypal
 Back,Geri,module,Magento_Paypal
 "Are you sure you want to do this?","Bu işlemi yapmak istediğinizden emin misiniz?",module,Magento_Paypal
 Cancel,İptal,module,Magento_Paypal
@@ -1897,6 +1906,7 @@ Price:,Fiyat:,module,Magento_ProductAlert
 Url,Link,module,Magento_ProductVideo
 "Preview Image","Resim Önizleme",module,Magento_ProductVideo
 "The requested Payment Method is not available.","İstenilen Ödeme Metodu uygun değil.",module,Magento_Quote
+"This shipping method is not available. To use this shipping method, please contact us.","Bu nakliye yöntemi kullanılamaz. Bu sevkiyat yöntemini kullanmak için lütfen bize ulaşın.",module,Magento_Quote
 "Grand Total","Genel Toplam",module,Magento_Quote
 "Shipping & Handling","Teslimat & Teslim Alma",module,Magento_Quote
 Shipping,Kargo,module,Magento_Quote
@@ -2038,6 +2048,7 @@ Nickname,"Takma Ad",module,Magento_Review
 "Summary of Review","Yorum Özeti",module,Magento_Review
 Review,Yorum,module,Magento_Review
 Previous,Önceki,module,Magento_Review
+"Save and Next","Kaydet ve ileri",module,Magento_Review
 Next,Sonraki,module,Magento_Review
 "Delete Review","Yorumu Sil",module,Magento_Review
 "Are you sure you want to do this?","Bu işlemi yapmak istediğinizden emin misiniz?",module,Magento_Review
@@ -3223,6 +3234,7 @@ All,Tümü,module,Magento_Widget
 Apply,Onayla,module,Magento_Widget
 Page,Sayfa,module,Magento_Widget
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Wishlist
+"This product(s) is out of stock.","Bu ürün(ler) stokta bulunmamaktadır.",module,Magento_Wishlist
 Comment,Yorum,module,Magento_Wishlist
 "Display item quantities","Ürün miktarlarını göster",module,Magento_Wishlist
 "Cannot specify product.","Ürün seçilemedi.",module,Magento_Wishlist
