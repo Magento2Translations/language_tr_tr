@@ -67,6 +67,7 @@ Guest,Misafir,module,Magento_Backend
 Items,Ürünler,module,Magento_Backend
 Total,Toplam,module,Magento_Backend
 "Lifetime Sales","Ömürboyu Satışlar",module,Magento_Backend
+"Average Order","Ortalama sipariş",module,Magento_Backend
 Product,Ürün,module,Magento_Backend
 Price,Fiyat,module,Magento_Backend
 Quantity,Miktar,module,Magento_Backend
@@ -391,7 +392,9 @@ Results,Sonuçlar,module,Magento_CatalogSearch
 Grid,Izgara,module,Magento_CatalogSearch
 List,Liste,module,Magento_CatalogSearch
 Relevance,Uygunluk,module,Magento_CatalogSearch
+"Search results for: '%1'","'%1' için arama sonuçları:",module,Magento_CatalogSearch
 "Please specify at least one search term.","Lütfen en az bir kelime giriniz.",module,Magento_CatalogSearch
+"up to %1","%1 kadar",module,Magento_CatalogSearch
 Category,Kategori,module,Magento_CatalogSearch
 Product,Ürün,module,Magento_CatalogSearch
 "Search Settings","Arama Ayarları",module,Magento_CatalogSearch
@@ -725,6 +728,7 @@ Enabled,"Aktif edildi",module,Magento_CheckoutAgreements
 Disabled,Kapalı,module,Magento_CheckoutAgreements
 "Show Content as","İçerik Göster",module,Magento_CheckoutAgreements
 Text,Yazı,module,Magento_CheckoutAgreements
+Applied,Uygulandı,module,Magento_CheckoutAgreements
 "Store View","Mağaza Görünümü",module,Magento_CheckoutAgreements
 "Checkbox Text","Onay Kutusu Yazısı",module,Magento_CheckoutAgreements
 Content,İçerik,module,Magento_CheckoutAgreements
@@ -749,8 +753,10 @@ State/Province,Eyalet/Şehir,module,Magento_Checkout
 "My Cart (%1 items)","Sepetim (%1 ürün)",module,Magento_Checkout
 "My Cart",Sepetim,module,Magento_Checkout
 "Customer is already registered","Kayıtlı Müşteri",module,Magento_Checkout
+"Your session has expired","Oturumunuzun süresi doldu",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Checkout
 "Out of stock","Stok mevcut değil",module,Magento_Checkout
+"We cannot configure the product.","Ürün yapılandırılamıyor.",module,Magento_Checkout
 "You used coupon code ""%1"".","Kupon kodu ""%1"" kullanılır.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
 "Guest checkout is disabled.","Misafir olarak ödeme yapma devre dışı bırakılır.",module,Magento_Checkout
@@ -947,6 +953,7 @@ Import,"Veri Al",module,Magento_CurrencySymbol
 "Save Currency Symbols","Para Birimi Sembollerini Kaydet",module,Magento_CurrencySymbol
 "Currency Symbols","Para birimi simgeleri",module,Magento_CurrencySymbol
 "Use Standard","Standardı Kullan",module,Magento_CurrencySymbol
+"Currency Rates","Döviz kurları",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Bütün geçerli oranlar kaydedildi.",module,Magento_CurrencySymbol
 System,Sistem,module,Magento_CurrencySymbol
 "Old rate:","Eski oran:",module,Magento_CurrencySymbol
@@ -954,6 +961,7 @@ System,Sistem,module,Magento_CurrencySymbol
 "Please specify an email.","Lütfen bir e-posta belirtin.",module,Magento_CustomerImportExport
 "Please enter a valid email.","Lütfen geçerli bir e-posta adresi girin.",module,Magento_CustomerImportExport
 "Please enter a valid region.","Lütfen geçerli bir bölge girin.",module,Magento_CustomerImportExport
+"Please enter a password with a valid length.","Lütfen geçerli bir uzunlukta bir parola girin.",module,Magento_CustomerImportExport
 "Sign Out",Çıkış,module,Magento_Customer
 "Sign In","Giriş Yap",module,Magento_Customer
 "You have not set a default shipping address.","Varsayılan teslimat adesi ayarlamadınız.",module,Magento_Customer
@@ -1177,7 +1185,9 @@ State/Province,Eyalet/Şehir,module,Magento_Directory
 label,etiket,module,Magento_Directory
 "FATAL ERROR:","KURTARILAMAZ HATA:",module,Magento_Directory
 WARNING:,UYARI:,module,Magento_Directory
+"Please correct the country code: %1.","Lütfen ülke kodunu düzeltin: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","Ülke ve format bilgileri eşsiz olmalıdır",module,Magento_Directory
+"Please select a region, state or province.","Lütfen bölge, eyalet veya şehir seçiniz.",module,Magento_Directory
 Currency,"Para Birimi",module,Magento_Directory
 Continue,"Devam et",module,Magento_Directory
 Error,Hata,module,Magento_DownloadableImportExport
@@ -1191,6 +1201,7 @@ Unlimited,Sınırsız,module,Magento_Downloadable
 "Sorry, there was an error getting requested content. Please contact the store owner.","Üzgünüz, ulaşmaya çalıştığınız içeriğe ulaşılamıyor. Lütfen site yönetimi ile irtibata geçiniz.",module,Magento_Downloadable
 "Please set resource file and link type.","Lütfen kaynak dosya ve bağlantı tipini ayarlayınız.",module,Magento_Downloadable
 "Invalid download link type.","Dosya indirme bağlantısında hatalı adres tipi.",module,Magento_Downloadable
+"Provided file name contains forbidden characters.","Sağlanan dosya adı yasak karakterler içeriyor.",module,Magento_Downloadable
 "Order id cannot be null","Sipariş no alanı boş olmamalıdır",module,Magento_Downloadable
 "Order item id cannot be null","Sipariş satır numarası boş olmamalıdır",module,Magento_Downloadable
 "Provided link information is invalid.","Sağlanan bağlantı bilgileri geçerli değil.",module,Magento_Downloadable
@@ -1315,6 +1326,7 @@ Reset,Sıfırla,module,Magento_Email
 "New Email Template","Yeni E-posta Şablonu",module,Magento_Email
 "Default Config","Varsayılan yapılandırma",module,Magento_Email
 "Template Information","Şablon Bilgisi",module,Magento_Email
+"Currently Used For","Şu anda kullanılan",module,Magento_Email
 "Template Name","Şablon Adı",module,Magento_Email
 "Template Subject","Şablon Konusu",module,Magento_Email
 "Insert Variable...","Değişken ekle...",module,Magento_Email
@@ -1462,6 +1474,7 @@ General,Genel,module,Magento_Integration
 Name,Adı,module,Magento_Integration
 Email,E-posta,module,Magento_Integration
 "Callback URL","Geri Dönüş URL",module,Magento_Integration
+"Basic Settings","Temel Ayarlar",module,Magento_Integration
 Remove,Kaldır,module,Magento_Integration
 View,Göster,module,Magento_Integration
 Edit,Düzenle,module,Magento_Integration
@@ -1490,6 +1503,7 @@ Remove,Kaldır,module,Magento_LayeredNavigation
 Partners,Ortaklar,module,Magento_Marketplace
 "Magento Marketplace","Magento pazarı",module,Magento_Marketplace
 "Platinum Partners","Platin Ortaklar",module,Magento_Marketplace
+"Read More","Devamını oku",module,Magento_Marketplace
 Synchronize,Eşitleme,module,Magento_MediaStorage
 Synchronizing...,Eşitleniyor...,module,Magento_MediaStorage
 "File System","Dosya Sistemi",module,Magento_MediaStorage
@@ -1699,12 +1713,16 @@ Email,E-posta,module,Magento_Paypal
 Status,Durum,module,Magento_Paypal
 Created,Oluşturuldu,module,Magento_Paypal
 N/A,"Mevcut Değil",module,Magento_Paypal
+Updated,Güncellendi,module,Magento_Paypal
 Back,Geri,module,Magento_Paypal
 "Are you sure you want to do this?","Bu işlemi yapmak istediğinizden emin misiniz?",module,Magento_Paypal
 Cancel,İptal,module,Magento_Paypal
+"Billing Agreement #%1","Faturalandırma Sözleşmesi #%1",module,Magento_Paypal
 "General Information","Genel Bilgi",module,Magento_Paypal
 "Related Orders","İlişkili Siparişler",module,Magento_Paypal
 Order,Sipariş,module,Magento_Paypal
+Purchased,"Satın alınan",module,Magento_Paypal
+"Bill-to Name","Fatura adı",module,Magento_Paypal
 "Order Total","Sipariş Toplamı",module,Magento_Paypal
 "Billing Agreement View","Ödeme Sözleşmesi Göster",module,Magento_Paypal
 "View Transaction Details","İşlem Detayını Göster",module,Magento_Paypal
@@ -1997,8 +2015,10 @@ Continue,"Devam et",module,Magento_Paypal
 "You will no longer receive stock alerts for this product.","Bu ürün için artık stok değişim alarmı almayacaksınız.",module,Magento_ProductAlert
 "The product was not found.","Ürün bulunamadı.",module,Magento_ProductAlert
 "You will no longer receive stock alerts.","Artık stok alarmları mail adresinize gönderilmeyecek.",module,Magento_ProductAlert
+"Price change alert! We wanted you to know that prices have changed for these products:","Fiyat değişikliği uyarısı! Fiyatların bu ürünler için değiştiğini haber vermek istedik:",module,Magento_ProductAlert
 Price:,Fiyat:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Bütün fiyat değişim alarmlarını iptal et",module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:","Stoğa giren ürün alarmı! Bu ürünlerin şu anda stokta ve sipariş edilebilir olduğunu haber vermek istedik:",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Bütün stok değişim alarmlarını aboneliklerini iptal et",module,Magento_ProductAlert
 Url,Link,module,Magento_ProductVideo
 Title,Başlık,module,Magento_ProductVideo
@@ -2009,6 +2029,7 @@ Role,"Yetki Sınıfı",module,Magento_ProductVideo
 "Coupon code is not valid","Kupon kodu geçerli değil",module,Magento_Quote
 "Could not delete coupon code","Kupon kodu silinemedi",module,Magento_Quote
 "The requested Payment Method is not available.","İstenilen Ödeme Metodu uygun değil.",module,Magento_Quote
+"This shipping method is not available. To use this shipping method, please contact us.","Bu nakliye yöntemi kullanılamaz. Bu sevkiyat yöntemini kullanmak için lütfen bize ulaşın.",module,Magento_Quote
 "Grand Total","Genel Toplam",module,Magento_Quote
 "Shipping & Handling","Teslimat & Teslim Alma",module,Magento_Quote
 Shipping,Kargo,module,Magento_Quote
@@ -2152,6 +2173,7 @@ Nickname,"Takma Ad",module,Magento_Review
 "Summary of Review","Yorum Özeti",module,Magento_Review
 Review,Yorum,module,Magento_Review
 Previous,Önceki,module,Magento_Review
+"Save and Next","Kaydet ve ileri",module,Magento_Review
 Next,Sonraki,module,Magento_Review
 "Delete Review","Yorumu Sil",module,Magento_Review
 "Are you sure you want to do this?","Bu işlemi yapmak istediğinizden emin misiniz?",module,Magento_Review
@@ -2759,6 +2781,7 @@ Reports,Raporlar,module,Magento_Search
 "Please enter a sender name.","Lütfen bir gönderici adı girin.",module,Magento_SendFriend
 "Please enter a message.","Lütfen bir mesaj girin.",module,Magento_SendFriend
 "Invalid Sender Information","Hatalı Gönderici Bilgisi",module,Magento_SendFriend
+"Please define the correct sender information.","Lütfen doğru gönderici bilgisini tanıımlayınız.",module,Magento_SendFriend
 "IP Address","IP Adres",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie (Güvenli Değil)",module,Magento_SendFriend
 Remove,Kaldır,module,Magento_SendFriend
@@ -3409,6 +3432,7 @@ Yes,Evet,module,Magento_Variable
 "Validation has failed.","Doğrulama yapılamadı.",module,Magento_Variable
 "Insert Variable...","Değişken ekle...",module,Magento_Variable
 "Requested service is not available: ""%1""","İstenen ""%1"" hizmeti kullanılabilir değil",module,Magento_Webapi
+message,mesaj,module,Magento_Webapi
 Message,Mesaj,module,Magento_Webapi
 "Add Tax","Vergi ekle",module,Magento_Weee
 "All Websites","Tüm Web siteleri",module,Magento_Weee
@@ -3472,6 +3496,7 @@ Apply,Onayla,module,Magento_Widget
 Page,Sayfa,module,Magento_Widget
 "Page not found.","Sayfa bulunamadı.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Wishlist
+"This product(s) is out of stock.","Bu ürün(ler) stokta bulunmamaktadır.",module,Magento_Wishlist
 "Please enter a valid email address.","Lütfen geçerli bir e-posta adresi giriniz.",module,Magento_Wishlist
 Comment,Yorum,module,Magento_Wishlist
 "Display item quantities","Ürün miktarlarını göster",module,Magento_Wishlist
@@ -3514,11 +3539,13 @@ Items,Ürünler,module,Magento_Checkout
 "Name: %name","Adı: %name",module,Magento_Contact
 "Email: %email","E-posta: %email",module,Magento_Contact
 "Phone Number: %telephone","Telefon Numarası: %telephone",module,Magento_Contact
+"Comment: %comment","Yorum: %comment",module,Magento_Contact
 Email:,E-posta:,module,Magento_Customer
 Password:,Şifre:,module,Magento_Customer
 "Currency Update Warnings","Kur Güncelleme Uyarıları",module,Magento_Directory
 Email:,E-posta:,theme,frontend/Magento/luma
 Password:,Şifre:,theme,frontend/Magento/luma
+"Quick Checkout","Hızlı ödeme",theme,frontend/Magento/luma
 "Order Status","Sipariş Durumu",theme,frontend/Magento/luma
 "Manage Addresses","Adresleri Yönet",theme,frontend/Magento/luma
 "Order History","Sipariş Geçmişi",theme,frontend/Magento/luma
