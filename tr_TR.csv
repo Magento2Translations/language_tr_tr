@@ -50,6 +50,7 @@ void,"İptal edildi",module,Magento_Authorizenet
 "Invalid amount for refund.","İade için hatalı tutar.",module,Magento_Authorizenet
 "Payment refunding error.","Ödeme iade hatası.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Bu ödeme türünü bulamadığı için ödeme yapılamadı.",module,Magento_Authorizenet
+"There was a payment authorization error.","Ödeme yetkilendirmede bir hata oluştu.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Bir şeyler ters gitti: ödenen tutarı sipariş miktarı eşleşmiyor. Lütfen bunu düzeltin ve yeniden deneyin.",module,Magento_Authorizenet
 "Authorize Only","Sadece Provizyon",module,Magento_Authorizenet
 "Authorize and Capture","Provizyon al ve Ödemeyi Al",module,Magento_Authorizenet
@@ -206,6 +207,7 @@ System,Sistem,module,Magento_Backend
 YTD,"Son 2 Ay",module,Magento_Backend
 2YTD,"Son 1 Yıl",module,Magento_Backend
 Order,Sipariş,module,Magento_Backend
+"Order #%1","Sipariş #%1",module,Magento_Backend
 "Access denied","Erişim Engellendi",module,Magento_Backend
 Username,"Kullanıcı Adı",module,Magento_Backend
 Password,Şifre,module,Magento_Backend
@@ -254,6 +256,7 @@ Backup,Yedek,module,Magento_Backup
 failed,tamamlanamadı,module,Magento_Backup
 successful,başarılı,module,Magento_Backup
 "Can't load snapshot archive","Anlık görüntü arşiv yüklenemiyor",module,Magento_Backup
+"Please correct the password.","Lütfen şifreyi kontrol ediniz.",module,Magento_Backup
 "We can't connect to the FTP right now.","Şu anda FTP bağlanamıyor.",module,Magento_Backup
 Database,Veritabanı,module,Magento_Backup
 "Database and Media","Veritabanı ve Medya",module,Magento_Backup
@@ -400,6 +403,7 @@ Canceled,"İptal Edildi",module,Magento_Bundle
 From,Baş,module,Magento_Bundle
 To,Bit,module,Magento_Bundle
 "Buy %1 with %2 discount each","%1 ürünü %2 indirim ile satın alın",module,Magento_Bundle
+"Go back to product details","Ürün ayrıntılarına geri dön",module,Magento_Bundle
 "* Required Fields","* Zorunlu Alan",module,Magento_Bundle
 Availability,Varlık,module,Magento_Bundle
 "In stock","stokta mevcut",module,Magento_Bundle
@@ -761,6 +765,7 @@ Disabled,Kapalı,module,Magento_Catalog
 "Select type options required values rows.","Seçenek tipi için gerekli değerleri seçiniz.",module,Magento_Catalog
 "Please specify date required option(s).","Lütfen tarih için zorunlu seçenek(ler)i belirleyiniz.",module,Magento_Catalog
 "Please specify time required option(s).","Lütfen saat için zorunlu seçenek(ler)i  belirleyiniz.",module,Magento_Catalog
+"We can't add the product to the cart because of an option validation issue.","Bir seçenek doğrulama sorunu nedeniyle ürün sepete eklenememektedir.",module,Magento_Catalog
 px.,pix.,module,Magento_Catalog
 "Some of the selected item options are not currently available.","Seçilen seçeneklerden bazıları şu anda kullanılabilir değil.",module,Magento_Catalog
 "Not Visible Individually","Tek başına Görünmez",module,Magento_Catalog
@@ -846,6 +851,7 @@ Show,Göster,module,Magento_Catalog
 "Set Ascending Direction","Küçükten Büyüğe Sıralamayı Ayarla",module,Magento_Catalog
 "Set Descending Direction","Büyükten Küçüğe Sıralamayı Ayarla",module,Magento_Catalog
 "View as","Listeleme Şekli",module,Magento_Catalog
+"More Information","Daha Fazla Bilgi",module,Magento_Catalog
 Loading...,Yükleniyor...,module,Magento_Catalog
 "* Required Fields","* Zorunlu Alan",module,Magento_Catalog
 Availability,Varlık,module,Magento_Catalog
@@ -894,6 +900,8 @@ State/Province,Eyalet/Şehir,module,Magento_Checkout
 "Out of stock","Stok mevcut değil",module,Magento_Checkout
 "We cannot configure the product.","Ürün yapılandırılamıyor.",module,Magento_Checkout
 "You used coupon code ""%1"".","Kupon kodu ""%1"" kullanılır.",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Kupon kodu ""%1"" geçerli değil.",module,Magento_Checkout
+"We cannot apply the coupon code.","Kupon kodu uygulanamıyor.",module,Magento_Checkout
 "We can't remove the item.","Öğe kaldırılamıyor.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 alışveriş sepeti güncellendi.",module,Magento_Checkout
 "We can't update the item right now.","Öğe şu anda güncellenemiyor.",module,Magento_Checkout
@@ -912,6 +920,8 @@ Checkout,Alışveriş,module,Magento_Checkout
 "Unable to save address. Please, check input data.","Adres kaydedilemedi. Lütfen, giriş verilerini kontrol edin.",module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","Sevkiyat bilgileri kaydedilemedi. Lütfen, giriş verilerini kontrol edin.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Sepet yalnızca sanal ürün(ler) içermektedir. Teslim adresi uygulanamaz.",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","Sevkiyat yöntemi için boş sepet için uygulanamaz",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","Toplamların hesaplanması boş sepet için yapılamamaktadır",module,Magento_Checkout
 "Invalid data","Hatalı veri",module,Magento_Checkout
 "The customer address is not valid.","Müşteri adresi geçerli değil.",module,Magento_Checkout
 "Invalid shipping method","Geçersiz Kargo yöntemi",module,Magento_Checkout
@@ -921,6 +931,7 @@ Error!,Hata!,module,Magento_Checkout
 "Wrong minimum amount.","Yanlış minimum tutar.",module,Magento_Checkout
 Message,Mesaj,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> fatura yazdır</a>",module,Magento_Checkout
+"Apply Discount Code","İndirim kodu kullanın",module,Magento_Checkout
 "Apply Discount","İndirim Uygula",module,Magento_Checkout
 "Cancel Coupon","Kuponu İptal Et",module,Magento_Checkout
 "Shopping Cart Items","Alışveriş sepeti Ürünleri",module,Magento_Checkout
@@ -937,6 +948,8 @@ Subtotal,"Ara Toplam",module,Magento_Checkout
 Edit,Düzenle,module,Magento_Checkout
 "Remove item","Ürünü Sil",module,Magento_Checkout
 "You have no items in your shopping cart.","Sepetinizde hiç ürün yok.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Alışverişe devam etmek için <a href=""%1""> buraya</a> tıklayın.",module,Magento_Checkout
+"Estimate Tax","Tahmini vergi",module,Magento_Checkout
 "Estimate Shipping and Tax","Hesaplanan Kargo Ücreti ve Vergi",module,Magento_Checkout
 "Excl. Tax","Vergi Hariç",module,Magento_Checkout
 Loading...,Yükleniyor...,module,Magento_Checkout
@@ -945,6 +958,7 @@ Loading...,Yükleniyor...,module,Magento_Checkout
 "Product Name","Ürün Adı",module,Magento_Checkout
 "Incl. Tax","Vergi Dahil",module,Magento_Checkout
 "Your order number is: %1.","Sipariş numaranız: %1.",module,Magento_Checkout
+"Your order # is: <span>%1</span>.","# numaralı siparişiniz: <span>%1</span>.",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Sipariş ayrıntıları ve takip bilgilerini içeren sipariş onayını size e-posta ile göndereceğiz.",module,Magento_Checkout
 "Static Blocks","Statik blok",module,Magento_Cms
 "Add New Block","Yeni Blok Ekle",module,Magento_Cms
@@ -1138,6 +1152,7 @@ System,Sistem,module,Magento_CurrencySymbol
 "Please enter a password with a valid length.","Lütfen geçerli bir uzunlukta bir parola girin.",module,Magento_CustomerImportExport
 "Sign Out",Çıkış,module,Magento_Customer
 "Sign In","Giriş Yap",module,Magento_Customer
+"You subscribe to our newsletter.","Bültenimize abone olun.",module,Magento_Customer
 "You don't subscribe to our newsletter.","Bültenimize abone olmuyorsunuz.",module,Magento_Customer
 "You have not set a default shipping address.","Varsayılan teslimat adesi ayarlamadınız.",module,Magento_Customer
 "You have not set a default billing address.","Varsayılan fatura adresi belirlemediniz.",module,Magento_Customer
@@ -1164,6 +1179,7 @@ Configure,Yapılandır,module,Magento_Customer
 Delete,Sil,module,Magento_Customer
 Newsletter,Bülten,module,Magento_Customer
 "Newsletter Information","Duyuru Bilgisi",module,Magento_Customer
+"Subscribed to Newsletter","Bültenimize abone olun",module,Magento_Customer
 "Last Date Subscribed","Son abonelik tarihi",module,Magento_Customer
 "Last Date Unsubscribed","Son abonelikten çıkış tarihi",module,Magento_Customer
 "No Newsletter Found","Duyuru bulunamadı",module,Magento_Customer
@@ -1211,11 +1227,13 @@ Download,İndir,module,Magento_Customer
 "Create New Customer Account","Yeni Müşteri Hesabı",module,Magento_Customer
 "Date of Birth","Doğum Tarihi",module,Magento_Customer
 "Bad request.","Hatalı istek.",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","Kayıtlı bir KDV müşteri iseniz, fatura adresi girerek ilgili KDV hesaplanması için lütfen <a href=""%1""> buraya</a> tıklayınız.",module,Magento_Customer
 "This email does not require confirmation.","Bu e-posta adresi için doğrulamaya gerek yoktur.",module,Magento_Customer
 "Wrong email.","Hatalı e-posta.",module,Magento_Customer
 "Your password reset link has expired.","Şifre sıfırlama bağlantısının kullanım süresi doldu.",module,Magento_Customer
 "We can't save the customer.","Müşteri kaydedilemiyor.",module,Magento_Customer
 "Please make sure your passwords match.","Şifrelerinizin aynı olduğundan emin olunuz.",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Kayıtlı bir KDV müşteri iseniz, fatura adresi girerek ilgili KDV hesaplanması için lütfen <a href=""%1""> buraya</a> tıklayınız.",module,Magento_Customer
 "Account Information","Hesap Bilgisi",module,Magento_Customer
 "Invalid input","Geçersiz giriş",module,Magento_Customer
 "Confirm your new password.","Yeni parolanızı onaylayın.",module,Magento_Customer
@@ -1266,6 +1284,7 @@ label,etiket,module,Magento_Customer
 "You will be charged tax.","Siparişinize vergi eklenecek.",module,Magento_Customer
 "You will not be charged tax.","Siparişinize vergi eklenmeyecek.",module,Magento_Customer
 "Your Tax ID cannot be validated.","Vergi numaranız doğrulanamadı.",module,Magento_Customer
+"enter your billing address for proper VAT calculation","KDV'nin doğru hesaplanabilmesi için fatura adresinizi girin",module,Magento_Customer
 Label,Etiket,module,Magento_Customer
 Edit,Düzenle,module,Magento_Customer
 Visitor,Ziyaretçi,module,Magento_Customer
@@ -1290,6 +1309,7 @@ Change,Değiştir,module,Magento_Customer
 "Contact Information","İletişim Bilgisi",module,Magento_Customer
 "Change Password","Şifre Değiştir",module,Magento_Customer
 Newsletters,Duyurular,module,Magento_Customer
+"You subscribe to ""General Subscription"".","""Genel abonelik için"" abone olun.",module,Magento_Customer
 or,veya,module,Magento_Customer
 "Default Addresses","Varsayılan Adresler",module,Magento_Customer
 "Change Billing Address","Fatura adresi değiştir",module,Magento_Customer
@@ -1328,7 +1348,9 @@ Login,Giriş,module,Magento_Customer
 "Address Information","Adres Bilgisi",module,Magento_Customer
 "Confirm Password","Yeni Şifre (Tekrar)",module,Magento_Customer
 "Create an Account","Bir Hesap Oluştur",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","Çıkış yaptınız, 5 saniye içinde anasayfaya yönlendirileceksiniz.",module,Magento_Customer
 "New Customers","Yeni Müşteriler",module,Magento_Customer
+"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Hesap oluşturarak siparişinizi daha hızlı tamamlayabilir, birden fazla adres kaydedebilir, siparişlerinizi takip edebilir ve bunun gibi bir çok işlemi daha kolay yapabilirsiniz.",module,Magento_Customer
 Gender,Cinsiyet,module,Magento_Customer
 Name,Adı,module,Magento_Customer
 "Tax/VAT number","Vergi/Vatandaşlık numarası",module,Magento_Customer
@@ -1618,6 +1640,7 @@ None,Hiçbiri,module,Magento_Fedex
 "Gift Messages is not applicable for empty cart","Hediye mesajları boş sepetlere uygulanamamaktadır",module,Magento_GiftMessage
 "Gift Messages is not applicable for virtual products","Hediye mesajları sanal ürünler için geçerli değildir",module,Magento_GiftMessage
 "Gift Message is not available","Hediye mesajı mevcut değil",module,Magento_GiftMessage
+"There is no order with provided id","İlgili sipariş numarasına sahip hiçbir sipariş bulunamadı",module,Magento_GiftMessage
 "Gift Messages is not applicable for empty order","Hediye mesajlar boş sipariş için uygulanamamaktadır",module,Magento_GiftMessage
 "Unknown entity type","Bilinmeyen entity tipi",module,Magento_GiftMessage
 From,Baş,module,Magento_GiftMessage
@@ -1733,6 +1756,8 @@ Database,Veritabanı,module,Magento_MediaStorage
 "Before Order Confirmation","Sipariş Onayından Önce",module,Magento_Msrp
 "Use config","Yapılandırmayı kullan",module,Magento_Msrp
 "Click for price","Fiyat için tıklayınız",module,Magento_Msrp
+"Order total will be displayed before you submit the order","Siparişi onaylamadan önce sipariş toplam görüntülenecektir",module,Magento_Msrp
+"You will see the order total before you submit the order.","Siparişi tamamlamadan önce sipariş toplamını göreceksiniz.",module,Magento_Msrp
 Price,Fiyat,module,Magento_Msrp
 "Actual Price","Güncel Fiyat",module,Magento_Msrp
 "Add to Cart","Sepete Ekle",module,Magento_Msrp
@@ -1752,7 +1777,9 @@ Total,Toplam,module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Lütfen siparişi tamamlamadan Satış Şartları ve Koşullarını onaylayınız.",module,Magento_Multishipping
 "Please check shipping address information.","Lütfen teslimat adresini kontrol ediniz.",module,Magento_Multishipping
 "Please check billing address information.","Lütfen fatura adresini kontrol ediniz.",module,Magento_Multishipping
+"Please select shipping methods for all addresses.","Lütfen tüm adresler için sevkiyat yöntemlerini seçin.",module,Magento_Multishipping
 "Item not found or already ordered","Ürün bulunamadı veya zaten sipariş edildi",module,Magento_Multishipping
+"Please specify a payment method.","Lütfen ödeme yöntemini belirleyiniz.",module,Magento_Multishipping
 "Please check shipping addresses information.","Lütfen teslimat adreslerini kontrol ediniz.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","Lütfen tüm adresler için teslimat yöntemini belirleyiniz.",module,Magento_Multishipping
 "Select Addresses","Adresleri Seçiniz",module,Magento_Multishipping
@@ -1771,12 +1798,14 @@ Qty,Miktar,module,Magento_Multishipping
 Actions,İşlemler,module,Magento_Multishipping
 "Remove Item","Ürünü Sil",module,Magento_Multishipping
 "Remove item","Ürünü Sil",module,Magento_Multishipping
+"Go to Shipping Information","Teslimat bilgilerine git",module,Magento_Multishipping
 "Update Qty &amp; Addresses","Adet &amp; Adresleri güncelle",module,Magento_Multishipping
 "Enter a New Address","Yeni Bir Adres Giriniz",module,Magento_Multishipping
 "Back to Shopping Cart","Alışveriş Sepetine Dön",module,Magento_Multishipping
 "Billing Address","Fatura Adresi",module,Magento_Multishipping
 Change,Değiştir,module,Magento_Multishipping
 "Payment Method","Tahsilat Yöntemi",module,Magento_Multishipping
+"Go to Review Your Order","Siparişinizi gözden geçirin",module,Magento_Multishipping
 "Back to Shipping Information","Teslimat Bilgileri Bölümüne Dön",module,Magento_Multishipping
 "Other items in your order","Siparişinizdeki diğer ürünler",module,Magento_Multishipping
 "Edit Items","Ürünleri Düzelt",module,Magento_Multishipping
@@ -1796,6 +1825,7 @@ Items,Ürünler,module,Magento_Multishipping
 "Continue to Billing Information","Fatura Bilgilerine Devam Et",module,Magento_Multishipping
 "Back to Select Addresses","Adres Seçimine Dön",module,Magento_Multishipping
 "Thank you for your purchase!","Siparişiniz için teşekkür ederiz !",module,Magento_Multishipping
+"Thanks for your order. We'll email you order details and tracking information.","Siparişiniz için teşekkürler. Sipariş ayrıntıları ve izleme bilgilerini e-posta ile göndereceğiz.",module,Magento_Multishipping
 "Continue Shopping","Alışverişe Devam",module,Magento_Multishipping
 "Delete Selected Problems","Seçilen Problemleri Sil",module,Magento_Newsletter
 "Unsubscribe Selected","Seçilen Abonelikleri İptal et",module,Magento_Newsletter
@@ -1841,6 +1871,7 @@ Sender,Gönderici,module,Magento_Newsletter
 "Template Type","Şablon Tipi",module,Magento_Newsletter
 Action,Eylem,module,Magento_Newsletter
 "Queue Newsletter","Duyuru Kuyruğu",module,Magento_Newsletter
+"We unsubscribed the people you identified.","Belirlediğiniz insanların abone kayıtları silindi.",module,Magento_Newsletter
 "Newsletter Problem Reports","Bülten Gönderimi Problem Raporları",module,Magento_Newsletter
 "Newsletter Queue","Duyuru Kuyruğu",module,Magento_Newsletter
 "Edit Queue","Kuyruğu Düzenle",module,Magento_Newsletter
@@ -1856,6 +1887,7 @@ Subscribers,Aboneler,module,Magento_Newsletter
 "This email address is already assigned to another user.","Bu e-posta adresi başka bir kullanıcı ile ilişkilendirilmiş.",module,Magento_Newsletter
 "Please enter a valid email address.","Lütfen geçerli bir e-posta adresi giriniz.",module,Magento_Newsletter
 "Thank you for your subscription.","Abonelik kaydınız için teşekkür ederiz.",module,Magento_Newsletter
+"You unsubscribed.","Abonelik kaydınız silinmiştir.",module,Magento_Newsletter
 Sent,Gönderildi,module,Magento_Newsletter
 Cancelled,"İptal edildi",module,Magento_Newsletter
 "Not Sent",Gönderilmedi,module,Magento_Newsletter
@@ -1872,6 +1904,7 @@ Subscribe,"Abone Ol",module,Magento_Newsletter
 "Make Check payable to:","Çek Alıcısı:",module,Magento_OfflinePayments
 "Send Check to:","Çeki Göndereceğiniz Adres:",module,Magento_OfflinePayments
 "Purchase Order Number","Sipariş Numarası",module,Magento_OfflinePayments
+"Purchase Order Number: %1","Sipariş numarası: %1",module,Magento_OfflinePayments
 "Make Check payable to","Çeki Şu İsme Kesiniz",module,Magento_OfflinePayments
 "Send Check to","Çeki Göndereceğiniz Adres",module,Magento_OfflinePayments
 Country,Ülke,module,Magento_OfflineShipping
@@ -1963,17 +1996,27 @@ Close,Kapat,module,Magento_Paypal
 "Billing Information","Fatura Adresi Bilgisi",module,Magento_Paypal
 "Shipping Information","Teslimat Bilgisi",module,Magento_Paypal
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?","Ödemelerinizi düzenli alabilmek için PayPal ile ödeme sözleşmesi imzalamak ister misiniz?",module,Magento_Paypal
+"You canceled the billing agreement.","Faturalandırma Sözleşmesi iptal edildi.",module,Magento_Paypal
+"We can't cancel the billing agreement.","Faturalandırma Sözleşmesi iptal edilemiyor.",module,Magento_Paypal
+"You deleted the billing agreement.","Faturalandırma Sözleşmesi silindi.",module,Magento_Paypal
+"We can't delete the billing agreement.","Faturalandırma Sözleşmesi iptal edilemiyor.",module,Magento_Paypal
 Reports,Raporlar,module,Magento_Paypal
 Sales,Satışlar,module,Magento_Paypal
 "View Transaction","İşlemi Göster",module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.","""%1"" Faturalandırma Sözleşmesi iptal edildi.",module,Magento_Paypal
+"The billing agreement ""%1"" has been created.","Faturalandırma Sözleşmesi ""%1"" oluşturuldu.",module,Magento_Paypal
+"Billing Agreement # %1","Faturalandırma Sözleşmesi #%1",module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.","PayPal Ekspres Ödeme anahtar bilgisi bulunamadı.",module,Magento_Paypal
 "Express Checkout and Order have been canceled.","Ekspres Ödeme ve Sipariş iptal edildi.",module,Magento_Paypal
 "Express Checkout has been canceled.","Ekspres Ödeme iptal edildi.",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Paypal
 "We can't update shipping method.","Sevkiyat yöntemi güncelleştiremiyor.",module,Magento_Paypal
+"Requested payment method does not match with order.","İstenen ödeme yöntemi sipariş ile eşleşmiyor.",module,Magento_Paypal
+"Something went wrong while processing your order.","Siparişinizi işleme alınırken bir hata oluştu.",module,Magento_Paypal
 "Unable to save Billing Agreement:","Ödeme Sözleşmesi kaydedilemedi:",module,Magento_Paypal
 Active,Aktif,module,Magento_Paypal
 Canceled,"İptal Edildi",module,Magento_Paypal
+"The Billing Agreement status is not set.","Faturalandırma Sözleşmesi durumu ayarlanmadı.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","PayPal ı Öneriyoruz (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","PayPal ı Öneriyoruz (150 X 40)",module,Magento_Paypal
 "Now accepting PayPal (150 X 60)","Şimdi PayPal ile Ödeme Alabilirsiniz (150 X 60)",module,Magento_Paypal
@@ -2170,6 +2213,7 @@ Daily,Günlük,module,Magento_Paypal
 "Every 30 days","Her 30 günde bir",module,Magento_Paypal
 "Every 40 days","Her 40 günde bir",module,Magento_Paypal
 "No Logo","Logo bulunamadı",module,Magento_Paypal
+"We can't create a billing agreement for this order.","Bu sipariş için bir faturalandırma sözleşmesi oluşturamıyor.",module,Magento_Paypal
 "Pending PayPal","PayPal Bekleniyor",module,Magento_Paypal
 Error,Hata,module,Magento_Paypal
 "Billing Agreement","Ödeme Sözleşmesi",module,Magento_Paypal
@@ -2266,11 +2310,14 @@ Subtotal,"Ara Toplam",module,Magento_Quote
 "Some of the selected options are not currently available.","Seçilen bazı seçenekler şu anda kullanımda değil.",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","Seçilen seçenek(ler) veya bunların kombinasyonları şu anda kullanılabilir değil.",module,Magento_Quote
 "Some item options or their combination are not currently available.","Bazı ürün seçenekleri veya bunların kombinasyonları şu anda kullanılabilir değil.",module,Magento_Quote
+"Cannot place order.","Sipariş işleme alınamadı.",module,Magento_Quote
 "Please specify a shipping method.","Lütfen geçerli bir teslimat yöntemi tanımlayınız.",module,Magento_Quote
+"Please check the billing address information. %1","Lütfen fatura adresi bilgilerini gözden geçirin. %1",module,Magento_Quote
 "Please select a valid payment method.","Lütfen geçerli bir ödeme yöntemi seçiniz.",module,Magento_Quote
 "Store Credit","Mağaza kredisi",module,Magento_Quote
 Discount,İndirim,module,Magento_Quote
 Tax,Vergi,module,Magento_Quote
+"Shipping method is not applicable for empty cart","Sevkiyat yöntemi için boş sepet için uygulanamaz",module,Magento_Quote
 "New Accounts","Yeni Hesaplar",module,Magento_Reports
 "Customers by number of orders","Sipariş Sayısına Göre Müşteriler",module,Magento_Reports
 "Customers by Orders Total","Sipariş Toplamına göre Müşteriler",module,Magento_Reports
@@ -2308,6 +2355,7 @@ Detail,Detay,module,Magento_Reports
 Created,Oluşturuldu,module,Magento_Reports
 "Products Reviews","Ürün Yorumları",module,Magento_Reports
 "Products Bestsellers Report","En çok Satılan Ürünler Raporu",module,Magento_Reports
+"Order Quantity","Sipariş miktarı",module,Magento_Reports
 "Coupons Usage Report","Kupon Kullanım Raporu",module,Magento_Reports
 Subtotal,"Ara Toplam",module,Magento_Reports
 "Coupon Code","Kupon Kodu",module,Magento_Reports
@@ -2356,6 +2404,7 @@ Carts,Sepetler,module,Magento_Reports
 Name,Adı,module,Magento_Reports
 Reports,Raporlar,module,Magento_Reports
 "Customers by Number of Orders","Sipariş Sayısına Göre Müşteriler",module,Magento_Reports
+"Order Total Report","Sipariş toplam raporu",module,Magento_Reports
 "Low Stock","Düşük Stok",module,Magento_Reports
 "Products Most Viewed Report","En çok Görülen Ürünler Raporu",module,Magento_Reports
 Review,Yorum,module,Magento_Reports
@@ -2473,6 +2522,7 @@ Summary,Özet,module,Magento_Review
 "Back to Main Product Info","Ürüne Geri Dön",module,Magento_Review
 "Average Customer Rating","Ortalama Müşteri Puanı",module,Magento_Review
 "Product Rating:","Ürün Puanı:",module,Magento_Review
+"Product Review (submitted on %1):","Ürün yorumu (%1 gönderilmiş):",module,Magento_Review
 "Back to Product Reviews","Ürün Yorumlarına Dön",module,Magento_Review
 "Page not found.","Sayfa bulunamadı.",module,Magento_Rss
 Feed,Akış,module,Magento_Rss
@@ -2663,6 +2713,8 @@ Quantity,Miktar,module,Magento_Sales
 "Recently Viewed","En son görülenler",module,Magento_Sales
 "Please select a store","Lütfen bir mağaza seçiniz",module,Magento_Sales
 "Order Totals","Sipariş Toplamları",module,Magento_Sales
+"Shipping Incl. Tax (%1)","Nakliye KDV dahil (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Nakliye KDV hariç (%1)",module,Magento_Sales
 "Refund Shipping (Incl. Tax)","Teslimat Ücretini İade Et (Vergi Dahil)",module,Magento_Sales
 "Refund Shipping (Excl. Tax)","Teslimat Ücretini İade Et (Vergi Hariç)",module,Magento_Sales
 "Refund Shipping","Teslimat Ücretini İade Et",module,Magento_Sales
@@ -2680,6 +2732,8 @@ Refund,İade,module,Magento_Sales
 Void,"İptal edildi",module,Magento_Sales
 Print,Yazdır,module,Magento_Sales
 "Total Refund","Toplam İade",module,Magento_Sales
+"New Invoice and Shipment for Order #%1","#%1 numaralı siparişiniz için yeni fatura ve sevk irsaliyesi",module,Magento_Sales
+"New Invoice for Order #%1","#%1 numaralı sipariş için yeni fatura",module,Magento_Sales
 "Submit Invoice and Shipment","Fatura ve Kargo Fişini Kaydet",module,Magento_Sales
 "Submit Invoice","Faturayı Gönder",module,Magento_Sales
 "Credit Memo","İade kaydı",module,Magento_Sales
@@ -2743,22 +2797,30 @@ Fetch,Getir,module,Magento_Sales
 N/A,"Mevcut Değil",module,Magento_Sales
 Key,Anahtar,module,Magento_Sales
 Value,Değer,module,Magento_Sales
+"Order # %1","Sipariş # %1",module,Magento_Sales
 "Back to My Orders","Siparişlerime Geri Dön",module,Magento_Sales
 "View Another Order","Başka Sipariş Göster",module,Magento_Sales
 "About Your Refund","İadeniz Hakkında",module,Magento_Sales
 "My Orders",Siparişlerim,module,Magento_Sales
 "Subscribe to Order Status","Siparişi Durumu Bilgisine Abone Ol",module,Magento_Sales
 "About Your Invoice","Faturanız Hakkında",module,Magento_Sales
+"Print Order # %1","# %1 numaralı siparişi yazdır",module,Magento_Sales
 "Grand Total to be Charged","Genel Toplam tahsil edildi",module,Magento_Sales
 Unassign,"Atamayı kaldır",module,Magento_Sales
 "We can't add this item to your shopping cart right now.","Şu anda alışveriş sepetinize bu öğe ekleyemezsiniz.",module,Magento_Sales
 Sales,Satışlar,module,Magento_Sales
 "This order no longer exists.","Bu sipariş bulunamıyor.",module,Magento_Sales
+"You updated the order address.","Sipariş adresi güncellendi.",module,Magento_Sales
+"We can't update the order address right now.","Şu anda sipariş adresi güncellenemiyor.",module,Magento_Sales
+"You canceled the order.","Sipariş iptal edildi.",module,Magento_Sales
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" kupon kodu uygulanamadı. Seçili ürün(ler) için geçerli değildir",module,Magento_Sales
+"""%1"" coupon code is not valid.","""%1"" kupon kodu geçerli değil.",module,Magento_Sales
 "The coupon code has been accepted.","Kupon kodu kabul edildi.",module,Magento_Sales
 "Quote item id is not received.","Sipariş satırı numarası alınamadı.",module,Magento_Sales
 "Quote item is not loaded.","Teklif ürünü yüklenemedi.",module,Magento_Sales
 "New Order","Yeni Sipariş",module,Magento_Sales
 "You created the order.","Sipariş oluşturuldu.",module,Magento_Sales
+"Order saving error: %1","Sipariş kaydedilemedi, hata: %1",module,Magento_Sales
 "Cannot add new comment.","Yeni açıklama eklenemiyor.",module,Magento_Sales
 "The credit memo has been canceled.","İade kaydı iptal edildi.",module,Magento_Sales
 "New Memo","Yeni İade Kaydı",module,Magento_Sales
@@ -2770,6 +2832,9 @@ Sales,Satışlar,module,Magento_Sales
 "The invoice has been created.","Fatura oluşturuldu.",module,Magento_Sales
 "Cannot update item quantity.","Ürün adedi güncellenemedi.",module,Magento_Sales
 "The invoice has been voided.","Fatura iptal edildi.",module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 sipariş iptal edilemez.",module,Magento_Sales
+"You cannot cancel the order(s).","Sipariş(ler) iptal edilememektedir.",module,Magento_Sales
+"We canceled %1 order(s).","%1 numaralı sipariş iptal edilmiştir.",module,Magento_Sales
 "No order(s) were put on hold.","Beklemeye alınmış sipariş yok.",module,Magento_Sales
 "There are no printable documents related to selected orders.","Seçilen sipariş ile herhangi bir yazılabilir doküman ilişkilendirilemedi.",module,Magento_Sales
 "The payment has been accepted.","Ödeme kadul edildi.",module,Magento_Sales
@@ -2791,6 +2856,8 @@ Guest,Misafir,module,Magento_Sales
 "Please enter the zip/postal code.","Lütfen Posta Kodu giriniz.",module,Magento_Sales
 "Please enter the country.","Lütfen ülke giriniz.",module,Magento_Sales
 "Please enter the state/province.","Lütfen Şehir giriniz.",module,Magento_Sales
+"Could not delete order address","Sipariş adresi silinemedi",module,Magento_Sales
+"Could not save order address","Sipariş adresi kaydedilemedi",module,Magento_Sales
 Pending,Bekliyor,module,Magento_Sales
 Refunded,"İadesi Yapıldı",module,Magento_Sales
 Canceled,"İptal Edildi",module,Magento_Sales
@@ -2805,16 +2872,21 @@ Returned,"Geri Dönen",module,Magento_Sales
 Partial,Kısmi,module,Magento_Sales
 Mixed,Karışık,module,Magento_Sales
 "Registered a Void notification.","İptal notu eklendi.",module,Magento_Sales
+"Canceled order online","Online iptal edilen sipariş",module,Magento_Sales
+"Canceled order offline","Offline iptal edilen sipariş",module,Magento_Sales
 "Approved the payment online.","Ödeme çevrimiçi olarak Onaylandı.",module,Magento_Sales
 "There is no need to approve this payment.","Bu ödemenin onaylanmasına gerek yok.",module,Magento_Sales
 "Registered update about approved payment.","Güncellemesi kabul edilen ödeme için mesaj.",module,Magento_Sales
 "Registered update about denied payment.","Güncellemesi reddedilen ödeme için mesaj.",module,Magento_Sales
 "There is no update for the payment.","Bu ödeme için bir güncelleme yok.",module,Magento_Sales
 "Voided authorization.","İptal edilen işlem onayı.",module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.","Siparişin %1 tutarı ödeme sürecinde onay bekliyor.",module,Magento_Sales
+"Ordered amount of %1","%1 sipariş edilen miktar",module,Magento_Sales
 "Payment transactions disallow storing objects.","Ödeme işlemleri nesneleri kaydetmeye izin vermiyor.",module,Magento_Sales
 "Set order for existing transactions not allowed","Varolan işlemler için sıralamaya izin verilmiyor",module,Magento_Sales
 Order,Sipariş,module,Magento_Sales
 Authorization,Yetkilendirme,module,Magento_Sales
+"Please set a proper payment and order id.","Lütfen uygun bir ödeme ve sipariş numarası belirleyin.",module,Magento_Sales
 "Sold to:",Satılan:,module,Magento_Sales
 "Ship to:","Teslim Edilecek:",module,Magento_Sales
 "Payment Method:","Tahsilat Yöntemi:",module,Magento_Sales
@@ -2829,6 +2901,7 @@ Tax,Vergi,module,Magento_Sales
 "Total (inc)","Toplam (dahil)",module,Magento_Sales
 "Excl. Tax","Vergi Hariç",module,Magento_Sales
 "Incl. Tax","Vergi Dahil",module,Magento_Sales
+"Status can't be unassigned, because it is used by existing order(s).","Varolan sipariş(ler) tarafından kullanıldığından sipariş durumu ataması kaldırılamamaktadır.",module,Magento_Sales
 City,Şehir,module,Magento_Sales
 Company,Şirket,module,Magento_Sales
 Country,Ülke,module,Magento_Sales
@@ -2839,7 +2912,11 @@ State/Province,Eyalet/Şehir,module,Magento_Sales
 "Street Address",Adres,module,Magento_Sales
 "Phone Number","Telefon Numarası",module,Magento_Sales
 "Zip/Postal Code","Zip/Posta Kodu",module,Magento_Sales
+"We cannot create an empty shipment.","Boş bir teslimat oluşturamazsınız.",module,Magento_Sales
 "New Orders","Yeni Siparişler",module,Magento_Sales
+"Order #%1 created at %2","%2 de oluşturulan sipariş #%1",module,Magento_Sales
+"Order # %1 Notification(s)","Sipariş # %1 Bildirim(ler)",module,Magento_Sales
+"The Order State ""%1"" must not be set manually.","Sipariş durumu ""%1"" el ile ayarlanmamalıdır.",module,Magento_Sales
 "VAT Request Identifier","Vergi İstek Tanımlayıcısı",module,Magento_Sales
 "VAT Request Date","Vergi Numarası İsteme Tarihi",module,Magento_Sales
 "Pending Payment","Ödeme Bekleniyor",module,Magento_Sales
@@ -2894,6 +2971,7 @@ Item,Ürün,module,Magento_Sales
 "Subtotal (Excl. Tax)","Ara Toplam (Vergi Hariç)",module,Magento_Sales
 "Subtotal (Incl. Tax)","Ara Toplam (Vergi Dahil)",module,Magento_Sales
 "Payment Information","Ödeme Bilgisi",module,Magento_Sales
+"The order was placed using %1.","%1 kullanılarak sipariş verilmiştir.",module,Magento_Sales
 "Shipping Information","Teslimat Bilgisi",module,Magento_Sales
 "Items to Refund","İadesi Yapılacak Ürünler",module,Magento_Sales
 "Return to Stock","Stoğa Geri Ver",module,Magento_Sales
@@ -2916,6 +2994,7 @@ Message:,Mesaj:,module,Magento_Sales
 "Shipping &amp; Handling","Teslimat &amp; Teslimalma",module,Magento_Sales
 "Gift Options","Hediye Seçenekleri",module,Magento_Sales
 "Create Shipment","Kargo Oluştur",module,Magento_Sales
+"Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.","Bazı öğeler için fatura ve sevk türleri eşleşmiyor. Sadece fatura oluşturduktan sonra bir sevk oluşturabilirsiniz.",module,Magento_Sales
 "Qty to Invoice","Faturalanacak Adet",module,Magento_Sales
 "Invoice History","Fatura Geçmişi",module,Magento_Sales
 "Invoice Comments","Fatura Açıklamaları",module,Magento_Sales
@@ -2932,7 +3011,10 @@ Amount,Tutar,module,Magento_Sales
 Status,Durum,module,Magento_Sales
 Comment,Yorum,module,Magento_Sales
 "Notification Not Applicable","Uygulanamaz Bildirim",module,Magento_Sales
+"Order & Account Information","Sipariş ve hesap bilgileri",module,Magento_Sales
+"The order confirmation email is not sent","Sipariş onay e-postası gönderilemedi",module,Magento_Sales
 "Order Date","Sipariş Tarihi",module,Magento_Sales
+"Order Date (%1)","Sipariş tarihi (%1)",module,Magento_Sales
 "Purchased From","Satın Alındığı Yer",module,Magento_Sales
 "Link to the New Order","Yeni Bir Siparişe Bağla",module,Magento_Sales
 "Link to the Previous Order","Bir Önceki Siparişe Bağla",module,Magento_Sales
@@ -2942,6 +3024,7 @@ Comment,Yorum,module,Magento_Sales
 "Item Status","Ürün Durumu",module,Magento_Sales
 "Original Price","Orjinal Fiyat",module,Magento_Sales
 "Tax Percent","Vergi Yüzdesi",module,Magento_Sales
+"Notes for this Order","Bu sipariş için notlar",module,Magento_Sales
 "Transaction Data","İşlem Verisi",module,Magento_Sales
 "Transaction ID","İşlem ID",module,Magento_Sales
 "Parent Transaction ID","Üst İşlem Numarası",module,Magento_Sales
@@ -2956,6 +3039,7 @@ Items,Ürünler,module,Magento_Sales
 "Shipped By",Gönderen,module,Magento_Sales
 "Tracking Number","İzleme Numarası",module,Magento_Sales
 "Billing Last Name","Fatura Soyadı",module,Magento_Sales
+"Find Order By","Sipariş Bul",module,Magento_Sales
 "Billing ZIP Code","Fatura ZIP Kodu",module,Magento_Sales
 Continue,"Devam et",module,Magento_Sales
 "Print All Refunds","Tüm İadeleri Yazdır",module,Magento_Sales
@@ -2976,6 +3060,8 @@ Actions,İşlemler,module,Magento_Sales
 "Qty Invoiced","Faturalanan Adet",module,Magento_Sales
 Close,Kapat,module,Magento_Sales
 "About Your Order","Siparişiniz Hakkında",module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label""> Sipariş Tarihi:</span> %1",module,Magento_Sales
+"Shipment #%1","Nakliye #%1",module,Magento_Sales
 "Qty Shipped","Kargolanan Adet",module,Magento_Sales
 "Recent Orders","Geçmiş Siparişler",module,Magento_Sales
 "View All","Hepsini Göster",module,Magento_Sales
@@ -3231,6 +3317,7 @@ Rate,Oran,module,Magento_TaxImportExport
 "Zip/Post is Range","Zip/Posta Kdu Aralığı",module,Magento_TaxImportExport
 "Range From","Aralık Başlangıcı",module,Magento_TaxImportExport
 "Range To","Aralık Sonu",module,Magento_TaxImportExport
+"Tax Zones and Rates","Vergi bölgeleri ve oranları",module,Magento_TaxImportExport
 "Import and Export Tax Rates","Vergi Oranlarını Al ve Ver",module,Magento_TaxImportExport
 "The tax rate has been imported.","Vergi oranı alındı.",module,Magento_TaxImportExport
 "Invalid file upload attempt","Hatalı dosya yükleme işlemi",module,Magento_TaxImportExport
@@ -3265,6 +3352,8 @@ Name,Adı,module,Magento_Tax
 Priority,Öncelik,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","Aynı önemdeki vergi oranları eklendi, diğerleri birleştirildi.",module,Magento_Tax
 "Sort Order",Sıralama,module,Magento_Tax
+"Shipping Incl. Tax (%1)","Nakliye KDV dahil (%1)",module,Magento_Tax
+"Shipping Excl. Tax (%1)","Nakliye KDV hariç (%1)",module,Magento_Tax
 "Subtotal (Excl.Tax)","Ara Toplam (Vergi Hariç)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Ara Toplam (Vergi Dahil)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Teslimat ve Teslim alma (Vergi Hariç)",module,Magento_Tax
@@ -3308,6 +3397,7 @@ Total,Toplam,module,Magento_Tax
 "Including Tax","Vergi Dahil",module,Magento_Tax
 None,Hiçbiri,module,Magento_Tax
 "Including and Excluding Tax","Vergi dahil ve hariç fiyat",module,Magento_Tax
+"Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Buraya <a href=""%1""> Vergi yapılandırma</a> tıklayarak vergi ayarlarınızı değiştirebilirsiniz.",module,Magento_Tax
 "Incl. Tax","Vergi Dahil",module,Magento_Tax
 "Excl. Tax","Vergi Hariç",module,Magento_Tax
 Note:,Not:,module,Magento_Tax
@@ -3741,6 +3831,8 @@ Comment,Yorum,module,Magento_Wishlist
 "Cannot specify product.","Ürün seçilemedi.",module,Magento_Wishlist
 "Invalid item option format.","Hatalı ürün seçeneği biçimi.",module,Magento_Wishlist
 "We can't add this item to your shopping cart right now.","Şu anda alışveriş sepetinize bu öğe ekleyemezsiniz.",module,Magento_Wishlist
+"We couldn't add the following product(s) to the shopping cart: %1.","Alışveriş sepetine aşağıdaki ürün (ler) eklenemedi: %1.",module,Magento_Wishlist
+"%1 product(s) have been added to shopping cart: %2.","%1 ürün (ler) alışveriş sepetine eklendi: %2.",module,Magento_Wishlist
 Comment:,Yorum:,module,Magento_Wishlist
 "The product does not exist.","Ürüne kaydına ulaşılamıyor.",module,Magento_Wishlist
 Message,Mesaj,module,Magento_Wishlist
@@ -3773,6 +3865,7 @@ Remove,Kaldır,theme,frontend/Magento/luma
 "Clear All","Hepsini Temizle",theme,frontend/Magento/luma
 "Shopping Options","Alışveriş Seçenekleri",theme,frontend/Magento/luma
 Items,Ürünler,module,Magento_Checkout
+"Billing Address:","Fatura Adresi:",module,Magento_Checkout
 "Shipping Method:","Teslimat Yöntemi:",module,Magento_Checkout
 "Payment Method:","Tahsilat Yöntemi:",module,Magento_Checkout
 "Name: %name","Adı: %name",module,Magento_Contact
@@ -3781,17 +3874,36 @@ Items,Ürünler,module,Magento_Checkout
 "Comment: %comment","Yorum: %comment",module,Magento_Contact
 Email:,E-posta:,module,Magento_Customer
 Password:,Şifre:,module,Magento_Customer
+"Check the status of orders","Sipariş durumunu denetleyin",module,Magento_Customer
+"View past orders","Geçmiş siparişleri görüntüleyin",module,Magento_Customer
 "The password for your account has been successfully changed.","Hesabınıza ait parola başarıyla değiştirildi.",module,Magento_Customer
 "If you did not request this change, please contact us.","Bu değişikliği istemediyseniz lütfen bize ulaşın.",module,Magento_Customer
 "Currency Update Warnings","Kur Güncelleme Uyarıları",module,Magento_Directory
+"You have been successfully subscribed to our newsletter.","Bültenimize abonelik kaydınız başarıyla oluşturulmuştur.",module,Magento_Newsletter
+"You have been unsubscribed from the newsletter.","Bülten aboneliğiniz iptal edilmiştir.",module,Magento_Newsletter
+"Thank you for your order from %store_name.","%store_name den verdiğiniz sipariş için teşekkür ederiz.",module,Magento_Sales
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url""> hesabınıza oturum</a> açarak siparişinizin durumunu kontrol edebilirsiniz.",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Sipariş hakkında sorularınız varsa, <a href=""mailto:%store_email""> %store_email</a> e-posta gönderebilirsiniz",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","Paketiniz sevkedildiğinde size bir takip numarası göndereceğiz.",module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.","Paketiniz sevkedildiğinde size siparişinizi takip edebileceğiniz bir link göndereceğiz.",module,Magento_Sales
+"Your Shipment #%shipment_id for Order #%order_id","Teslimat #%shipment_id için sipariş #%order_id",module,Magento_Sales
 Email:,E-posta:,theme,frontend/Magento/luma
 Password:,Şifre:,theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Şifrenizi mi unuttunuz? Sıfırlamak için <a href=""%reset_url""> burada</a> tıklayın.",theme,frontend/Magento/luma
 "Quick Checkout","Hızlı ödeme",theme,frontend/Magento/luma
 "Order Status","Sipariş Durumu",theme,frontend/Magento/luma
 "Manage Addresses","Adresleri Yönet",theme,frontend/Magento/luma
 "Order History","Sipariş Geçmişi",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","%store_name den verdiğiniz sipariş için teşekkür ederiz.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url""> hesabınıza oturum</a> açarak siparişinizin durumunu kontrol edebilirsiniz.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Sipariş hakkında sorularınız varsa, <a href=""mailto:%store_email""> %store_email</a> e-posta gönderebilirsiniz.",theme,frontend/Magento/luma
+"Billing Info","Faturalandırma Bilgileri",theme,frontend/Magento/luma
 "Payment Method","Tahsilat Yöntemi",theme,frontend/Magento/luma
 "Shipping Method","Teslimat Yöntemi",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","#%increment_id siparişinizin durumu <strong>%order_status</strong> olarak güncellendi.",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","#%order_id siparişine ait #%invoice_id numaralı fatura",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Paketiniz sevkedildiğinde size bir takip numarası göndereceğiz.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Siparişiniz <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","Biz tanımak değil veya bu dosya uzantısı türünü destekleyen.",module,Magento_Backend
 Ok,Tamam,module,Magento_Catalog
 Cancel,İptal,module,Magento_Catalog
@@ -3813,12 +3925,14 @@ Done,Yapıldı,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","Bu adresi silmek istediğinizden emin misiniz?",module,Magento_Customer
 Allow,"İzin Ver",module,Magento_Integration
 Done,Yapıldı,module,Magento_Integration
+"We can't complete your order because you don't have a payment method set up.","Belirlenmiş bir ödeme yöntemi bulunmadığından sipariş tamamlanamıyor.",module,Magento_Multishipping
 "Please choose a payment method.","Lütfen bir ödeme yöntemi seçin.",module,Magento_Multishipping
 Save,Kaydet,module,Magento_ProductVideo
 Cancel,İptal,module,Magento_ProductVideo
 Delete,Sil,module,Magento_ProductVideo
 "Add Products","Ürün Ekle",module,Magento_Sales
 Ok,Tamam,module,Magento_Sales
+"Go to Details Page","Ayrıntılar sayfasına git",module,Magento_Ui
 "Please enter a valid credit card number.","Lütfen geçerli bir kredi kartı numarası giriniz.",module,Magento_Ui
 "Please select an option.","Lütfen seçeneklerden birini seçiniz.",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Lütfen geçerli bir telefon numarası giriniz. Örnek: (123) 456-7890 veya 123-456-7890.",module,Magento_Ui
@@ -4133,6 +4247,10 @@ Shipping,Kargo,module,Magento_Checkout
 "Shipping Address","Teslimat Adresi",module,Magento_Checkout
 "Save Address","Adresi Kaydet",module,Magento_Checkout
 Cancel,İptal,module,Magento_Checkout
+"We'll send your order confirmation here.","Size sipariş teyidi göndereceğiz.",module,Magento_Checkout
+"For delivery questions.","Teslimat ile ilgili sorularınız için.",module,Magento_Checkout
+"Cart Subtotal","Alışveriş Sepeti alt toplam",module,Magento_Checkout
+"We received your order!","Siparişinizi aldık!",module,Magento_Checkout
 "Thank you for your purchase!","Siparişiniz için teşekkür ederiz !",module,Magento_Checkout
 "CMS Home Page","CMS Ana Sayfa",module,Magento_Cms
 "CMS No Route Page","CMS Sayfa Bulunamadı Sayfası",module,Magento_Cms
@@ -4246,6 +4364,7 @@ Group,Grup,module,Magento_Customer
 ZIP,"Posta Kodu",module,Magento_Customer
 "Customer Since","Müşteri Geçmişi",module,Magento_Customer
 "Last Logged In","Son Giriş:",module,Magento_Customer
+"Tax VAT Number","Vergi numarası",module,Magento_Customer
 "First Name",Adı,module,Magento_Customer
 "Last Name",Soyadı,module,Magento_Customer
 "Last Activity","Son İşlem",module,Magento_Customer
@@ -4385,6 +4504,7 @@ Options,Seçenekler,module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Birden Fazla Adrese Teslimat Yapmak İçin İzin Verilen En Yüksek Adet",module,Magento_Multishipping
 "Review Order","Siparişi Yorumla",module,Magento_Multishipping
 "Select Shipping Method","Teslimat yöntemi Seçiniz",module,Magento_Multishipping
+"We received your order!","Siparişinizi aldık!",module,Magento_Multishipping
 General,Genel,module,Magento_NewRelicReporting
 "Subscription Options","Abonelik Seçenekleri",module,Magento_Newsletter
 "Allow Guest Subscription","Misafirlerin Abone Olmasına İzin ver",module,Magento_Newsletter
@@ -4609,9 +4729,12 @@ Dashboard,Panel,module,Magento_Reports
 "List of Products Recently Compared and Removed from the Compare List by Visitor","Ziyaretçi tarafından Karşılaştırmaya Eklenen ve Silinen Ürünlerin Listesi",module,Magento_Reports
 "Compared Products Grid Template","Karşılaştırılmış Ürünler Izgara Şablonu",module,Magento_Reports
 "Compared Products List Template","Karşılaştırılmış Ürünler Liste Şablonu",module,Magento_Reports
+"Ordered Quantity","Sipariş edilen miktar",module,Magento_Reports
 Guest,Misafir,module,Magento_Reports
 Action,Eylem,module,Magento_Reports
 "Last Review","Son Yorum",module,Magento_Reports
+"Order Created","Oluşturulan sipariş",module,Magento_Reports
+"Order Updated","Güncellenen sipariş",module,Magento_Reports
 "Last Invoice Created Date","Son Fatura Oluşturulma Tarihi",module,Magento_Reports
 "Last Credit Memo Created Date","Son İade Kaydı Oluşturulma Tarihi",module,Magento_Reports
 "First Invoice Created Date","İlk Fatura Oluşturulma Tarihi",module,Magento_Reports
@@ -4778,11 +4901,14 @@ Layouts,Yapılar,module,Magento_Store
 "Display Prices","Fiyatları Göster",module,Magento_Tax
 "Display Subtotal","Ara Toplamı Göster",module,Magento_Tax
 "Display Shipping Amount","Teslimat Tutarını Göster",module,Magento_Tax
+"Include Tax In Order Total","Sipariş toplamına vergi ekleyin",module,Magento_Tax
 "Display Full Tax Summary","Tam Vergi Özeti Göster",module,Magento_Tax
 "Display Zero Tax Subtotal","Vergisiz Ara Toplamı Göster",module,Magento_Tax
 "Orders, Invoices, Credit Memos Display Settings","Siparişler, Faturalar, iade Kayıtları Gösterim Ayarları",module,Magento_Tax
 State/Region,Eyalet/Bölge,module,Magento_Tax
 Rate,Oran,module,Magento_Tax
+"Order Total Excl. Tax","Sipariş toplamı KDV hariç",module,Magento_Tax
+"Order Total Incl. Tax","Sipariş toplamı KDV dahil",module,Magento_Tax
 "Order Total","Sipariş Toplamı",module,Magento_Tax
 "Your credit card will be charged for","Kredi kartınızdan çekilecek tutar",module,Magento_Tax
 Empty,Boş,module,Magento_Theme
