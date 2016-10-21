@@ -1008,6 +1008,7 @@ Email,E-posta,module,Magento_Contact
 "Phone Number","Telefon Numarası",module,Magento_Contact
 "What’s on your mind?","Aklında ne var?",module,Magento_Contact
 Submit,Gönder,module,Magento_Contact
+"Invalid domain name: %1","Geçersiz alan adı: %1",module,Magento_Cookie
 "We use cookies to make your experience better.","Daha iyi bir deneyim için çerez kullanılmaktadır.",module,Magento_Cookie
 Daily,Günlük,module,Magento_Cron
 Weekly,Haftalık,module,Magento_Cron
@@ -1224,6 +1225,8 @@ Password,Şifre,module,Magento_Customer
 Gender,Cinsiyet,module,Magento_Customer
 Name,Adı,module,Magento_Customer
 "Tax/VAT number","Vergi/Vatandaşlık numarası",module,Magento_Customer
+"Cannot switch into given mode ""%1""","Verilen %1 moduna geçiş yapılamıyor",module,Magento_Deploy
+"Format for IDE '%1' is not supported","IDE '%1' biçimi desteklenmiyor",module,Magento_Developer
 Pounds,Pound,module,Magento_Dhl
 Kilograms,Kilogram,module,Magento_Dhl
 Inches,İnç,module,Magento_Dhl
