@@ -1126,10 +1126,16 @@ Email,E-posta,module,Magento_Contact
 "Phone Number","Telefon Numarası",module,Magento_Contact
 "What’s on your mind?","Aklında ne var?",module,Magento_Contact
 Submit,Gönder,module,Magento_Contact
+"Invalid domain name: %1","Geçersiz alan adı: %1",module,Magento_Cookie
+"Invalid cookie lifetime: %1","Geçersiz çerez süresi: %1",module,Magento_Cookie
+"Invalid cookie path","Geçersiz çerez yolu",module,Magento_Cookie
 "We use cookies to make your experience better.","Daha iyi bir deneyim için çerez kullanılmaktadır.",module,Magento_Cookie
+"<a href=""%1"">Learn more</a>.","<a href=""%1"">Daha fazla</a>.",module,Magento_Cookie
+"Allow Cookies","Çerezlere izin ver",module,Magento_Cookie
 Daily,Günlük,module,Magento_Cron
 Weekly,Haftalık,module,Magento_Cron
 Monthly,Aylık,module,Magento_Cron
+"Invalid cron expression: %1","Geçersiz cron ifadesi: %1",module,Magento_Cron
 "Save Currency Rates","Döviz kurlarını kaydet",module,Magento_CurrencySymbol
 Reset,Sıfırla,module,Magento_CurrencySymbol
 Import,"Veri Al",module,Magento_CurrencySymbol
@@ -1138,7 +1144,9 @@ Import,"Veri Al",module,Magento_CurrencySymbol
 "Save Currency Symbols","Para Birimi Sembollerini Kaydet",module,Magento_CurrencySymbol
 "Currency Symbols","Para birimi simgeleri",module,Magento_CurrencySymbol
 "Use Standard","Standardı Kullan",module,Magento_CurrencySymbol
+"Please specify a correct Import Service.","Lütfen doğru İçeri Aktarma servisi belirtin.",module,Magento_CurrencySymbol
 "We can't initialize the import model.","Alma modeli başlatılamıyor.",module,Magento_CurrencySymbol
+"Click ""Save"" to apply the rates we found.","Bulduğumuz oranları uygulamak için ""Kaydet"" düğmesine tıklayın.",module,Magento_CurrencySymbol
 "Currency Rates","Döviz kurları",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Lütfen %1 => %2 oranı için giriş verilerini düzeltin",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Bütün geçerli oranlar kaydedildi.",module,Magento_CurrencySymbol
@@ -1159,6 +1167,7 @@ System,Sistem,module,Magento_CurrencySymbol
 "Address Book","Adres Defteri",module,Magento_Customer
 "Edit Address","Adresi Düzenle",module,Magento_Customer
 "Add New Address","Yeni Adres Ekle",module,Magento_Customer
+region,bölge,module,Magento_Customer
 "Create Order","Sipariş Oluştur",module,Magento_Customer
 "Save Customer","Müşteriyi Kaydet",module,Magento_Customer
 "Delete Customer","Müşteriyi Sil",module,Magento_Customer
@@ -1183,6 +1192,9 @@ Newsletter,Bülten,module,Magento_Customer
 "Last Date Subscribed","Son abonelik tarihi",module,Magento_Customer
 "Last Date Unsubscribed","Son abonelikten çıkış tarihi",module,Magento_Customer
 "No Newsletter Found","Duyuru bulunamadı",module,Magento_Customer
+"Start date","Başlangıç tarihi",module,Magento_Customer
+"End Date","Bitiş Tarihi",module,Magento_Customer
+"Receive Date","Alınma Tarihi",module,Magento_Customer
 Subject,Konu,module,Magento_Customer
 Status,Durum,module,Magento_Customer
 Sent,Gönderildi,module,Magento_Customer
@@ -1193,16 +1205,26 @@ Paused,Duraklatıldı,module,Magento_Customer
 View,Göster,module,Magento_Customer
 Unknown,Bilinmeyen,module,Magento_Customer
 Order,Sipariş,module,Magento_Customer
+Purchased,"Satın alınan",module,Magento_Customer
+"Bill-to Name","Fatura adı",module,Magento_Customer
+"Ship-to Name","İsme Sevk",module,Magento_Customer
 "Order Total","Sipariş Toplamı",module,Magento_Customer
+"Purchase Point","Satınalma Noktası",module,Magento_Customer
 "Customer View","Müşteri Görünümü",module,Magento_Customer
 "There are no items in customer's shopping cart.","Müşterinin alışveriş sepeti içinde hiçbir ürün bulunmamaktadır.",module,Magento_Customer
 Qty,Miktar,module,Magento_Customer
 Confirmed,Onaylandı,module,Magento_Customer
+"Confirmation Required","Onay Gerekli",module,Magento_Customer
+"Confirmation Not Required","Onay gerekli değildir",module,Magento_Customer
+Indeterminate,Belirsiz,module,Magento_Customer
 "The customer does not have default billing address.","Müşterinin varsayılan fatura adresi bulunmamaktadır.",module,Magento_Customer
 Offline,Çevrimdışı,module,Magento_Customer
 Online,Çevrimiçi,module,Magento_Customer
 Never,Asla,module,Magento_Customer
 "Deleted Stores","Mağazaları Sil",module,Magento_Customer
+"Add Locale","Yerel ayar Ekle",module,Magento_Customer
+"Add Date","Tarih Ekle",module,Magento_Customer
+"Days in Wish List","Gün içinde istek listesi",module,Magento_Customer
 No,Hayır,module,Magento_Customer
 Yes,Evet,module,Magento_Customer
 "Delete File","Dosya Sil",module,Magento_Customer
@@ -1354,6 +1376,8 @@ Login,Giriş,module,Magento_Customer
 Gender,Cinsiyet,module,Magento_Customer
 Name,Adı,module,Magento_Customer
 "Tax/VAT number","Vergi/Vatandaşlık numarası",module,Magento_Customer
+"Cannot switch into given mode ""%1""","Verilen %1 moduna geçiş yapılamıyor",module,Magento_Deploy
+"Format for IDE '%1' is not supported","IDE '%1' biçimi desteklenmiyor",module,Magento_Developer
 Pounds,Pound,module,Magento_Dhl
 Kilograms,Kilogram,module,Magento_Dhl
 Inches,İnç,module,Magento_Dhl
@@ -4298,6 +4322,7 @@ Contacts,İletişim,module,Magento_Contact
 "Send Emails To","E-posta Alıcısı",module,Magento_Contact
 "Email Sender","E-posta Göndericisi",module,Magento_Contact
 "Email Template","E-posta Şablonu",module,Magento_Contact
+"Default Cookie Settings","Varsayılan Çerez Ayarları",module,Magento_Cookie
 "Cookie Lifetime","Çerez Ömrü",module,Magento_Cookie
 "Cookie Path","Çerez yolu",module,Magento_Cookie
 "Cookie Domain","Çerez Domaini",module,Magento_Cookie
@@ -4311,6 +4336,7 @@ Contacts,İletişim,module,Magento_Contact
 "History Cleanup Every","Geçmişi Silme Sıklığı",module,Magento_Cron
 "Success History Lifetime","Başarılı İşlem Geçmişi Saklama Süresi",module,Magento_Cron
 "Failure History Lifetime","Hata Geçmişi Saklama Süresi",module,Magento_Cron
+"Use Separate Process","Ayrı işlem kullanın",module,Magento_Cron
 "Customer Configuration","Müşteri Yapılandırma",module,Magento_Customer
 "Account Sharing Options","Hesap Paylaşma Seçenekleri",module,Magento_Customer
 "Share Customer Accounts","Müşteri Hesaplarını Paylaş",module,Magento_Customer
