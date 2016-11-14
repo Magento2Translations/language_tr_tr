@@ -1410,6 +1410,7 @@ label,etiket,module,Magento_ImportExport
 "Entity Attributes","Varlık Özellikleri",module,Magento_ImportExport
 Continue,"Devam et",module,Magento_ImportExport
 "Validation Results","Doğrulama Sonuçları",module,Magento_ImportExport
+"Indexer Management","Dizin Oluşturucu Yönetimi",module,Magento_Indexer
 "Update on Save","Kaydedildiğinde Güncelle",module,Magento_Indexer
 Ready,Hazır,module,Magento_Indexer
 Processing,İşleniyor,module,Magento_Indexer
@@ -3298,6 +3299,7 @@ All,Tümü,module,Magento_Widget
 "Open Chooser","Seçimi Aç",module,Magento_Widget
 Apply,Onayla,module,Magento_Widget
 Page,Sayfa,module,Magento_Widget
+"Wish List","İstek listesi",module,Magento_Wishlist
 "You added %1 to your shopping cart.","%1 alışveriş sepetinize eklendi.",module,Magento_Wishlist
 "This product(s) is out of stock.","Bu ürün(ler) stokta bulunmamaktadır.",module,Magento_Wishlist
 Comment,Yorum,module,Magento_Wishlist
