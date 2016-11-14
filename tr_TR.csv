@@ -967,6 +967,7 @@ Specified,Özel,module,Magento_Config
 Delete,Sil,module,Magento_Config
 "Current Configuration Scope:","Mevcut Yapılandırma Kapsamı:",module,Magento_Config
 Stores,Mağazalar,module,Magento_Config
+"Add configurable attributes to the current Attribute Set (""%1"")","Geçerli öznitelik küme için (""%1"") yapılandırılabilir özniteliklerini ekleyin",module,Magento_ConfigurableProduct
 Save,Kaydet,module,Magento_ConfigurableProduct
 "Save & New","Kaydet ve Yeni Ekle",module,Magento_ConfigurableProduct
 Configurations,Konfigürasyonlar,module,Magento_ConfigurableProduct
@@ -1252,6 +1253,7 @@ Name,Adı,module,Magento_Customer
 "Tax/VAT number","Vergi/Vatandaşlık numarası",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Verilen %1 moduna geçiş yapılamıyor",module,Magento_Deploy
 "Format for IDE '%1' is not supported","IDE '%1' biçimi desteklenmiyor",module,Magento_Developer
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","DHL %1 %2 aşıyorsa sipariş bölerek nakliye masraflarının optimize etmeye izin vermek için bunu seçin.",module,Magento_Dhl
 Pounds,Pound,module,Magento_Dhl
 Kilograms,Kilogram,module,Magento_Dhl
 Inches,İnç,module,Magento_Dhl
@@ -1308,6 +1310,7 @@ Continue,"Devam et",module,Magento_Directory
 "File directory '%1' is not writable.","'%1' dosya dizini yazılabilir değil.",module,Magento_DownloadableImportExport
 Error,Hata,module,Magento_DownloadableImportExport
 "Downloadable Information","İndirilebilir Ürün Bilgisi",module,Magento_Downloadable
+"Add New Link","Yeni bağlantı ekle",module,Magento_Downloadable
 "Upload Files","Dosya Yükle",module,Magento_Downloadable
 "All Files","Tüm dosyalar",module,Magento_Downloadable
 Unlimited,Sınırsız,module,Magento_Downloadable
@@ -1597,6 +1600,7 @@ Delete,Sil,module,Magento_ImportExport
 "Entity Attributes","Varlık Özellikleri",module,Magento_ImportExport
 Continue,"Devam et",module,Magento_ImportExport
 "Validation Results","Doğrulama Sonuçları",module,Magento_ImportExport
+"Indexer Management","Dizin Oluşturucu Yönetimi",module,Magento_Indexer
 "Update on Save","Kaydedildiğinde Güncelle",module,Magento_Indexer
 Ready,Hazır,module,Magento_Indexer
 Processing,İşleniyor,module,Magento_Indexer
@@ -3739,6 +3743,7 @@ All,Tümü,module,Magento_Widget
 "Open Chooser","Seçimi Aç",module,Magento_Widget
 Apply,Onayla,module,Magento_Widget
 Page,Sayfa,module,Magento_Widget
+"Wish List","İstek listesi",module,Magento_Wishlist
 "Page not found.","Sayfa bulunamadı.",module,Magento_Wishlist
 "We can't specify a product.","Bir ürün belirlenemiyor.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","Şu anda dilek listesine öğe eklenemiyor: %1.",module,Magento_Wishlist
