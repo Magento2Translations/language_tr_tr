@@ -23,8 +23,17 @@ major,büyük,module,Magento_AdminNotification
 minor,küçük,module,Magento_AdminNotification
 notice,bilgi,module,Magento_AdminNotification
 "Wrong message type","Hatalı mesaj tipi",module,Magento_AdminNotification
+"Wrong notification ID specified.","Yanlış bildirim kimliği belirtildi.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Bir veya daha fazla ortam dosyasını senkronize edemedik. Ayrıntılar için günlük dosyasına bakınız.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Ortam depolarının senkronizasyonu tamamlandı.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Web sunucunuz hatalı ayarlanmış ve hassas dosyalara yetkisiz erişime izin veriyor. Lütfen barındırma sağlayıcınıza başvurun.",module,Magento_AdminNotification
 "Close popup","Yakın açılır menüsü",module,Magento_AdminNotification
 Close,Kapat,module,Magento_AdminNotification
+"System Messages:","Sistem Mesajları:",module,Magento_AdminNotification
+"Critical System Messages","Kritik Sistem Mesajları",module,Magento_AdminNotification
+"Major System Messages","Önemli Sistem Mesajları",module,Magento_AdminNotification
+"System messages","Sistem mesajları",module,Magento_AdminNotification
+"See All (","Hepsini gör (",module,Magento_AdminNotification
 "Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","'%1' isimli model bulunamadı",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Dışarı aktarmak için uygun ürün tipi yok",module,Magento_AdvancedPricingImportExport
