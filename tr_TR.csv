@@ -24,6 +24,8 @@ minor,küçük,module,Magento_AdminNotification
 notice,bilgi,module,Magento_AdminNotification
 "Wrong message type","Hatalı mesaj tipi",module,Magento_AdminNotification
 "Wrong notification ID specified.","Yanlış bildirim kimliği belirtildi.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} Bankası güvenli olmayan URL bildirmek için bir üretim ortamında kullanmanız önerilmez / Bankası güvenli URL. Senin Magento <a href=""%1""> yapılandırma</a> bu değerin değiştirilmesi önerilir.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Lütfen <a href=""%1"">Ön Bellek Yönetimine </a> gidin ve ön bellek türlerini yenileyin",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Bir veya daha fazla ortam dosyasını senkronize edemedik. Ayrıntılar için günlük dosyasına bakınız.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Ortam depolarının senkronizasyonu tamamlandı.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Web sunucunuz hatalı ayarlanmış ve hassas dosyalara yetkisiz erişime izin veriyor. Lütfen barındırma sağlayıcınıza başvurun.",module,Magento_AdminNotification
@@ -38,6 +40,7 @@ Close,Kapat,module,Magento_AdminNotification
 "Entity type model '%1' is not found","'%1' isimli model bulunamadı",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Dışarı aktarmak için uygun ürün tipi yok",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","İstediğin kullanıcı için rol bulamıyoruz.",module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","İzin verilen kaynaklar listesi derleme sırasında bir şeyler ters gitti. Özel durumlar günlüğünde daha fazla bilgi bulabilirsiniz.",module,Magento_Authorization
 "You created the order.","Sipariş oluşturuldu.",module,Magento_Authorizenet
 "Order saving error: %1","Sipariş kaydedilemedi, hata: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Lütfen bir ödeme yöntemi seçin.",module,Magento_Authorizenet
@@ -67,9 +70,13 @@ void,"İptal edildi",module,Magento_Authorizenet
 "Credit Card Number","Kredi Kartı Numarası",module,Magento_Authorizenet
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Authorizenet
 "Card Verification Number","Kart Güvenlik Numarası",module,Magento_Authorizenet
+"Card Code Response","Kart kodu yanıtı",module,Magento_Authorizenet
+"Fraud Filters","Dolandırıcılık filtreleri",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Hatalı Form Anahtarı. Lütfen sayfayı yenileyiniz.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Geçersiz bir gizli anahtar girdi. Lütfen sayfayı yenileyin.",module,Magento_Backend
 "Cache Storage Management","Ön Bellek Depolama Yönetimi",module,Magento_Backend
 "Flush Magento Cache","Magento Ön Belleğini Boşalt",module,Magento_Backend
+"The cache storage may contain additional data. Are you sure that you want to flush it?","Ön Bellek depolama ek verileri içermektedir. Boşaltmak istediğinizden emin misiniz?",module,Magento_Backend
 "Flush Cache Storage","Ön Bellek Deposunu Boşalt",module,Magento_Backend
 Invalidated,Geçersiz,module,Magento_Backend
 Orders,Siparişler,module,Magento_Backend
@@ -84,15 +91,18 @@ Items,Ürünler,module,Magento_Backend
 Total,Toplam,module,Magento_Backend
 "Lifetime Sales","Ömürboyu Satışlar",module,Magento_Backend
 "Average Order","Ortalama sipariş",module,Magento_Backend
+Average,Ortalama,module,Magento_Backend
 Product,Ürün,module,Magento_Backend
 Price,Fiyat,module,Magento_Backend
 Quantity,Miktar,module,Magento_Backend
+Views,Görünümler,module,Magento_Backend
 Revenue,Gelir,module,Magento_Backend
 Tax,Vergi,module,Magento_Backend
 Shipping,Kargo,module,Magento_Backend
 "Images (.gif, .jpg, .png)","Resimler (.gif, .jpg, .png)",module,Magento_Backend
 "Media (.avi, .flv, .swf)","Medya (.avi, .flv, .swf)",module,Magento_Backend
 "All Files","Tüm dosyalar",module,Magento_Backend
+"Reset to Default","Varsayılanlara Sıfırla",module,Magento_Backend
 "All Store Views","Tüm Mağaza Görünümleri",module,Magento_Backend
 "What is this?","Bu nedir?",module,Magento_Backend
 "Save Account","Hesabı Kaydet",module,Magento_Backend
@@ -105,6 +115,9 @@ Email,E-posta,module,Magento_Backend
 "User Email","Kullanıcı E-posta Adresi",module,Magento_Backend
 "New Password","Yeni Şifre",module,Magento_Backend
 "Password Confirmation","Şifre (Tekrar)",module,Magento_Backend
+"Interface Locale","Yerel arabirim",module,Magento_Backend
+"Current User Identity Verification","Geçerli kullanıcı kimlik doğrulaması",module,Magento_Backend
+"Your Password",Parolanız,module,Magento_Backend
 "Save Cache Settings","Ön Bellek Ayarlarını Kaydet",module,Magento_Backend
 "Catalog Rewrites","Katalog Yeniden Yazımı",module,Magento_Backend
 Refresh,Yenile,module,Magento_Backend
@@ -127,6 +140,7 @@ Delete,Sil,module,Magento_Backend
 "Are you sure?","Emin misiniz?",module,Magento_Backend
 Save,Kaydet,module,Magento_Backend
 "Edit Design Change","Tasarım Değişimini Düzenle",module,Magento_Backend
+"New Store Design Change","Yeni mağaza tasarım değişikliği",module,Magento_Backend
 "General Settings","Genel Ayarlar",module,Magento_Backend
 Store,Mağaza,module,Magento_Backend
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Backend
@@ -136,20 +150,27 @@ Store,Mağaza,module,Magento_Backend
 "Design Change","Tasarım Değiştir",module,Magento_Backend
 General,Genel,module,Magento_Backend
 Cancel,İptal,module,Magento_Backend
+"Delete %1 '%2'","%1 '%2' sil",module,Magento_Backend
+"Delete %1","%1'i Sil",module,Magento_Backend
 "Block Information","Blok bilgi",module,Magento_Backend
 "Backup Options","Yedekleme seçenekleri",module,Magento_Backend
 "Create DB Backup","Veritabanı Yedeği Oluştur",module,Magento_Backend
 Yes,Evet,module,Magento_Backend
 No,Hayır,module,Magento_Backend
 "Delete Store","Mağazayı Sil",module,Magento_Backend
+"Delete Web Site","Web sitesini silme",module,Magento_Backend
+"Save Web Site","Web sitenizi kaydet",module,Magento_Backend
 "Save Store","Mağazayı Kaydet",module,Magento_Backend
 "Save Store View","Mağaza Görünümünü Kaydet",module,Magento_Backend
 "Delete Store View","Mağaza Gorunumünü Sil",module,Magento_Backend
+"Edit Web Site","Web sitesini düzenle",module,Magento_Backend
+"New Web Site","Yeni Web sitesi",module,Magento_Backend
 "Edit Store","Mağazayı Düzenle",module,Magento_Backend
 "New Store","Yeni Mağaza",module,Magento_Backend
 "Edit Store View","Mağaza Görünümünü Düzenle",module,Magento_Backend
 "New Store View","Yeni Mağaza Görünümü",module,Magento_Backend
 "Store Information","Mağaza Bilgisi",module,Magento_Backend
+"Web Site","Web sitesi",module,Magento_Backend
 Name,Adı,module,Magento_Backend
 "Root Category","Ana Kategori",module,Magento_Backend
 "Default Store View","Varsayılan Mağaza Görünümü",module,Magento_Backend
@@ -159,6 +180,7 @@ Status,Durum,module,Magento_Backend
 Disabled,Kapalı,module,Magento_Backend
 Enabled,"Aktif edildi",module,Magento_Backend
 "Sort Order",Sıralama,module,Magento_Backend
+"Web Site Information","Web sitesi bilgileri",module,Magento_Backend
 "Default Store","Varsayılan Mağaza",module,Magento_Backend
 "Set as Default","Varsayılan olarak Ayarla",module,Magento_Backend
 Stores,Mağazalar,module,Magento_Backend
@@ -169,6 +191,7 @@ Home,"Ana Sayfa",module,Magento_Backend
 Reset,Sıfırla,module,Magento_Backend
 "Are you sure you want to do this?","Bu işlemi yapmak istediğinizden emin misiniz?",module,Magento_Backend
 "Add New Image","Yeni Resim Ekle",module,Magento_Backend
+"Export block for grid %1 is not defined","Dışa aktarma bloğu için kılavuz %1 tanımlı değil",module,Magento_Backend
 "Reset Filter","Filtreyi Sıfırla",module,Magento_Backend
 Search,Arama,module,Magento_Backend
 Any,"Herhangi biri",module,Magento_Backend
@@ -181,14 +204,18 @@ To,Bit,module,Magento_Backend
 "We couldn't find any records.","Biz herhangi bir kayıt bulamadık.",module,Magento_Backend
 "Add New","Yeni Ekle",module,Magento_Backend
 Export,Ver,module,Magento_Backend
+"Please correct the column format and try again.","Sütun biçimini düzeltip yeniden deneyin.",module,Magento_Backend
 "Please select items.","Lütfen kayıtları seçiniz.",module,Magento_Backend
 Submit,Gönder,module,Magento_Backend
+"Unknown block type","Bilinmeyen blok türü",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empry","Lütfen sekme yapılandırmasını düzeltin ve tekrar deneyin. Sekme kimliği boş olmamalı",module,Magento_Backend
+"Please correct the tab configuration and try again.","Lütfen sekmesini yapılandırma düzeltin ve yeniden deneyin.",module,Magento_Backend
 "You have logged out.","Oturumunuz kapatıldı.",module,Magento_Backend
 "The image cache was cleaned.","Resim ön belleği temizlendi.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Resim ön belleği temizlenirken bir hata meydana geldi.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS ön belleği temizlendi.",module,Magento_Backend
 "An error occurred while clearing the JavaScript/CSS cache.","JavaScript/CSS ön belleği temizlenirken bir hata meydana geldi.",module,Magento_Backend
+"The static files cache has been cleaned.","Statik dosya önbelleği temizlendi.",module,Magento_Backend
 "The Magento cache storage has been flushed.","Magento Ön Belleği Depolama Alanını boşalt.",module,Magento_Backend
 "Cache Management","Ön Bellek Yönetimi",module,Magento_Backend
 Dashboard,Panel,module,Magento_Backend
@@ -3341,6 +3368,7 @@ Admin,Yönetim,module,Magento_Store
 "Your Language","Kullandığınız Dil",module,Magento_Store
 Language,Dil,module,Magento_Store
 "Select Store","Mağaza Seçiniz",module,Magento_Store
+"Admin is a required field in the each row","Admin her satırda gerekli bir alandır",module,Magento_Swatches
 "Is Default",Varsayılan,module,Magento_Swatches
 Delete,Sil,module,Magento_Swatches
 Options,Seçenekler,module,Magento_Swatches
@@ -4023,6 +4051,7 @@ Title,Başlık,module,Magento_Authorizenet
 "New Order Status","Yeni sipariş durumu",module,Magento_Authorizenet
 "Test Mode","Test Kipi",module,Magento_Authorizenet
 "Gateway URL","Geçit URL",module,Magento_Authorizenet
+"Transaction Details URL","İşlem ayrıntıları URL'si",module,Magento_Authorizenet
 "Accepted Currency","Kabul Edilen Para Birimi",module,Magento_Authorizenet
 Debug,"Hata Ayıklama",module,Magento_Authorizenet
 "Email Customer","Müşteriye E-posta Gönder",module,Magento_Authorizenet
