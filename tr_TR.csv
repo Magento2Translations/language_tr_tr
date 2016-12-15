@@ -25,6 +25,7 @@ major,büyük,module,Magento_AdminNotification
 minor,küçük,module,Magento_AdminNotification
 notice,bilgi,module,Magento_AdminNotification
 "Wrong message type","Hatalı mesaj tipi",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Lütfen <a href=""%1"">Ön Bellek Yönetimine </a> gidin ve ön bellek türlerini yenileyin",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Ortam depolarının senkronizasyonu tamamlandı.",module,Magento_AdminNotification
 "Close popup","Yakın açılır menüsü",module,Magento_AdminNotification
 Close,Kapat,module,Magento_AdminNotification
@@ -55,6 +56,7 @@ void,"İptal edildi",module,Magento_Authorizenet
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Authorizenet
 "Card Verification Number","Kart Güvenlik Numarası",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Hatalı Form Anahtarı. Lütfen sayfayı yenileyiniz.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Geçersiz bir gizli anahtar girdi. Lütfen sayfayı yenileyin.",module,Magento_Backend
 "Cache Storage Management","Ön Bellek Depolama Yönetimi",module,Magento_Backend
 "Flush Magento Cache","Magento Ön Belleğini Boşalt",module,Magento_Backend
 "Flush Cache Storage","Ön Bellek Deposunu Boşalt",module,Magento_Backend
@@ -71,15 +73,18 @@ Items,Ürünler,module,Magento_Backend
 Total,Toplam,module,Magento_Backend
 "Lifetime Sales","Ömürboyu Satışlar",module,Magento_Backend
 "Average Order","Ortalama sipariş",module,Magento_Backend
+Average,Ortalama,module,Magento_Backend
 Product,Ürün,module,Magento_Backend
 Price,Fiyat,module,Magento_Backend
 Quantity,Miktar,module,Magento_Backend
+Views,Görünümler,module,Magento_Backend
 Revenue,Gelir,module,Magento_Backend
 Tax,Vergi,module,Magento_Backend
 Shipping,Kargo,module,Magento_Backend
 "Images (.gif, .jpg, .png)","Resimler (.gif, .jpg, .png)",module,Magento_Backend
 "Media (.avi, .flv, .swf)","Medya (.avi, .flv, .swf)",module,Magento_Backend
 "All Files","Tüm dosyalar",module,Magento_Backend
+"Reset to Default","Varsayılanlara Sıfırla",module,Magento_Backend
 "All Store Views","Tüm Mağaza Görünümleri",module,Magento_Backend
 "What is this?","Bu nedir?",module,Magento_Backend
 "Save Account","Hesabı Kaydet",module,Magento_Backend
@@ -92,6 +97,9 @@ Email,E-posta,module,Magento_Backend
 "User Email","Kullanıcı E-posta Adresi",module,Magento_Backend
 "New Password","Yeni Şifre",module,Magento_Backend
 "Password Confirmation","Şifre (Tekrar)",module,Magento_Backend
+"Interface Locale","Yerel arabirim",module,Magento_Backend
+"Current User Identity Verification","Geçerli kullanıcı kimlik doğrulaması",module,Magento_Backend
+"Your Password",Parolanız,module,Magento_Backend
 "Save Cache Settings","Ön Bellek Ayarlarını Kaydet",module,Magento_Backend
 "Catalog Rewrites","Katalog Yeniden Yazımı",module,Magento_Backend
 Refresh,Yenile,module,Magento_Backend
@@ -114,6 +122,7 @@ Delete,Sil,module,Magento_Backend
 "Are you sure?","Emin misiniz?",module,Magento_Backend
 Save,Kaydet,module,Magento_Backend
 "Edit Design Change","Tasarım Değişimini Düzenle",module,Magento_Backend
+"New Store Design Change","Yeni mağaza tasarım değişikliği",module,Magento_Backend
 "General Settings","Genel Ayarlar",module,Magento_Backend
 Store,Mağaza,module,Magento_Backend
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Backend
@@ -123,20 +132,27 @@ Store,Mağaza,module,Magento_Backend
 "Design Change","Tasarım Değiştir",module,Magento_Backend
 General,Genel,module,Magento_Backend
 Cancel,İptal,module,Magento_Backend
+"Delete %1 '%2'","%1 '%2' sil",module,Magento_Backend
+"Delete %1","%1'i Sil",module,Magento_Backend
 "Block Information","Blok bilgi",module,Magento_Backend
 "Backup Options","Yedekleme seçenekleri",module,Magento_Backend
 "Create DB Backup","Veritabanı Yedeği Oluştur",module,Magento_Backend
 Yes,Evet,module,Magento_Backend
 No,Hayır,module,Magento_Backend
 "Delete Store","Mağazayı Sil",module,Magento_Backend
+"Delete Web Site","Web sitesini silme",module,Magento_Backend
+"Save Web Site","Web sitenizi kaydet",module,Magento_Backend
 "Save Store","Mağazayı Kaydet",module,Magento_Backend
 "Save Store View","Mağaza Görünümünü Kaydet",module,Magento_Backend
 "Delete Store View","Mağaza Gorunumünü Sil",module,Magento_Backend
+"Edit Web Site","Web sitesini düzenle",module,Magento_Backend
+"New Web Site","Yeni Web sitesi",module,Magento_Backend
 "Edit Store","Mağazayı Düzenle",module,Magento_Backend
 "New Store","Yeni Mağaza",module,Magento_Backend
 "Edit Store View","Mağaza Görünümünü Düzenle",module,Magento_Backend
 "New Store View","Yeni Mağaza Görünümü",module,Magento_Backend
 "Store Information","Mağaza Bilgisi",module,Magento_Backend
+"Web Site","Web sitesi",module,Magento_Backend
 Name,Adı,module,Magento_Backend
 "Root Category","Ana Kategori",module,Magento_Backend
 "Default Store View","Varsayılan Mağaza Görünümü",module,Magento_Backend
@@ -146,6 +162,7 @@ Status,Durum,module,Magento_Backend
 Disabled,Kapalı,module,Magento_Backend
 Enabled,"Aktif edildi",module,Magento_Backend
 "Sort Order",Sıralama,module,Magento_Backend
+"Web Site Information","Web sitesi bilgileri",module,Magento_Backend
 "Default Store","Varsayılan Mağaza",module,Magento_Backend
 "Set as Default","Varsayılan olarak Ayarla",module,Magento_Backend
 Stores,Mağazalar,module,Magento_Backend
@@ -167,8 +184,10 @@ To,Bit,module,Magento_Backend
 "Select All","Hepsini Seç",module,Magento_Backend
 "Add New","Yeni Ekle",module,Magento_Backend
 Export,Ver,module,Magento_Backend
+"Please correct the column format and try again.","Sütun biçimini düzeltip yeniden deneyin.",module,Magento_Backend
 "Please select items.","Lütfen kayıtları seçiniz.",module,Magento_Backend
 Submit,Gönder,module,Magento_Backend
+"Please correct the tab configuration and try again.","Lütfen sekmesini yapılandırma düzeltin ve yeniden deneyin.",module,Magento_Backend
 "You have logged out.","Oturumunuz kapatıldı.",module,Magento_Backend
 "The image cache was cleaned.","Resim ön belleği temizlendi.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Resim ön belleği temizlenirken bir hata meydana geldi.",module,Magento_Backend
