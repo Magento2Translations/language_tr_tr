@@ -479,6 +479,8 @@ Position,Konum,module,Magento_Catalog
 Day,Gün,module,Magento_Catalog
 Month,Ay,module,Magento_Catalog
 Year,Yıl,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>dan</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>için</span></label>",module,Magento_Catalog
 [GLOBAL],[GENEL],module,Magento_Catalog
 [WEBSITE],"[WEB SİTESİ]",module,Magento_Catalog
 "[STORE VIEW]","[MAĞAZA GÖRÜNÜMÜ]",module,Magento_Catalog
@@ -526,6 +528,7 @@ Integer,Tamsayı,module,Magento_Catalog
 "Globally Editable","Global Düzenelenebilir",module,Magento_Catalog
 "Attribute Information","Özellik Bilgisi",module,Magento_Catalog
 Properties,Özellikler,module,Magento_Catalog
+"Manage Labels","Etiketleri Yönet",module,Magento_Catalog
 Visible,Görünür,module,Magento_Catalog
 "Web Site","Web sitesi",module,Magento_Catalog
 Searchable,Aranabilir,module,Magento_Catalog
@@ -540,6 +543,7 @@ Empty,Boş,module,Magento_Catalog
 "Add Attribute","Özellik Ekle",module,Magento_Catalog
 "Add New Group","Yeni Grup Ekle",module,Magento_Catalog
 "Add Group","Grup Ekle",module,Magento_Catalog
+"For internal use","Dahili kullanım için",module,Magento_Catalog
 "Based On",Dayalı,module,Magento_Catalog
 "Add New Attribute Set","Yeni Özellik Seti Ekle",module,Magento_Catalog
 "Attribute Sets","Özellik Setleri",module,Magento_Catalog
@@ -977,6 +981,7 @@ Total,Toplam,module,Magento_Customer
 Action,Eylem,module,Magento_Customer
 Configure,Yapılandır,module,Magento_Customer
 Delete,Sil,module,Magento_Customer
+"Shopping Cart from %1","%1 üzerinden alışveriş sepeti",module,Magento_Customer
 Newsletter,Bülten,module,Magento_Customer
 "Newsletter Information","Duyuru Bilgisi",module,Magento_Customer
 "Subscribed to Newsletter","Bültenimize abone olun",module,Magento_Customer
@@ -1067,6 +1072,9 @@ Global,Genel,module,Magento_Customer
 "Please correct this email address: ""%1"".","Lütfen bu e-posta adresini düzeltin: ""%1"".",module,Magento_Customer
 Admin,Yönetim,module,Magento_Customer
 "Attribute object is undefined","Özellik nesnesi tanımlanmadı",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" geçerli bir URL değil.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" geçerli bir tarih değil.",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1"" girilen tarih biçimi uygun değil.",module,Magento_Customer
 label,etiket,module,Magento_Customer
 "Customer Group","Müşteri Grupları",module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAP eklentisi zorunludur.",module,Magento_Customer
@@ -1572,10 +1580,13 @@ Preview,"Ön İzleme",module,Magento_Newsletter
 "No Templates Found","Şablon bulunamadı.",module,Magento_Newsletter
 ID,No,module,Magento_Newsletter
 Template,Şablon,module,Magento_Newsletter
+Added,Eklendi,module,Magento_Newsletter
+Updated,Güncellendi,module,Magento_Newsletter
 Sender,Gönderici,module,Magento_Newsletter
 "Template Type","Şablon Tipi",module,Magento_Newsletter
 Action,Eylem,module,Magento_Newsletter
 "We unsubscribed the people you identified.","Belirlediğiniz insanların abone kayıtları silindi.",module,Magento_Newsletter
+"Newsletter Problems Report","Bülten Problemi Bildirimi",module,Magento_Newsletter
 "Newsletter Problem Reports","Bülten Gönderimi Problem Raporları",module,Magento_Newsletter
 "Newsletter Queue","Duyuru Kuyruğu",module,Magento_Newsletter
 "Edit Queue","Kuyruğu Düzenle",module,Magento_Newsletter
@@ -1586,6 +1597,7 @@ Subscribers,Aboneler,module,Magento_Newsletter
 "New Template","Yeni Şablon",module,Magento_Newsletter
 "Create Newsletter Template","Bülten Teması oluştur",module,Magento_Newsletter
 "Newsletter Subscription","Duyuru Aboneliği",module,Magento_Newsletter
+"We saved the subscription.","Üyeliği kaydettik.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Aboneliğiniz onaylandı.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Bu e-posta adresi başka bir kullanıcı ile ilişkilendirilmiş.",module,Magento_Newsletter
 "Please enter a valid email address.","Lütfen geçerli bir e-posta adresi giriniz.",module,Magento_Newsletter
@@ -3357,6 +3369,7 @@ Cancel,İptal,module,Magento_Catalog
 OK,TAMAM,module,Magento_Catalog
 "Please add rows to option.","Lütfen seçeneğe satır ekleyiniz.",module,Magento_Catalog
 "Please select items.","Lütfen kayıtları seçiniz.",module,Magento_Catalog
+"Create Category","Kategori Oluştur",module,Magento_Catalog
 "unselect all","tüm seçimi kaldır",module,Magento_Catalog
 "Incl. Tax","Vergi Dahil",module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","Bu adresi silmek istediğinizden emin misiniz?",module,Magento_Customer
@@ -3869,6 +3882,7 @@ Customer,Müşteri,module,Magento_Newsletter
 Subscribed,"Abone oldu.",module,Magento_Newsletter
 Unsubscribed,"Abonelik iptal edildi",module,Magento_Newsletter
 Unconfirmed,Onaylanmamış,module,Magento_Newsletter
+"Web Site","Web sitesi",module,Magento_Newsletter
 Store,Mağaza,module,Magento_Newsletter
 "Store View","Mağaza Görünümü",module,Magento_Newsletter
 "Check / Money Order","Çek / Havale",module,Magento_OfflinePayments
