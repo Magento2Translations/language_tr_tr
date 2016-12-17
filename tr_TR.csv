@@ -38,6 +38,7 @@ Close,Kapat,module,Magento_AdminNotification
 "See All (","Hepsini gör (",module,Magento_AdminNotification
 "Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","'%1' isimli model bulunamadı",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entity türü modeli  \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType bir örneği olması gerekir",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Dışarı aktarmak için uygun ürün tipi yok",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","İstediğin kullanıcı için rol bulamıyoruz.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","İzin verilen kaynaklar listesi derleme sırasında bir şeyler ters gitti. Özel durumlar günlüğünde daha fazla bilgi bulabilirsiniz.",module,Magento_Authorization
@@ -577,6 +578,8 @@ Position,Konum,module,Magento_Catalog
 Day,Gün,module,Magento_Catalog
 Month,Ay,module,Magento_Catalog
 Year,Yıl,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>dan</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>için</span></label>",module,Magento_Catalog
 [GLOBAL],[GENEL],module,Magento_Catalog
 [WEBSITE],"[WEB SİTESİ]",module,Magento_Catalog
 "[STORE VIEW]","[MAĞAZA GÖRÜNÜMÜ]",module,Magento_Catalog
@@ -600,13 +603,22 @@ label,etiket,module,Magento_Catalog
 "Unique Value (not shared with other products)","Eşsiz Değer (diğer ürünlerle paylaşılmasın)",module,Magento_Catalog
 "Not shared with other products","Diğer ürünlerle paylaşılmasın",module,Magento_Catalog
 "Input Validation for Store Owner","Yöneticiler için Veri Giriş Kontrolü",module,Magento_Catalog
+"Add to Column Options","Sütun seçeneklerine ekle",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.","Ürün kılavuzundaki sütun seçenekleri listesine bu özniteliği eklemek için ""Evet"" i seçin.",module,Magento_Catalog
+"Use in Filter Options","Filitre seçeneklerinde kullan",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of filter options in the product grid.","Ürün kılavuzundaki sütun seçenekleri listesine bu özniteliği eklemek için ""Evet"" i seçin.",module,Magento_Catalog
 "Store View","Mağaza Görünümü",module,Magento_Catalog
 Website,"Web sitesi",module,Magento_Catalog
 Global,Genel,module,Magento_Catalog
 Scope,Kapsam,module,Magento_Catalog
 "Declare attribute value saving scope","Özellik değerinin kaydedileceği kapsamı belirtiniz",module,Magento_Catalog
+"Storefront Properties","Vitrin özellikleri",module,Magento_Catalog
+"Use in Search","Aramada Kullanılsın",module,Magento_Catalog
+"Visible in Advanced Search","Gelişmiş Aramada Görünür",module,Magento_Catalog
+"Comparable on Storefront","Vitrinde karşılaştırılabilir",module,Magento_Catalog
 "Use for Promo Rule Conditions","Promosyon Kuralı Koşullarında Kullan",module,Magento_Catalog
 "Enable WYSIWYG","WYSIWYG Editörü Aç",module,Magento_Catalog
+"Allow HTML Tags on Storefront","Vitrinde HTML etiketlerine izin ver",module,Magento_Catalog
 "Used in Product Listing","Ürün Listelemede Kullanıldı",module,Magento_Catalog
 "Depends on design theme","Temaya Bağlı",module,Magento_Catalog
 "Used for Sorting in Product Listing","Ürün Listesinde Sıralama için Kullan",module,Magento_Catalog
@@ -625,6 +637,7 @@ Integer,Tamsayı,module,Magento_Catalog
 "Globally Editable","Global Düzenelenebilir",module,Magento_Catalog
 "Attribute Information","Özellik Bilgisi",module,Magento_Catalog
 Properties,Özellikler,module,Magento_Catalog
+"Manage Labels","Etiketleri Yönet",module,Magento_Catalog
 Visible,Görünür,module,Magento_Catalog
 "Web Site","Web sitesi",module,Magento_Catalog
 Searchable,Aranabilir,module,Magento_Catalog
@@ -639,8 +652,11 @@ Empty,Boş,module,Magento_Catalog
 "Add Attribute","Özellik Ekle",module,Magento_Catalog
 "Add New Group","Yeni Grup Ekle",module,Magento_Catalog
 "Add Group","Grup Ekle",module,Magento_Catalog
+"Edit Attribute Set Name","Öznitelik kümesi adını Düzenle",module,Magento_Catalog
+"For internal use","Dahili kullanım için",module,Magento_Catalog
 "Based On",Dayalı,module,Magento_Catalog
 "Add New Attribute Set","Yeni Özellik Seti Ekle",module,Magento_Catalog
+"Add Attribute Set","Öznitelik kümesine Ekle",module,Magento_Catalog
 "Attribute Sets","Özellik Setleri",module,Magento_Catalog
 "Close Window","Pencereyi Kapat",module,Magento_Catalog
 "New Product","Yeni Ürün",module,Magento_Catalog
@@ -1209,6 +1225,7 @@ region,bölge,module,Magento_Customer
 "Save Customer","Müşteriyi Kaydet",module,Magento_Customer
 "Delete Customer","Müşteriyi Sil",module,Magento_Customer
 "Reset Password","Şifre Sıfırla",module,Magento_Customer
+"Force Sign-In","Oturum açmak için zorla",module,Magento_Customer
 "New Customer","Yeni Müşteri",module,Magento_Customer
 "Save and Continue Edit","Kaydet ve Devam Et",module,Magento_Customer
 Back,Geri,module,Magento_Customer
@@ -1223,6 +1240,7 @@ Total,Toplam,module,Magento_Customer
 Action,Eylem,module,Magento_Customer
 Configure,Yapılandır,module,Magento_Customer
 Delete,Sil,module,Magento_Customer
+"Shopping Cart from %1","%1 üzerinden alışveriş sepeti",module,Magento_Customer
 Newsletter,Bülten,module,Magento_Customer
 "Newsletter Information","Duyuru Bilgisi",module,Magento_Customer
 "Subscribed to Newsletter","Bültenimize abone olun",module,Magento_Customer
@@ -1295,6 +1313,7 @@ Download,İndir,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Kayıtlı bir KDV müşteri iseniz, fatura adresi girerek ilgili KDV hesaplanması için lütfen <a href=""%1""> buraya</a> tıklayınız.",module,Magento_Customer
 "Account Information","Hesap Bilgisi",module,Magento_Customer
 "Invalid input","Geçersiz giriş",module,Magento_Customer
+"Please enter new password.","Lütfen yeni bir şifre girin.",module,Magento_Customer
 "Confirm your new password.","Yeni parolanızı onaylayın.",module,Magento_Customer
 "Something went wrong while changing the password.","Parola değiştirme sırasında bir hata oluştu.",module,Magento_Customer
 "We're unable to send the password reset email.","Parola sıfırlama e-postası gönderilemedi.",module,Magento_Customer
@@ -1313,6 +1332,8 @@ Customers,Müşteriler,module,Magento_Customer
 "Please correct the data sent.","Hatalı girişleri düzeltiniz.",module,Magento_Customer
 "Page not found.","Sayfa bulunamadı.",module,Magento_Customer
 "Online Customers","Çevrimiçi Müşteriler",module,Magento_Customer
+"Login successful.","Oturum açma başarılı.",module,Magento_Customer
+"Account already active","Hesap zaten aktif",module,Magento_Customer
 "This account is not confirmed.","Hesap doğrulanmadı.",module,Magento_Customer
 "The password doesn't match this account.","Parola bu hesapla eşleşmiyor.",module,Magento_Customer
 "The password can't begin or end with a space.","Şifrenin başında veya sonunda boşluk kullanılamaz.",module,Magento_Customer
@@ -1336,6 +1357,9 @@ Global,Genel,module,Magento_Customer
 "Please enter a gender.","Lütfen cinsiyet girin.",module,Magento_Customer
 Admin,Yönetim,module,Magento_Customer
 "Attribute object is undefined","Özellik nesnesi tanımlanmadı",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" geçerli bir URL değil.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" geçerli bir tarih değil.",module,Magento_Customer
+"""%1"" does not fit the entered date format.","""%1"" girilen tarih biçimi uygun değil.",module,Magento_Customer
 label,etiket,module,Magento_Customer
 "Customer Group","Müşteri Grupları",module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAP eklentisi zorunludur.",module,Magento_Customer
@@ -1343,7 +1367,13 @@ label,etiket,module,Magento_Customer
 "You will be charged tax.","Siparişinize vergi eklenecek.",module,Magento_Customer
 "You will not be charged tax.","Siparişinize vergi eklenmeyecek.",module,Magento_Customer
 "Your Tax ID cannot be validated.","Vergi numaranız doğrulanamadı.",module,Magento_Customer
+Male,Erkek,module,Magento_Customer
+Female,Kadın,module,Magento_Customer
+"Not Specified",Belirtilmemiş,module,Magento_Customer
+"Thank you for registering with","İle kaydolduğunuz için teşekkür ederiz",module,Magento_Customer
 "enter your billing address for proper VAT calculation","KDV'nin doğru hesaplanabilmesi için fatura adresinizi girin",module,Magento_Customer
+message,mesaj,module,Magento_Customer
+Exception,İstisna,module,Magento_Customer
 Label,Etiket,module,Magento_Customer
 Edit,Düzenle,module,Magento_Customer
 Visitor,Ziyaretçi,module,Magento_Customer
@@ -1931,11 +1961,14 @@ Preview,"Ön İzleme",module,Magento_Newsletter
 "No Templates Found","Şablon bulunamadı.",module,Magento_Newsletter
 ID,No,module,Magento_Newsletter
 Template,Şablon,module,Magento_Newsletter
+Added,Eklendi,module,Magento_Newsletter
+Updated,Güncellendi,module,Magento_Newsletter
 Sender,Gönderici,module,Magento_Newsletter
 "Template Type","Şablon Tipi",module,Magento_Newsletter
 Action,Eylem,module,Magento_Newsletter
 "Queue Newsletter","Duyuru Kuyruğu",module,Magento_Newsletter
 "We unsubscribed the people you identified.","Belirlediğiniz insanların abone kayıtları silindi.",module,Magento_Newsletter
+"Newsletter Problems Report","Bülten Problemi Bildirimi",module,Magento_Newsletter
 "Newsletter Problem Reports","Bülten Gönderimi Problem Raporları",module,Magento_Newsletter
 "Newsletter Queue","Duyuru Kuyruğu",module,Magento_Newsletter
 "Edit Queue","Kuyruğu Düzenle",module,Magento_Newsletter
@@ -1947,6 +1980,7 @@ Subscribers,Aboneler,module,Magento_Newsletter
 "New Template","Yeni Şablon",module,Magento_Newsletter
 "Create Newsletter Template","Bülten Teması oluştur",module,Magento_Newsletter
 "Newsletter Subscription","Duyuru Aboneliği",module,Magento_Newsletter
+"We saved the subscription.","Üyeliği kaydettik.",module,Magento_Newsletter
 "Your subscription has been confirmed.","Aboneliğiniz onaylandı.",module,Magento_Newsletter
 "This email address is already assigned to another user.","Bu e-posta adresi başka bir kullanıcı ile ilişkilendirilmiş.",module,Magento_Newsletter
 "Please enter a valid email address.","Lütfen geçerli bir e-posta adresi giriniz.",module,Magento_Newsletter
@@ -3993,6 +4027,7 @@ Submit,Gönder,module,Magento_Catalog
 OK,TAMAM,module,Magento_Catalog
 "Please add rows to option.","Lütfen seçeneğe satır ekleyiniz.",module,Magento_Catalog
 "Please select items.","Lütfen kayıtları seçiniz.",module,Magento_Catalog
+"Create Category","Kategori Oluştur",module,Magento_Catalog
 "unselect all","tüm seçimi kaldır",module,Magento_Catalog
 "Incl. Tax","Vergi Dahil",module,Magento_ConfigurableProduct
 Done,Yapıldı,module,Magento_ConfigurableProduct
@@ -4618,6 +4653,7 @@ Customer,Müşteri,module,Magento_Newsletter
 Subscribed,"Abone oldu.",module,Magento_Newsletter
 Unsubscribed,"Abonelik iptal edildi",module,Magento_Newsletter
 Unconfirmed,Onaylanmamış,module,Magento_Newsletter
+"Web Site","Web sitesi",module,Magento_Newsletter
 Store,Mağaza,module,Magento_Newsletter
 "Store View","Mağaza Görünümü",module,Magento_Newsletter
 "Newsletter Subscriptions","Bülten Abonelikleri",module,Magento_Newsletter
