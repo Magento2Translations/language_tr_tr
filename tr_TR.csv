@@ -1975,6 +1975,7 @@ Action,Eylem,module,Magento_Newsletter
 "Newsletter Subscribers","Duyuru Aboneleri",module,Magento_Newsletter
 Newsletter,Bülten,module,Magento_Newsletter
 Subscribers,Aboneler,module,Magento_Newsletter
+"The newsletter template has been deleted.","Bülten Şablonu silindi.",module,Magento_Newsletter
 "We can't delete this template right now.","Bu şablon şu anda silinemiyor.",module,Magento_Newsletter
 "Edit Template","Şablonu Düzenle",module,Magento_Newsletter
 "New Template","Yeni Şablon",module,Magento_Newsletter
