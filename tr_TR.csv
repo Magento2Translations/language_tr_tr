@@ -317,9 +317,6 @@ Authorize,Yetkilendir,module,Magento_Braintree
 "Authorize and Capture","Provizyon al ve Ödemeyi Al",module,Magento_Braintree
 "--Please Select--","--Lütfen Seçiniz--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Braintree
-"Paypal account","PayPal hesabı",module,Magento_Braintree
-"Europe bank account","Avrupa banka hesabı",module,Magento_Braintree
-"Credit card","Kredi kartı",module,Magento_Braintree
 "Credit Card Type","Kredi Kartı Tipi",module,Magento_Braintree
 "Credit Card Number","Kredi Kartı Numarası",module,Magento_Braintree
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Braintree
@@ -3227,22 +3224,16 @@ Error:,Hata:,module,Magento_Shipping
 "contact us","Bize Ulaşın",module,Magento_Shipping
 Info:,Bilgi:,module,Magento_Shipping
 Track:,"Takip et:",module,Magento_Shipping
-Status:,Durum:,module,Magento_Shipping
 "Delivered on:","Teslim Edildiği Tarih:",module,Magento_Shipping
-"Signed by:",İmzalayan:,module,Magento_Shipping
-"Delivered to:","Teslim Alan:",module,Magento_Shipping
-"Shipped or billed on:","Kargolama veya Faturalama Yeri:",module,Magento_Shipping
-"Service Type:","Hizmet Tipi:",module,Magento_Shipping
-Weight:,Ağırlık:,module,Magento_Shipping
 N/A,"Mevcut Değil",module,Magento_Shipping
+"There is no tracking available for this shipment.","Bu kargo için izleme bilgisi kullanılamıyor.",module,Magento_Shipping
+"There is no tracking available.","İzleme yok.",module,Magento_Shipping
+"Close Window","Pencereyi Kapat",module,Magento_Shipping
 "Track history","Geçmişi takip et",module,Magento_Shipping
 Location,Konum,module,Magento_Shipping
 Date,Tarih,module,Magento_Shipping
 "Local Time","Yerel Saat",module,Magento_Shipping
 Description,Açıklama,module,Magento_Shipping
-"There is no tracking available for this shipment.","Bu kargo için izleme bilgisi kullanılamıyor.",module,Magento_Shipping
-"There is no tracking available.","İzleme yok.",module,Magento_Shipping
-"Close Window","Pencereyi Kapat",module,Magento_Shipping
 "Save & Generate","Kaydet & Üret",module,Magento_Sitemap
 "Edit Sitemap","Site Haritası Düzenle",module,Magento_Sitemap
 "New Sitemap","Yeni site haritası",module,Magento_Sitemap
@@ -3279,8 +3270,8 @@ All,Tümü,module,Magento_Sitemap
 "All Store Views","Tüm Mağaza Görünümleri",module,Magento_Store
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Store
 Admin,Yönetim,module,Magento_Store
-"More than one default website is defined","Birden fazla varsayılan Web sitesi tanımlı",module,Magento_Store
 "Default website is not defined","Varsayılan Web sitesi tanımlı değil",module,Magento_Store
+"More than one default website is defined","Birden fazla varsayılan Web sitesi tanımlı",module,Magento_Store
 "Your Language:","Seçilen Dil:",module,Magento_Store
 "Your Language","Kullandığınız Dil",module,Magento_Store
 Language,Dil,module,Magento_Store
@@ -3751,12 +3742,9 @@ Yes,Evet,module,Magento_Variable
 "Validation has failed.","Doğrulama yapılamadı.",module,Magento_Variable
 "Insert Variable...","Değişken ekle...",module,Magento_Variable
 "Wrong request.","Yanlış istek.",module,Magento_Vault
-"Credit Card was successfully removed","Kredi kartı başarılı bir şekilde kaldırıldı",module,Magento_Vault
-"My Credit Cards","Kredi kartlarım",module,Magento_Vault
 "Card Number","Kart numarası",module,Magento_Vault
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Vault
 Type,Tip,module,Magento_Vault
-"You have no credit cards.","Kredi kartı bulunmamaktadır.",module,Magento_Vault
 Actions,İşlemler,module,Magento_Vault
 Delete,Sil,module,Magento_Vault
 "Requested service is not available: ""%1""","İstenen ""%1"" hizmeti kullanılabilir değil",module,Magento_Webapi
@@ -3895,7 +3883,6 @@ Close,Kapat,module,Magento_Checkout
 "Options Details","Seçeneklerin Detayları",module,Magento_Checkout
 Remove,Kaldır,module,Magento_Checkout
 "Cart Subtotal","Alışveriş Sepeti alt toplam",module,Magento_Checkout
-"No Payment Methods","Herhangi bir Ödeme Yöntemi bulunamadı",module,Magento_Checkout
 "Payment Information","Ödeme Bilgisi",module,Magento_Checkout
 "You can track your order status by creating an account.","Bir hesap oluşturarak siparişinizin durumunu kontrol edebilirsiniz.",module,Magento_Checkout
 "Place Order","Sipariş Ver",module,Magento_Checkout
@@ -4726,18 +4713,16 @@ Manage,Yönet,module,Magento_Paypal
 "Merchant Location","Satıcı Lokasyonu",module,Magento_Paypal
 "Merchant Country","Satıcı Ülkesi",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Eğer tanımlanmamışsa, ana yapılandırmadaki varsayılan ülke kullanılacaktır",module,Magento_Paypal
-"Choose a secure bundled payment solution for your business.","Bu işlem için güvenli birleştirilmiş bir ödeme seçeneği seçiniz.",module,Magento_Paypal
-"Basic Settings - PayPal Payments Pro","Başlangıç Ayarları - PayPal Payments Pro",module,Magento_Paypal
-"PayPal Payment Gateways","PayPal Tahsilat Servisi",module,Magento_Paypal
-"Process payments using your own internet merchant account.","Ödeme işlemleri için sizin internet satıcı hesabınız kullanılıyor.",module,Magento_Paypal
 "PayPal Express Checkout","PayPal Ekspres Ödeme",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Mevcut çözüme veya tekil seçeneğe alternatif ödeme metodu ekle",module,Magento_Paypal
+"Choose a secure bundled payment solution for your business.","Bu işlem için güvenli birleştirilmiş bir ödeme seçeneği seçiniz.",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro","Başlangıç Ayarları - PayPal Payments Pro",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Ödemeleri tamamıyla özelleştirilmiş alışverişi sonlandır sayfasıyla abul et.",module,Magento_Paypal
-"PayPal Payment Solutions","PayPal Tahsilat Çözümleri",module,Magento_Paypal
+"Process payments using your own internet merchant account.","Ödeme işlemleri için sizin internet satıcı hesabınız kullanılıyor.",module,Magento_Paypal
 "Express Checkout","Ekspres Ödeme",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Alışverişi sonlandır sayfanıza alternatif ödeme yöntemi olarak Paypal 'ı ekle",module,Magento_Paypal
 "Required PayPal Settings","Paypal Ayarları Zorunludur",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account","E-posta Adresi PayPal Ticari Hesapla Bağlantılı",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","E-posta Associated with PayPal Merchant Account (Opsiyonel)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Bir PayPal hesabınız yok mu? Sadce e-posta adresinizi giriniz.",module,Magento_Paypal
 "API Authentication Methods","API Doğrulama Yöntemleri",module,Magento_Paypal
 "API Username","API Kullanıcı Adı",module,Magento_Paypal
@@ -4806,8 +4791,6 @@ Schedule,Zamanlama,module,Magento_Paypal
 "Header Border Color","Başlık Çerçeve Rengi",module,Magento_Paypal
 "2-pixel perimeter around the header space.","Başlık alanına 2 piksel boşluk bırak.",module,Magento_Paypal
 "Page Background Color","Sayfa Arka Plan Rengi",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","Payments Advanced (Express Checkout Dahil)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","Sitenizde müşterilerinizi tutabilmek için PCI uyumlu alışveriş sayfası ile ödemeleri kabul edin",module,Magento_Paypal
 Partner,"Çözüm Ortağı",module,Magento_Paypal
 Vendor,Tedarikçi,module,Magento_Paypal
 User,Kullanıcı,module,Magento_Paypal
@@ -4821,25 +4804,19 @@ User,Kullanıcı,module,Magento_Paypal
 "Require CVV Entry","CVV Bilgisi iste",module,Magento_Paypal
 "Send Email Confirmation","E-posta Onayı Gönder",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","İptal ve Dönüş işlem URL si için URL metodu",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","Payflow Link (Express Checkout Dahil)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Satıcı hesabınızla, müşterilerinizin siteden ayrılmadan PCI uyumlu ödeme seçeneği ile bağlayın",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","E-posta Associated with PayPal Merchant Account (Opsiyonel)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Hesabında tanımlanmış çoklu kullanıcı mevcut değilse, lütfen tedarikçi/satıcı hesap girişini yeniden yapınız.",module,Magento_Paypal
 "Enable Payflow Link","Payflow Link Aktif et",module,Magento_Paypal
 "Enable Express Checkout","Express Checkout Aktif et",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Başlangıç Ayarları - PayPal Payflow Link",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Website Payments Pro Hosted Çözüm",module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","Sitenizde müşterilerinizi tutabilmek için PCI uyumlu alışveriş sayfası ile ödemeleri kabul edin",module,Magento_Paypal
 "Payments Pro Hosted Solution","Payments Pro Hosted Çözümü",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Başlangıç Ayarları - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Ödeme Bilgisi adımında Express Checkout u göster",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution ve Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Başlangıç Ayarları - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Satıcı hesabınızla, müşterilerinizin siteden ayrılmadan tamamen özelleştirilebilen ödeme seçeneği ile bağlayın",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Başlangıç Ayarları - PayPal Payflow Pro",module,Magento_Paypal
 "Credit Card Settings","Kredi Kartı Ayarları",module,Magento_Paypal
 "Allowed Credit Card Types","Kullanılabilen Kart Tipleri",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (Express Checkout Dahil)",module,Magento_Paypal
 "Persistent Shopping Cart","Kalıcı Sepet",module,Magento_Persistent
 "General Options","Genel Seçenekler",module,Magento_Persistent
 "Enable Persistence","Kalıcı Oturum özelliğini aç",module,Magento_Persistent
