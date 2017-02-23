@@ -321,6 +321,8 @@ Authorize,Yetkilendir,module,Magento_Braintree
 "Credit Card Number","Kredi Kartı Numarası",module,Magento_Braintree
 "Expiration Date","Son Kullanma Tarihi",module,Magento_Braintree
 "Card Verification Number","Kart Güvenlik Numarası",module,Magento_Braintree
+Actions,İşlemler,module,Magento_Braintree
+Delete,Sil,module,Magento_Braintree
 "Percent Discount","İndirim oranı",module,Magento_Bundle
 "-- Select --","-- Seçiniz --",module,Magento_Bundle
 Dynamic,Dinamik,module,Magento_Bundle
@@ -875,6 +877,7 @@ Checkout,Alışveriş,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Siparişi tamamlamak için Satış Şartları ve Koşullarını kabul etmeniz gerekmektedir.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Siparişiniz işleme sırasında bir şeyler ters gitti. Lütfen daha sonra yeniden deneyin.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 \Magento\Checkout\CustomerData\ItemInterface genişletilemiyor",module,Magento_Checkout
+"Payment Method","Tahsilat Yöntemi",module,Magento_Checkout
 "We can't find the product.","Ürün bulunamıyor.",module,Magento_Checkout
 "The product does not exist.","Ürüne kaydına ulaşılamıyor.",module,Magento_Checkout
 "We don't have some of the products you want.","İstediğiniz ürünlerden bazıları yok.",module,Magento_Checkout
@@ -890,7 +893,6 @@ Checkout,Alışveriş,module,Magento_Checkout
 "Load customer quote error","Müşteri sepeti yükleme hatası",module,Magento_Checkout
 "Error message!","Hata mesajı!",module,Magento_Checkout
 Error!,Hata!,module,Magento_Checkout
-"Wrong minimum amount.","Yanlış minimum tutar.",module,Magento_Checkout
 Message,Mesaj,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> fatura yazdır</a>",module,Magento_Checkout
 "Apply Discount Code","İndirim kodu kullanın",module,Magento_Checkout
@@ -1222,12 +1224,6 @@ Customers,Müşteriler,module,Magento_Customer
 "This account is not confirmed.","Hesap doğrulanmadı.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","Lütfen, %1 karakterli bir parola girin.",module,Magento_Customer
 "The password can't begin or end with a space.","Şifrenin başında veya sonunda boşluk kullanılamaz.",module,Magento_Customer
-"Please enter the first name.","Lütfen adı giriniz.",module,Magento_Customer
-"Please enter the last name.","Lütfen soyadı giriniz.",module,Magento_Customer
-"Please enter the street.","Lütfen adres bilgisi giriniz.",module,Magento_Customer
-"Please enter the city.","Lütfen şehir giriniz.",module,Magento_Customer
-"Please enter the zip/postal code.","Lütfen Posta Kodu giriniz.",module,Magento_Customer
-"Please enter the country.","Lütfen ülke giriniz.",module,Magento_Customer
 "Please enter the state/province.","Lütfen Şehir giriniz.",module,Magento_Customer
 Global,Genel,module,Magento_Customer
 "Per Website","Websitesi Başına",module,Magento_Customer
@@ -2594,7 +2590,6 @@ Auto,Otomatik,module,Magento_SalesRule
 Subtotal,"Ara Toplam",module,Magento_SalesRule
 "Total Items Quantity","Toplam Ürün Miktarı",module,Magento_SalesRule
 "Total Weight","Toplam Ağırlık",module,Magento_SalesRule
-"Payment Method","Tahsilat Yöntemi",module,Magento_SalesRule
 "Shipping Method","Teslimat Yöntemi",module,Magento_SalesRule
 "Shipping Postcode","Kargo Posta Kodu",module,Magento_SalesRule
 "Shipping Region","Kargo Bölgesi",module,Magento_SalesRule
@@ -3559,9 +3554,6 @@ Store,Mağaza,module,Magento_UrlRewrite
 "URL Rewrite Management","URL yeniden yazım yönetimi",module,Magento_UrlRewrite
 "Add URL Rewrite","URL Yeniden Yazma Ekle",module,Magento_UrlRewrite
 Custom,Özel,module,Magento_UrlRewrite
-"For category","Kategori için",module,Magento_UrlRewrite
-"For product","Ürün için",module,Magento_UrlRewrite
-"Create URL Rewrite:","URL yeniden yazım ekle:",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","URL yeniden yazım kaydedildi.",module,Magento_UrlRewrite
 No,Hayır,module,Magento_UrlRewrite
 "Temporary (302)","Geçici (302)",module,Magento_UrlRewrite
@@ -3707,7 +3699,6 @@ Letter,Mektup,module,Magento_Usps
 Flat,Sabit,module,Magento_Usps
 Parcel,Paket,module,Magento_Usps
 Variable,Değişken,module,Magento_Usps
-"Flat-Rate Box","Sabit Fiyat Kutusu",module,Magento_Usps
 "Flat-Rate Envelope","Sabit Fiyatlı Zarf",module,Magento_Usps
 Rectangular,Dikdörtgen,module,Magento_Usps
 Non-rectangular,"Dikdörtgen olmayan",module,Magento_Usps
@@ -3876,10 +3867,6 @@ Update,Güncelle,module,Magento_Checkout
 Cancel,İptal,module,Magento_Checkout
 "Save in address book","Adres defterine kaydet",module,Magento_Checkout
 Login,Giriş,module,Magento_Checkout
-Close,Kapat,module,Magento_Checkout
-"Go to Checkout","Satın Al",module,Magento_Checkout
-"Recently added item(s)","Daha önce eklenen ürünler",module,Magento_Checkout
-"View and edit cart","Sepeti görüntüleyin ve düzenleyin",module,Magento_Checkout
 "Options Details","Seçeneklerin Detayları",module,Magento_Checkout
 Remove,Kaldır,module,Magento_Checkout
 "Cart Subtotal","Alışveriş Sepeti alt toplam",module,Magento_Checkout
@@ -3894,8 +3881,6 @@ Remove,Kaldır,module,Magento_Checkout
 "Shipping Methods","Teslimat Yöntemleri",module,Magento_Checkout
 Next,Sonraki,module,Magento_Checkout
 "Order Summary","Sipariş Özeti",module,Magento_Checkout
-"Item in Cart","Sepetteki Ürünler",module,Magento_Checkout
-"Items in Cart","Sepetteki Ürünler",module,Magento_Checkout
 "View Details","Detayları Göster",module,Magento_Checkout
 "Contact Form","İletişim Formu",module,Magento_Contact
 "Name: %name","Adı: %name",module,Magento_Contact
@@ -4334,7 +4319,6 @@ Details,Detaylar,module,Magento_Catalog
 "Display Cart Summary","Sepet Özetini Göster",module,Magento_Checkout
 "Shopping Cart Sidebar","Alışveriş Sepeti Kolon Kutusu",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Yan Kolonda Alışveriş Sepeti Kutusunu Göster",module,Magento_Checkout
-"Maximum Display Recently Added Item(s)","En son Eklenen Ürünlerin En Fazla Gösterimi",module,Magento_Checkout
 "Payment Failed Emails","Başarısız Ödeme E-posta Adresleri",module,Magento_Checkout
 "Payment Failed Email Sender","Başarısız Ödeme E-posta Göndericisi",module,Magento_Checkout
 "Payment Failed Template","Başarısız Ödeme Şablonu",module,Magento_Checkout
@@ -5082,13 +5066,10 @@ Rate,Oran,module,Magento_Tax
 Empty,Boş,module,Magento_Theme
 "1 column","1 kolon",module,Magento_Theme
 Configuration,Yapılandırma,module,Magento_Theme
-"Search Engine Robots","Arama motoru robotları",module,Magento_Theme
 "Default Robots","Varsayılan Robotlar",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Bu alandaki veriler head kapatma verisinden önceki alana yerleştirilecektir.",module,Magento_Theme
-"Reset to Defaults","Varsayılanlara Sıfırla",module,Magento_Theme
 "Default Description","Varsayılan Meta Açıklama (Description)",module,Magento_Theme
 "Default welcome msg!",Hoşgeldiniz!,module,Magento_Theme
-"Copyright © 2016 Magento. All rights reserved.","Copyright © Magento 2016. Tüm hakları saklıdır.",module,Magento_Theme
 "Admin empty","Admin boş",module,Magento_Theme
 "Admin 1column","Admin 1colon",module,Magento_Theme
 "Theme Information","Tema bilgileri",module,Magento_Theme
@@ -5105,8 +5086,6 @@ Configuration,Yapılandırma,module,Magento_Theme
 Header,Başlık,module,Magento_Theme
 "Logo Image","Logo Resim Dosyası",module,Magento_Theme
 "Allowed file types: png, gif, jpg, jpeg, svg.","İzin verilen dosya türleri: png, Gif, jpg, jpeg, svg.",module,Magento_Theme
-"Logo Image Width","Logo resim genişliği",module,Magento_Theme
-"Logo Image Height","Logo resim yüksekliği",module,Magento_Theme
 "Welcome Text","Karşılama Yazısı",module,Magento_Theme
 "Logo Image Alt","Logo Dosyası Alt Açıklaması",module,Magento_Theme
 Footer,"Alt Kısım",module,Magento_Theme
