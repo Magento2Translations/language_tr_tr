@@ -1799,6 +1799,7 @@ Items,Ürünler,module,Magento_Multishipping
 "Thank you for your purchase!","Siparişiniz için teşekkür ederiz !",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Siparişiniz için teşekkürler. Sipariş ayrıntıları ve izleme bilgilerini e-posta ile göndereceğiz.",module,Magento_Multishipping
 "Continue Shopping","Alışverişe Devam",module,Magento_Multishipping
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","New Relic Uygulama Kimliği yapılandırılmamış, Cron Olay raporlama ile devam edemiyor",module,Magento_NewRelicReporting
 "Delete Selected Problems","Seçilen Problemleri Sil",module,Magento_Newsletter
 "Unsubscribe Selected","Seçilen Abonelikleri İptal et",module,Magento_Newsletter
 Back,Geri,module,Magento_Newsletter
@@ -2622,6 +2623,7 @@ FOUND,BULUNDU,module,Magento_SalesRule
 "Buy X get Y free (discount amount is Y)","X 'i alırsanız Y hediye (indirim tutarı Y 'nin fiyatıdır)",module,Magento_SalesRule
 Active,Aktif,module,Magento_SalesRule
 Inactive,Pasif,module,Magento_SalesRule
+"Entity Sequence profile not added to meta active profile","Varlık Sırası profili meta etkin profiline eklenmez",module,Magento_SalesSequence
 "Credit Memos","İade Kayıtları",module,Magento_Sales
 Orders,Siparişler,module,Magento_Sales
 Invoices,Faturalar,module,Magento_Sales
