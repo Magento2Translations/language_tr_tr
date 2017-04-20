@@ -3869,6 +3869,7 @@ Update,Güncelle,module,Magento_Checkout
 Cancel,İptal,module,Magento_Checkout
 "Save in address book","Adres defterine kaydet",module,Magento_Checkout
 Login,Giriş,module,Magento_Checkout
+"Go to Checkout","Satın Al",module,Magento_Checkout
 "Options Details","Seçeneklerin Detayları",module,Magento_Checkout
 Remove,Kaldır,module,Magento_Checkout
 "Cart Subtotal","Alışveriş Sepeti alt toplam",module,Magento_Checkout
