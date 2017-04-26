@@ -3885,6 +3885,7 @@ Remove,Kaldır,module,Magento_Checkout
 "Shipping Methods","Teslimat Yöntemleri",module,Magento_Checkout
 Next,Sonraki,module,Magento_Checkout
 "Order Summary","Sipariş Özeti",module,Magento_Checkout
+"Item in Cart","Sepetteki Ürünler",module,Magento_Checkout
 "View Details","Detayları Göster",module,Magento_Checkout
 "Contact Form","İletişim Formu",module,Magento_Contact
 "Name: %name","Adı: %name",module,Magento_Contact
