@@ -377,11 +377,11 @@ From:,Kimden:,module,Magento_Bundle
 To:,Kime:,module,Magento_Bundle
 Message:,Mesaj:,module,Magento_Bundle
 Always,"Her zaman",module,Magento_Captcha
-"After number of attempts to login","Belli sayıda başarısız giriş denemesinden sonra",module,Magento_Captcha
+"After number of attempts to login","Belli sayıda giriş denemesinden sonra",module,Magento_Captcha
 "Incorrect CAPTCHA","Yanlış CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Hatalı CAPTCHA.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Dikkat</strong>: Resim onayı (CAPTCHA) büyük/küçük harfe duyarlıdır.",module,Magento_Captcha
-"Reload captcha","Captcha yı yeniden yükle",module,Magento_Captcha
+"Reload captcha","Captcha' yı yeniden yükle",module,Magento_Captcha
 "Please type the letters below","Lütfen harfleri aşağıya yazınız",module,Magento_Captcha
 "ALL GROUPS","TÜM GRUPLAR",module,Magento_CatalogInventory
 "Customer Group","Müşteri Grupları",module,Magento_CatalogInventory
@@ -3527,6 +3527,7 @@ Debug,"Hata Ayıklama",module,Magento_Braintree
 "Payment from Applicable Countries","Mümkün olan Ülkelerden Tahsilat",module,Magento_Braintree
 "Payment from Specific Countries","Sadece Seçilen Ülkelerden Tahsilat",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Yönetici girişi için CAPTCHA kullan",module,Magento_Captcha
+Font,"Yazı tipi",module,Magento_Captcha
 Forms,Formlar,module,Magento_Captcha
 "Displaying Mode","Gösterim Modu",module,Magento_Captcha
 "Number of Unsuccessful Attempts to Login","Başarısız giriş denemesi sayısı",module,Magento_Captcha
@@ -3534,8 +3535,10 @@ Forms,Formlar,module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","CAPTCHA Zaman aşımı (dakika)",module,Magento_Captcha
 "Number of Symbols","Harf sayısı",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Lütfen en fazla 8 karakter seçiniz. Aralık da girebilirsiniz (Örnek: 3-5)",module,Magento_Captcha
-"Symbols Used in CAPTCHA","CAPTCHA da semboller kullanıldı",module,Magento_Captcha
+"Symbols Used in CAPTCHA","CAPTCHA'da semboller kullanıldı",module,Magento_Captcha
 "Case Sensitive","Büyük/Küçük harfe duyarlı",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","CAPTCHA yı mağazada etkinleştirme",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA ""Kullanıcı oluştur"" ve ""Şifremi unuttum"" formları için her zaman tercih etkinleştirilir.",module,Magento_Captcha
 Inventory,Envanter,module,Magento_CatalogInventory
 "Stock Options","Stok Seçenekleri",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Sipariş verildiğinde stoğu düşür",module,Magento_CatalogInventory
