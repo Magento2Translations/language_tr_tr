@@ -460,12 +460,13 @@ Subtotal,"Ara Toplam",module,Magento_Bundle
 "Qty Invoiced","Faturalanan Adet",module,Magento_Bundle
 "Qty Shipped","Kargolanan Adet",module,Magento_Bundle
 Always,"Her zaman",module,Magento_Captcha
-"After number of attempts to login","Belli sayıda başarısız giriş denemesinden sonra",module,Magento_Captcha
+"After number of attempts to login","Belli sayıda giriş denemesinden sonra",module,Magento_Captcha
+"Provided form does not exist","Sağlanan form mevcut değil",module,Magento_Captcha
 "Incorrect CAPTCHA","Yanlış CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Hatalı CAPTCHA.",module,Magento_Captcha
-"Please enter the letters from the image","Lütfen görüntüdeki harfleri girin",module,Magento_Captcha
+"Please enter the letters from the image","Lütfen resimdeki harfleri girin",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Dikkat</strong>: Resim onayı (CAPTCHA) büyük/küçük harfe duyarlıdır.",module,Magento_Captcha
-"Reload captcha","Captcha yı yeniden yükle",module,Magento_Captcha
+"Reload captcha","Captcha' yı yeniden yükle",module,Magento_Captcha
 "Please type the letters below","Lütfen harfleri aşağıya yazınız",module,Magento_Captcha
 "Entity type model '%1' is not found","'%1' isimli model bulunamadı",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Dosya dizini '%1' okunabilir değil.",module,Magento_CatalogImportExport
@@ -3997,29 +3998,33 @@ Email:,E-posta:,theme,frontend/Magento/luma
 Password:,Şifre:,theme,frontend/Magento/luma
 "Password you set when creating account","Hesabı yaratırken belirlediğiniz Parola",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Şifrenizi mi unuttunuz? Sıfırlamak için <a href=""%reset_url""> burada</a> tıklayın.",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","Hesabınızda oturum açtığınızda, şunu yapabileceksiniz:",theme,frontend/Magento/luma
 "Quick Checkout","Hızlı ödeme",theme,frontend/Magento/luma
 "Proceed through checkout faster","Ödemeye hızla devam edin",theme,frontend/Magento/luma
 "Order Status","Sipariş Durumu",theme,frontend/Magento/luma
 "Check the status of orders","Sipariş durumunu denetleyin",theme,frontend/Magento/luma
 "Manage Addresses","Adresleri Yönet",theme,frontend/Magento/luma
 "Store alternative addresses","Dükkanın alternatif adresi",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","Birden fazla aile bireyleri ve arkadaşlara nakliye için",theme,frontend/Magento/luma
 "Order History","Sipariş Geçmişi",theme,frontend/Magento/luma
 "View past orders","Eski siparişleri gör",theme,frontend/Magento/luma
 "About Us",Hakkımızda,theme,frontend/Magento/luma
 "Customer Service","Müşteri Hizmetleri",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Çalışma saatleri: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","%store_name den verdiğiniz sipariş için teşekkür ederiz.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url""> hesabınıza oturum</a> açarak siparişinizin durumunu kontrol edebilirsiniz.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Sipariş hakkında sorularınız varsa, <a href=""mailto:%store_email""> %store_email</a> e-posta gönderebilirsiniz.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","#%creditmemo_id No lu fatura için sipariş numarası #%order_id",theme,frontend/Magento/luma
 "Billing Info","Faturalandırma Bilgileri",theme,frontend/Magento/luma
 "Shipping Info","Gönderi Bilgisi",theme,frontend/Magento/luma
-"Payment Method","Tahsilat Yöntemi",theme,frontend/Magento/luma
-"Shipping Method","Teslimat Yöntemi",theme,frontend/Magento/luma
+"Payment Method","Ödeme Yöntemi",theme,frontend/Magento/luma
+"Shipping Method","Kargo Yöntemi",theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","#%increment_id siparişinizin durumu <strong>%order_status</strong> olarak güncellendi.",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","#%order_id siparişine ait #%invoice_id numaralı fatura",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Paketiniz sevkedildiğinde size bir takip numarası göndereceğiz.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Siparişiniz <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","<span class=""no-link"">%created_at da </span> Yerleştirilen",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Gönderi bilgileriniz aşşağıdadır. Alışverişiniz için teşekkür ederiz.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Gönderi bilgileriniz aşağıdadır. Alışverişiniz için teşekkür ederiz.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","#%order_id numaralı siparişiniz için gönderi numaranız: #%shipment_id",theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","Biz tanımak değil veya bu dosya uzantısı türünü destekleyen.",module,Magento_Backend
 Ok,Tamam,module,Magento_Catalog
@@ -4227,6 +4232,7 @@ Debug,"Hata Ayıklama",module,Magento_Braintree
 "Require Customer's Billing Address","Müşterinin Fatura Adresini İste",module,Magento_Braintree
 "Edit My Credit Cards","Kredi kartlarım Düzenle",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Yönetici girişi için CAPTCHA kullan",module,Magento_Captcha
+Font,"Yazı tipi",module,Magento_Captcha
 Forms,Formlar,module,Magento_Captcha
 "Displaying Mode","Gösterim Modu",module,Magento_Captcha
 "Number of Unsuccessful Attempts to Login","Başarısız giriş denemesi sayısı",module,Magento_Captcha
@@ -4234,8 +4240,10 @@ Forms,Formlar,module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","CAPTCHA Zaman aşımı (dakika)",module,Magento_Captcha
 "Number of Symbols","Harf sayısı",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Lütfen en fazla 8 karakter seçiniz. Aralık da girebilirsiniz (Örnek: 3-5)",module,Magento_Captcha
-"Symbols Used in CAPTCHA","CAPTCHA da semboller kullanıldı",module,Magento_Captcha
+"Symbols Used in CAPTCHA","CAPTCHA'da semboller kullanıldı",module,Magento_Captcha
 "Case Sensitive","Büyük/Küçük harfe duyarlı",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","CAPTCHA yı mağazada etkinleştirme",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA ""Kullanıcı oluştur"" ve ""Şifremi unuttum"" formları için her zaman tercih etkinleştirilir.",module,Magento_Captcha
 Inventory,Envanter,module,Magento_CatalogInventory
 "Stock Options","Stok Seçenekleri",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Sipariş verildiğinde stoğu düşür",module,Magento_CatalogInventory
