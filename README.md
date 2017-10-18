@@ -12,16 +12,17 @@ There have been  4357 strings translated of the 7782 strings in the Magento sour
 Translation progress:![Progress](http://progressed.io/bar/56)
 
 # Instalation
+**Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_tr_tr:dev-master
+composer require magento2translations/language_tr_tr:2.0.7.x-dev
 php bin/magento cache:clean
 ```
 ## Manually
 To install this language package manually you need access to your server file system.
-* Download the zip file [here](https://github.com/Magento2Translations/language_tr_tr/archive/master.zip).
+* Download the zip file [here](https://github.com/Magento2Translations/language_tr_tr/archive/2.0.7.zip).
 * Upload the contents to `<your magento path>/app/i18n/magento2translations/language_tr_tr`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/tr_TR/tr_TR.csv`.
 * Go to your Magento admin panel and clear the caches.
