@@ -5918,6 +5918,7 @@ No,Hayır,module,Magento_Usps
 Required,zorunlu,module,Magento_Usps
 "For some reason we can't retrieve tracking info right now.","Bazı sebeblerden dolayı şu anda izleme bilgisini alamıyoruz.",module,Magento_Usps
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Üzgünüm, bir şeyler ters gitti. Lütfen tekrar deneyin veya bize ulaşın, yardım etmeye çalışacağız.",module,Magento_Usps
+track_summary,"parça özeti",module,Magento_Usps
 "Empty response","Boş cevap",module,Magento_Usps
 "Service type does not match","Hizmet tipi eşleşmiyor",module,Magento_Usps
 Merchandise,Mal,module,Magento_Usps
@@ -5971,6 +5972,7 @@ Delete,Sil,module,Magento_Vault
 "Invalid XML: Detected use of illegal DOCTYPE","Geçersiz XML: Yasadışı DOCTYPE kullanımını algılandı",module,Magento_Webapi
 message,mesaj,module,Magento_Webapi
 Message,Mesaj,module,Magento_Webapi
+"Soap fault reason.","Soap hatası.",module,Magento_Webapi
 "Add Tax","Vergi ekle",module,Magento_Weee
 "Delete Tax","Vergiyi sil",module,Magento_Weee
 "All Websites","Tüm Web siteleri",module,Magento_Weee
