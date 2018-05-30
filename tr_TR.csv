@@ -4044,6 +4044,7 @@ Yes,Evet,module,Magento_Usps
 No,Hayır,module,Magento_Usps
 "Not Required","Zorunlu Değil",module,Magento_Usps
 Required,zorunlu,module,Magento_Usps
+track_summary,"parça özeti",module,Magento_Usps
 "Empty response","Boş cevap",module,Magento_Usps
 "Service type does not match","Hizmet tipi eşleşmiyor",module,Magento_Usps
 Merchandise,Mal,module,Magento_Usps
