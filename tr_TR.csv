@@ -25,6 +25,7 @@ major,büyük,module,Magento_AdminNotification
 minor,küçük,module,Magento_AdminNotification
 notice,bilgi,module,Magento_AdminNotification
 "Wrong message type","Hatalı mesaj tipi",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Önbellek Türlerinden bir veya daha fazlası geçersiz kılınmıştır: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Lütfen <a href=""%1"">Ön Bellek Yönetimine </a> gidin ve ön bellek türlerini yenileyin",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Ortam depolarının senkronizasyonu tamamlandı.",module,Magento_AdminNotification
 "Close popup","Yakın açılır menüsü",module,Magento_AdminNotification
@@ -185,6 +186,7 @@ To,Bit,module,Magento_Backend
 "Date selector","Tarih Seçici",module,Magento_Backend
 "[ deleted ]","[ silindi ]",module,Magento_Backend
 "Select All","Hepsini Seç",module,Magento_Backend
+" [deleted]"," [silindi]",module,Magento_Backend
 "Add New","Yeni Ekle",module,Magento_Backend
 Export,Ver,module,Magento_Backend
 "Please correct the column format and try again.","Lütfen sütun biçimini düzeltin ve tekrar deneyin.",module,Magento_Backend
@@ -233,6 +235,7 @@ System,Sistem,module,Magento_Backend
 "The website does not exist.","Websitesi kaydı bulunamıyor.",module,Magento_Backend
 "The store does not exist","Mağaza bulunamıyor",module,Magento_Backend
 "Store view doesn't exist","Mağaza görünümü bulunamıyor",module,Magento_Backend
+"New ","Yeni ",module,Magento_Backend
 "Last 24 Hours","Son 24 Saat",module,Magento_Backend
 "Last 7 Days","Son 7 Gün",module,Magento_Backend
 "Current Month","Bu Ay",module,Magento_Backend
@@ -357,11 +360,11 @@ Country,Ülke,module,Magento_Braintree
 "My Credit Cards","Kredi kartları",module,Magento_Braintree
 "There was error during saving card data","Kart verilerini kaydetme sırasında hata oluştu",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Hareket Ağ Geçidi tarafından reddedildi: kart bilgilerini denetleyin veya başka bir kart deneyin",module,Magento_Braintree
+"Transaction declined: ","Hareket reddetti: ",module,Magento_Braintree
 "Credit card type is not allowed for your country.","Kredi kartı türü ülkeniz için izin verilmez.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Kredi kartı tipi bu ödeme yöntemi için izin verilmiyor.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Seçilen ödeme tipi fatura ülkesi için izin verilmemiş.",module,Magento_Braintree
 "Please try again later","Lütfen daha sonra tekrar deneyiniz",module,Magento_Braintree
-"This refund is for a partial amount but the Transaction has not settled.","Bu geri ödeme kısmi bir tutar içindir, ancak İşlem kararlaştırılmamıştır.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Taraflı bir geri ödeme yapmaya çalışmadan önce 24 saat bekleyin.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Zaten bazı hareketler veya hükümsüz ve geçersiz olamaz yerleşti.",module,Magento_Braintree
 "Invalid Customer ID provided","Sağlanan müşteri kimliği geçersiz",module,Magento_Braintree
@@ -916,6 +919,7 @@ Role,"Yetki Sınıfı",module,Magento_Catalog
 "Unselect All","tüm seçimi kaldır",module,Magento_Catalog
 "Select Visible","Görünenleri Seç",module,Magento_Catalog
 "Unselect Visible","Görünenleri Seçimden Kaldır",module,Magento_Catalog
+"Buy %1 for: ","%1 için Al: ",module,Magento_Catalog
 "Shop By","Ürünleri Filtrele",module,Magento_Catalog
 "Shopping Options","Alışveriş Seçenekleri",module,Magento_Catalog
 "Compare Products","Ürünleri Karşılaştır",module,Magento_Catalog
@@ -933,7 +937,7 @@ Next,Sonraki,module,Magento_Catalog
 "Add to Compare","Karşılaştırma Listesine Ekle",module,Magento_Catalog
 "Learn More","Daha fazla bilgi",module,Magento_Catalog
 "More Choices:","Daha fazla seçenek:",module,Magento_Catalog
-"Check items to add to the cart or","Ürünleri seçip sepete ekleyiniz veya",module,Magento_Catalog
+"Check items to add to the cart or","Ürünleri seçip sepete ekleyiniz veya ",module,Magento_Catalog
 "select all","Hepsini Seç",module,Magento_Catalog
 "Items %1-%2 of %3","Ürünler %3'ün %1-%2'si",module,Magento_Catalog
 "%1 Item",%1Öge,module,Magento_Catalog
@@ -1344,7 +1348,6 @@ Change,Değiştir,module,Magento_Customer
 "Contact Information","İletişim Bilgisi",module,Magento_Customer
 "Change Password","Şifre Değiştir",module,Magento_Customer
 Newsletters,Duyurular,module,Magento_Customer
-or,"ya da",module,Magento_Customer
 "Default Addresses","Varsayılan Adresler",module,Magento_Customer
 "Change Billing Address","Fatura adresi değiştir",module,Magento_Customer
 "You have no default billing address in your address book.","Adres defterinizde birincil fatura adresiniz yok.",module,Magento_Customer
@@ -2043,6 +2046,7 @@ Paused,Duraklatıldı,module,Magento_Newsletter
 "Newsletter Message Preview","Bülten Mesajı Önizleme",module,Magento_Newsletter
 "Add to Queue","Kuyruğa Ekle",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Tüm Etiketleri uzatmak istediğinizden emin misiniz?",module,Magento_Newsletter
+" Copy"," Kopyala",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Bültenimize Abone Olmak İster misiniz?",module,Magento_Newsletter
 "Enter your email address","E-posta adresinizi giriniz",module,Magento_Newsletter
 Subscribe,"Abone Ol",module,Magento_Newsletter
@@ -2116,6 +2120,7 @@ No,Hayır,module,Magento_Payment
 "Switch/Solo/Maestro Only","Sadece Switch/Solo/Maestro",module,Magento_Payment
 "Issue Number","İşlem Numarası",module,Magento_Payment
 "Start Date","Başlangıç Tarihi",module,Magento_Payment
+" is not available. You still can process offline actions."," mevcut değil. Yine de çevrimdışı işlemlerinizi işleyebilirsiniz.",module,Magento_Payment
 "--Please Select--","--Lütfen Seçiniz--",module,Magento_Payment
 "Card Verification Number Visual Reference","Kart Güvenlik Numarası Görsel Referansı",module,Magento_Payment
 "What is this?","Bu nedir?",module,Magento_Payment
@@ -2340,6 +2345,7 @@ Funding,Fonlamak,module,Magento_Paypal
 "General (Purchase with a credit card)","Genel (Kredi Kartıyla Satın Alma)",module,Magento_Paypal
 "General Adjustment without businessrelated event","İşle alakasız olay için Genel Ayarlama",module,Magento_Paypal
 "General Currency Conversion","Genel Döviz Çevrimi",module,Magento_Paypal
+"General Funding of PayPal Account ","Genel PayPal Hesabına Para Ekleme",module,Magento_Paypal
 "General Redemption","Genel Geri Alma",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Genel Paypal Hesabından Para Çekme",module,Magento_Paypal
 "General. Product no longer supported","Genel. Ürün desteklenmiyor",module,Magento_Paypal
@@ -2406,11 +2412,15 @@ Daily,Günlük,module,Magento_Paypal
 Customer,Müşteri,module,Magento_Paypal
 "Created At","Oluşturulduğu Tarih",module,Magento_Paypal
 "Updated At","Güncelleme Tarihi",module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Hangi PayPal ödeme yöntemini kullanacağınızdan emin değil misiniz? Click ",module,Magento_Paypal
 here,buraya,module,Magento_Paypal
+" to learn more."," daha fazlasını öğrenmek için.",module,Magento_Paypal
+"Important: ","Önemli: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","PayPal Payments Advanced kullanmak için, PayPal websitesinde PayPal Payments Advanced hesabı açmalısınız.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Advanced hesabınıza giriş yaptığınızda, aşağıda açıklanmış Servis Ayarları - Uzaktan Alışveriş Sayfaları - Menu Oluşturma ve seçenek ayarlarına yönlendirileceksiniz.",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","PayPal Payflow Linki kullanmak için, PayPal websitesinde PayPal Payflow Link hesabı açmalısınız.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Payflow Link hesabınıza giriş yaptığınızda, aşağıda açıklanmış Servis Ayarları - Uzaktan Alışveriş Sayfaları - Menu Oluşturma ve seçenek ayarlarına yönlendirileceksiniz.",module,Magento_Paypal
+"Billing Agreement # ","Faturalandırma Sözleşmesi # ",module,Magento_Paypal
 "Agreement Information","Sözleşme Bilgisi",module,Magento_Paypal
 "Reference ID:","Referans No:",module,Magento_Paypal
 Status:,Durum:,module,Magento_Paypal
@@ -2430,6 +2440,7 @@ View,Göster,module,Magento_Paypal
 "You will be redirected to the payment system website.","Ödeme sistemi sitesine yönlendirileceksiniz.",module,Magento_Paypal
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Paypal
 Create...,Oluştur...,module,Magento_Paypal
+"Your billing agreement # is: ","Faturalandırma sözleşmeniz #: ",module,Magento_Paypal
 "Shipping Method","Teslimat Yöntemi",module,Magento_Paypal
 "Please select a shipping method...","Lütfen bir teslimat yöntemi seçiniz…",module,Magento_Paypal
 "Update Shipping Method","Teslimat Yöntemini Güncelle",module,Magento_Paypal
@@ -2747,7 +2758,7 @@ Summary,Özet,module,Magento_Review
 "Review by","Tarafından incelenen",module,Magento_Review
 "Posted on",Yayınlanan,module,Magento_Review
 "Back to Main Product Info","Ürüne Geri Dön",module,Magento_Review
-"Average Customer Rating","Ortalama Müşteri Puanı",module,Magento_Review
+"Average Customer Rating","Ortalama Müşteri Puanı ",module,Magento_Review
 "Product Rating:","Ürün Puanı:",module,Magento_Review
 "Product Review (submitted on %1):","Ürün yorumu (%1 gönderilmiş):",module,Magento_Review
 "Back to Product Reviews","Ürün Yorumlarına Dön",module,Magento_Review
@@ -2759,7 +2770,8 @@ to,Bit,module,Magento_Rule
 by,tarafından,module,Magento_Rule
 "Please choose an action to add.","Lütfen eklemek için bir eylem seçin.",module,Magento_Rule
 "Perform following actions","Aşağıdaki işlemleri yap",module,Magento_Rule
-"is not",(değildir),module,Magento_Rule
+is," ",module,Magento_Rule
+"is not"," (değildir) ",module,Magento_Rule
 "equals or greater than","eşit veya büyük",module,Magento_Rule
 "equals or less than","eşit veya küçük",module,Magento_Rule
 "greater than","daha büyük",module,Magento_Rule
@@ -2794,7 +2806,7 @@ Apply,Onayla,module,Magento_SalesRule
 "Fixed amount discount for whole cart","Siparişin tamamına sabit tutarlı indirim",module,Magento_SalesRule
 "Buy X get Y free (discount amount is Y)","X 'i alırsanız Y hediye (indirim tutarı Y 'nin fiyatıdır)",module,Magento_SalesRule
 "Discount Amount","İndirim Tutarı",module,Magento_SalesRule
-"Maximum Qty Discount is Applied To","En fazla adet indirimi uygulandı",module,Magento_SalesRule
+"Maximum Qty Discount is Applied To","En fazla adet indirimi uygulandı ",module,Magento_SalesRule
 "Discount Qty Step (Buy X)","İndirim Adet Adımı (X'i Satın Al)",module,Magento_SalesRule
 "Apply to Shipping Amount","Teslimat Tutarını Uygula",module,Magento_SalesRule
 Yes,Evet,module,Magento_SalesRule
@@ -2896,7 +2908,8 @@ FOUND,BULUNDU,module,Magento_SalesRule
 "If an item is %1 in the cart with %2 of these conditions true:","Bir öğe, bu koşulların%2'sine sahip olan alışveriş sepetinde%1 ise doğrudur:",module,Magento_SalesRule
 "total quantity","toplam adet",module,Magento_SalesRule
 "total amount","Toplam Tutar",module,Magento_SalesRule
-"is not",(değildir),module,Magento_SalesRule
+is," ",module,Magento_SalesRule
+"is not"," (değildir) ",module,Magento_SalesRule
 "equals or greater than","eşit veya büyük",module,Magento_SalesRule
 "equals or less than","eşit veya küçük",module,Magento_SalesRule
 "greater than","daha büyük",module,Magento_SalesRule
@@ -3035,6 +3048,7 @@ Reorder,"Yeniden Sipariş",module,Magento_Sales
 "Order # %1 %2 | %3","Sipariş # %1 %2 | %3",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Emin misiniz? Bu sipariş iptal edilecek ve yerine yeni bir sipariş oluşturulacaktır.",module,Magento_Sales
 "Save Gift Message","Hediye Mesajını Kaydet",module,Magento_Sales
+" [deleted]"," [silindi]",module,Magento_Sales
 "Order Credit Memos","Sipariş İade Kayıtları",module,Magento_Sales
 "Credit memo #%1 created","Kredi notu #%1 oluşturuldu",module,Magento_Sales
 "Credit memo #%1 comment added","Kredi notu #%1 yorumu eklendi",module,Magento_Sales
@@ -3141,6 +3155,8 @@ Home,"Ana Sayfa",module,Magento_Sales
 "Go to Home Page","Ana Sayfasına Gidin",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","""%1"" kimliği tarafından sepete bir ürün ekleyemedik.",module,Magento_Sales
 "There is an error in one of the option rows.","Seçenek satırlarından birinde hata meydana geldi.",module,Magento_Sales
+"Shipping Address: ","Teslimat Adresi: ",module,Magento_Sales
+"Billing Address: ","Fatura Adresi: ",module,Magento_Sales
 "This payment method is not available.","Bu ödeme yöntemi mevcut değil.",module,Magento_Sales
 "A hold action is not available.","Tutma işlemi kullanılabilir değil.",module,Magento_Sales
 "You cannot remove the hold.","Tutma işlemini kaldıramazsınız.",module,Magento_Sales
@@ -3196,6 +3212,8 @@ Mixed,Karışık,module,Magento_Sales
 Order,Sipariş,module,Magento_Sales
 Authorization,Yetkilendirme,module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Desteklenmeyen bir işlem türü bulduk ''%1''.",module,Magento_Sales
+"Order # ","Sipariş #",module,Magento_Sales
+"Order Date: ","Sipariş Tarihi: ",module,Magento_Sales
 "Sold to:",Satılan:,module,Magento_Sales
 "Ship to:","Teslim Edilecek:",module,Magento_Sales
 "Payment Method:","Tahsilat Yöntemi:",module,Magento_Sales
@@ -3209,6 +3227,8 @@ Products,Ürünler,module,Magento_Sales
 "Total (ex)","Toplam (hariç)",module,Magento_Sales
 Qty,Miktar,module,Magento_Sales
 "Total (inc)","Toplam (dahil)",module,Magento_Sales
+"Credit Memo # ","İade Kaydı #",module,Magento_Sales
+"Invoice # ","Fatura #",module,Magento_Sales
 "The order object is not specified.","Sipariş nesnesi belirtilmedi.",module,Magento_Sales
 "The source object is not specified.","Kaynak nesne belirtilmedi.",module,Magento_Sales
 "An item object is not specified.","Bir öğe nesnesi belirtilmedi.",module,Magento_Sales
@@ -3216,6 +3236,7 @@ Qty,Miktar,module,Magento_Sales
 "A PDF page object is not specified.","Bir PDF sayfa nesnesi belirtilmedi.",module,Magento_Sales
 "Excl. Tax","Vergi Hariç",module,Magento_Sales
 "Incl. Tax","Vergi Dahil",module,Magento_Sales
+"Packing Slip # ","Paketleme Fişi # ",module,Magento_Sales
 title,başlık,module,Magento_Sales
 "We cannot register an existing shipment","Mevcut olan bir sevkiyatı kayıt edemiyoruz",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Toplam model \Magento\Sales\Model\Sipariş\Toplam\GenelToplam'dan yapılandırılmalıdır.",module,Magento_Sales
@@ -3243,7 +3264,7 @@ Complete,Tamamlandı,module,Magento_Sales
 Closed,Kapatıldı,module,Magento_Sales
 "Suspected Fraud","Sahtekarlık Şüphesi",module,Magento_Sales
 "Payment Review","Ödeme İnceleme",module,Magento_Sales
-New,Yeni,module,Magento_Sales
+New,"Yeni ",module,Magento_Sales
 View,Göster,module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Adresi bilgisini değiştirmek, kargo ücretlerini ve etkilenen diğer toplamları yeniden hesaplamaz.",module,Magento_Sales
 "Comment Text","Açıklama Metni",module,Magento_Sales
@@ -3510,7 +3531,10 @@ SKU,"Ürün Kodu",module,Magento_Shipping
 "Tracking Number:","İzleme Numarası:",module,Magento_Shipping
 Carrier:,Taşıyıcı:,module,Magento_Shipping
 Error:,Hata:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","İzleme bilgisi kullanılamıyor. Lütfen ",module,Magento_Shipping
 "contact us","Bize Ulaşın",module,Magento_Shipping
+" for more information or "," daha fazla bilgi için veya ",module,Magento_Shipping
+"email us at ","bize e-posta ile ulaşın ",module,Magento_Shipping
 Info:,Bilgi:,module,Magento_Shipping
 Track:,"Takip et:",module,Magento_Shipping
 Status:,Durum:,module,Magento_Shipping
@@ -3562,7 +3586,7 @@ None,Hiçbiri,module,Magento_Sitemap
 "Base Only","Sadece taban",module,Magento_Sitemap
 All,Tümü,module,Magento_Sitemap
 "Store with the same code","Aynı kod ile bir mağaza zaten kayıtlı",module,Magento_Store
-"Website with the same code","Aynı Kod ile Web sitesi",module,Magento_Store
+"Website with the same code","Aynı Kod ile Web sitesi ",module,Magento_Store
 "Name is required","Ad gereklidir",module,Magento_Store
 "All Store Views","Tüm Mağaza Görünümleri",module,Magento_Store
 "-- Please Select --","-- Lütfen Seçiniz --",module,Magento_Store
@@ -3657,7 +3681,13 @@ Total,Toplam,module,Magento_Tax
 "Including Tax","Vergi Dahil",module,Magento_Tax
 None,Hiçbiri,module,Magento_Tax
 "Including and Excluding Tax","Vergi dahil ve hariç fiyat",module,Magento_Tax
+"Warning tax configuration can result in rounding errors. ","Uyarı vergi yapılandırması yuvarlama hatalarına neden olabilir. ",module,Magento_Tax
+"Store(s) affected: ","Etkilenen mağaza(lar): ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","<a href=""%1""> Bu bildirimi yok say ""bağlantısını tıklayın </a>",module,Magento_Tax
+"Warning tax discount configuration might result in different discounts
+                                than a customer might expect. ","Uyarı vergi indirimi yapılandırması farklı indirimlerle sonuçlanabilir
+                                 bir müşterinin bekleyebileceğinden daha fazla. ",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Daha fazla bilgi için lütfen <a href=""%1""> belgelerine </a> bakın. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Buraya <a href=""%1""> Vergi yapılandırma</a> tıklayarak vergi ayarlarınızı değiştirebilirsiniz.",module,Magento_Tax
 "customer group","Müşteri grubu",module,Magento_Tax
 product,ürün,module,Magento_Tax
@@ -3901,7 +3931,7 @@ Password,Şifre,module,Magento_User
 "New Password","Yeni Şifre",module,Magento_User
 "Password Confirmation","Şifre (Tekrar)",module,Magento_User
 "Interface Locale","Yerel Arayüz",module,Magento_User
-"This account is","Bu hesap",module,Magento_User
+"This account is","Bu hesap ",module,Magento_User
 "Account Status","Hesap Durumu",module,Magento_User
 "Your Password",Parolanız,module,Magento_User
 "User Roles Information","Kullanıcı Yetki Bilgisi",module,Magento_User
@@ -4176,7 +4206,6 @@ Back,Geri,module,Magento_Wishlist
 "Remove This Item","Bu ürünü sil",module,Magento_Wishlist
 "Go to Wish List","İstek listesine git",module,Magento_Wishlist
 "You have no items in your wish list.","İstek listenizde hiçbir ürün yok.",module,Magento_Wishlist
-"Shop By","Ürünleri Filtrele",theme,frontend/Magento/luma
 Total:,Toplam:,module,Magento_Checkout
 "Add Products to New Option","Yeni Seçeneklere Ürünler Ekleyin",module,Magento_Bundle
 "Add Products to Option ""%1""","Seçeneğe Ürünleri Ekle ''%1''",module,Magento_Bundle
@@ -4201,6 +4230,7 @@ Allow,"İzin Ver",module,Magento_Integration
 Done,Yapıldı,module,Magento_Integration
 "Sorry, something went wrong.","Üzgünüz, birşeyler yanlış gitti.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Üzgünüz, bir şeyler ters gitti. Lütfen daha sonra tekrar deneyiniz.",module,Magento_Paypal
+"Gift Options for ","Hediye Seçenekleri ",module,Magento_Sales
 "Add Products","Ürün Ekle",module,Magento_Sales
 Ok,Tamam,module,Magento_Sales
 "We don't recognize this file extension.","Bu dosya uzantısı türü tanınamıyor veya desteklenmiyor.",module,Magento_Theme
@@ -4246,6 +4276,10 @@ Advanced,Gelişmiş,module,Magento_Backend
 Design,Tasarım,module,Magento_Backend
 "Design Theme","Tema tasarımı",module,Magento_Backend
 "User-Agent Exceptions","User-Agent özel durumlar",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+                         Arama dizelerini normal dizeleri veya düzenli özel durumlar (PCRE) vardır. Onlar girdi olarak sıra ile eşleştirilir. Örnekler: < br / > <span style=""font-family:monospace""> ateş < br / > / ^ mozilla / ben</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Bir dize istemci kullanıcı aracı üstbilgisi içinde bulmak ve bu tarayıcı için özel tasarım tema geçin.",module,Magento_Backend
 Pagination,Sayfalama,module,Magento_Backend
 "Pagination Frame","Sayfalama çerçevesi",module,Magento_Backend
@@ -4413,6 +4447,10 @@ Forms,Formlar,module,Magento_Captcha
 "Number of Symbols","Harf sayısı",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Lütfen en fazla 8 karakter seçiniz. Aralık da girebilirsiniz (Örnek: 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","CAPTCHA'da semboller kullanıldı",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Lütfen bu alanda yalnızca harf (a-z veya A-Z) veya sayı (0-9) kullanın. Şu karakterlere izin verilir; boşluk veya diğer karakterler. < br / > Benzer görünümlü karakterler (""i"", ""l"", ""1"") müşterinin doğru algılama şansını azaltmaktadır.                    ",module,Magento_Captcha
 "Case Sensitive","Büyük/Küçük harfe duyarlı",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA yı mağazada etkinleştirme",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA ""Kullanıcı oluştur"" ve ""Şifremi unuttum"" formları için her zaman tercih etkinleştirilir.",module,Magento_Captcha
@@ -4425,6 +4463,10 @@ Inventory,Envanter,module,Magento_CatalogInventory
 "Only X left Threshold","Sadece X adet kaldı Uyarısı",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Ön Sayfada stokta mevcut ürünleri göster.",module,Magento_CatalogInventory
 "Product Stock Options","Ürün Stok Seçenekleri",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+Bu ayarların tüm girişlere değil, sepetteki ayrı öğelere uygulanacağını lütfen unutmayın.                ",module,Magento_CatalogInventory
 "Manage Stock","Stok Yönetimi",module,Magento_CatalogInventory
 Backorders,"Ön Siparişler",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Sepette izin verilen en yüksek miktar",module,Magento_CatalogInventory
@@ -4487,7 +4529,7 @@ Watermark,"Resim Kopya Koruması",module,Magento_Catalog
 "This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Bu yalnızca Katalog ürünleri ve kategoriler için geçerlidir. Medya içeriği içine belgili tanımlık yayıncı statik bir URL olarak eklenir. Sistem yapılandırma URL değişiklikleri temel medya içeriği güncelleştirilmez.",module,Magento_Catalog
 "Product Flat Data","Sabit Ürün Tablosu",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","EAV ürün yapısını sabit yapıya çevir",module,Magento_Catalog
-"Category Flat Data","Kategori Sabit Tablosu",module,Magento_Catalog
+"Category Flat Data","Kategori Sabit Tablosu ",module,Magento_Catalog
 "Reorganize EAV category structure to flat structure","EAV kategori yapısını sabit yapıya çevir",module,Magento_Catalog
 "Indexed category/products association","Kategori/Ürün eşleşmesi indekslendi",module,Magento_Catalog
 "Product Categories","Ürün Kategorileri",module,Magento_Catalog
@@ -4585,6 +4627,7 @@ Contacts,İletişim,module,Magento_Contact
 "Email Template","E-posta Şablonu",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Zamanlanmış Görevler) - bütün zamanlar dakika bazındadır",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Zamanlanmış görevler tarafından üretilen URL lerin doğru olması için Sistem > Web > Güvenli ve Güvenli Olmayan Ana URL verilerinin doğru olduğundan emin olunuz.",module,Magento_Cron
+"Cron configuration options for group: ","Cron yapılandırma seçenekleri grubu için: ",module,Magento_Cron
 "Generate Schedules Every","Zaman Çizelgelerini Oluşturma Sıklığı",module,Magento_Cron
 "Schedule Ahead for","için zamanlama",module,Magento_Cron
 "Missed if Not Run Within","Birlikte çalışmıyorsa atla",module,Magento_Cron
@@ -4628,6 +4671,10 @@ Contacts,İletişim,module,Magento_Contact
 "Show Prefix","Öneki Göster",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Önek, isimden önce gelen eklerdir (Bay, Bayan vb. gibi)",module,Magento_Customer
 "Prefix Dropdown Options","Önek Açılır Menü Seçenekleri",module,Magento_Customer
+"
+                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
+                    ","
+Noktalı virgül (;) ayrılmış değerler. <br/> Boş olan ilk seçenek için başında noktalı virgül koyun. <br/> Açık metin alanını boş bırakın.                    ",module,Magento_Customer
 "Show Middle Name (initial)","Orta ad alanını göster",module,Magento_Customer
 "Always optional.","Her zaman isteğe bağlı.",module,Magento_Customer
 "Show Suffix","Soneki Göster",module,Magento_Customer
@@ -4696,6 +4743,10 @@ Debug,"Hata Ayıklama",module,Magento_Dhl
 "Currency Setup","Para Birimi Ayarları",module,Magento_Directory
 "Currency Options","Para Birimi Seçenekleri",module,Magento_Directory
 "Base Currency","Ana Para Birimi",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+Tüm çevrimiçi ödeme işlemlerinde temel para birimi kullanılır. Eğer birden fazla mağaza görüntünüz varsa, bu temel para birimi kapsamı katalog ödeme kapsamı tarafından tanımlanır (""Katalog"" > ""Fiyat"" > ""Katalog Fiyat Kapsamı"").                    ",module,Magento_Directory
 "Default Display Currency","Varsayılan Para birimini Göster",module,Magento_Directory
 "Allowed Currencies","İzin Verilen Para Birimleri",module,Magento_Directory
 "Connection Timeout in Seconds","Bağlantı Zaman Aşımı ( sn)",module,Magento_Directory
@@ -4887,12 +4938,18 @@ Import,"Veri Al",module,Magento_OfflineShipping
 "Backend port","Arka bağlantı noktası",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Yapılandırma dosyası oluşturulması için arka uç bağlantı noktasını belirtin. Alan boşsa, varsayılan olarak 8080 değeri kaydedilecektir.",module,Magento_PageCache
 "TTL for public content","Herkese açık içerik için TTL",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Herkese açık içerik önbellek ömrü saniye olarak. Alan boşsa, varsayılan olarak 86400 değeri kaydedilecektir. ",module,Magento_PageCache
 "Page Cache","Sayfa Önbellek",module,Magento_PageCache
 "Full page caching.","Tam sayfa ön belleğe alma.",module,Magento_PageCache
 "Payment Methods","Tahsilat Yöntemleri",module,Magento_Payment
 "Merchant Location","Satıcı Lokasyonu",module,Magento_Paypal
 "Merchant Country","Satıcı Ülkesi",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Eğer tanımlanmamışsa, ana yapılandırmadaki varsayılan ülke kullanılacaktır",module,Magento_Paypal
+"
+                    PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
+                ","
+                    PayPal Hepsi-bir-Arada Ödeme Çözümleri&nbsp;&nbsp;<i>Kredi kartlarını ve PayPal ödemelerini kabul edin ve işleme koyun.</i>
+                ",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Bu işlem için güvenli birleştirilmiş bir ödeme seçeneği seçiniz.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Ödemeler Pro ve Ekspres Satın Alma",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Başlangıç Ayarları - PayPal Payments Pro",module,Magento_Paypal
@@ -5097,7 +5154,18 @@ General,Genel,module,Magento_Sales
 "Allow Reorder","Yeniden Siparişe İzin Ver",module,Magento_Sales
 "Invoice and Packing Slip Design","Fatura ve Kargo Fişi Tasarımı",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","PDF Belgeler için Logo (200x50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","
+                        Varsayılan logonuz PDF ve HTML belgelerinde kullanılacaktır.<br/>(jpeg, tiff, png) Pdf görüntünüz bozuksa, daha büyük boyutlu dosya-görüntü kullanmayı deneyin.
+                    ",module,Magento_Sales
 "Logo for HTML Print View","HTML Çıktı Görünümü için Logo",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+                        Sadece HTML belgeleri için logo. Eğer boşsa, varsayılan kullanılacak.<br />(jpeg, gif, png)
+                                        
+                    ",module,Magento_Sales
 Address,Adres,module,Magento_Sales
 "Minimum Order Amount","En düşük Sipariş Tutarı",module,Magento_Sales
 Enable,"Aktif et",module,Magento_Sales
@@ -5349,6 +5417,7 @@ Edit,Düzenle,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Değer boşsa bu özelliği devre dışı bırakacağız.",module,Magento_User
 "Lockout Time (minutes)","Kilitlenme Süresi (dakika)",module,Magento_User
 "Password Lifetime (days)","Parola Ömrü (gün)",module,Magento_User
+"We will disable this feature if the value is empty. ","Değer boşsa bu özelliği devre dışı bırakacağız. ",module,Magento_User
 "Password Change","Parola değişimi",module,Magento_User
 Unlock,"Kilidi kaldır",module,Magento_User
 ID,No,module,Magento_User
@@ -5419,4 +5488,3 @@ Action,Eylem,module,Magento_Wishlist
 Configure,Yapılandır,module,Magento_Wishlist
 Delete,Sil,module,Magento_Wishlist
 "Product Details and Comment","Ürün Detayları ve Yorum",module,Magento_Wishlist
-Summary,Özet,theme,frontend/Magento/blank
